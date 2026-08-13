@@ -1,9 +1,7 @@
 {
   "objects": {
-    "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c": {
-      "id": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
-      "name": "metagallery_transparent",
-      "components": {},
+    "d049948a-48ed-45b5-b2f5-702a6ec79bde": {
+      "id": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
       "position": [
         0,
         0,
@@ -22,11 +20,259 @@
       ],
       "geometry": null,
       "material": null,
+      "components": {},
+      "name": "BMO Bites",
       "imageTarget": {
-        "name": "metagallery_transparent"
+        "name": "bmo-bites"
       },
-      "order": 4.101294575608643,
-      "parentId": "82dc9290-dd7d-439e-be09-8026accf61a3"
+      "order": 2.947891733989673,
+      "hidden": false,
+      "prefab": true
+    },
+    "8c2f9015-18cf-4240-8e31-1ba23e624442": {
+      "id": "8c2f9015-18cf-4240-8e31-1ba23e624442",
+      "position": [
+        0.13276764781956785,
+        0.21215878926033777,
+        0.08
+      ],
+      "rotation": [
+        0.20094019083745732,
+        -0.001171723063434574,
+        -0.11420191349359511,
+        0.9729232188233922
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "parentId": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
+      "components": {
+        "c577f458-7869-46fc-b8ab-9834a13d00b7": {
+          "id": "c577f458-7869-46fc-b8ab-9834a13d00b7",
+          "name": "scale-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0.15,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "duration": 3000,
+            "toY": 0.15,
+            "toZ": 0.15,
+            "easingFunction": "Quadratic"
+          }
+        },
+        "affc37ad-3596-4957-84fd-e39246e55b14": {
+          "id": "affc37ad-3596-4957-84fd-e39246e55b14",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromY": -359,
+            "fromZ": -359,
+            "toY": 359,
+            "toZ": 359,
+            "duration": 10000,
+            "shortestPath": false
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/bmo-bites/cereal.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "bite-1",
+      "order": 0.6091103343879982
+    },
+    "c31e1d0e-341e-4514-8022-ef867f2c0f10": {
+      "id": "c31e1d0e-341e-4514-8022-ef867f2c0f10",
+      "position": [
+        0.015,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "parentId": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
+      "components": {
+        "99f4e33f-fdc7-46f3-b73a-bbc966361770": {
+          "id": "99f4e33f-fdc7-46f3-b73a-bbc966361770",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "d4e88012-9a3d-4646-8cca-4f39df11c484"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/bmo-bites/bmo.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "bmo",
+      "order": 5.218220668775997
+    },
+    "61ea2a28-8d7b-4886-9734-2459c2b529f7": {
+      "id": "61ea2a28-8d7b-4886-9734-2459c2b529f7",
+      "position": [
+        -0.24,
+        -0.315,
+        0.115
+      ],
+      "rotation": [
+        -0.19400182829444446,
+        -0.09484343125449407,
+        -0.18203661161643842,
+        0.9592865506184755
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "parentId": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
+      "components": {
+        "0fe49b81-5baf-417d-92f6-c49afadb7c4e": {
+          "id": "0fe49b81-5baf-417d-92f6-c49afadb7c4e",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromX": -180,
+            "toX": 180,
+            "shortestPath": false,
+            "duration": 5000
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/bmo-bites/cereal.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "bite-2",
+      "order": 2.6091103343879984
+    },
+    "36a5f9a8-2de3-4074-9571-7f65b544f061": {
+      "id": "36a5f9a8-2de3-4074-9571-7f65b544f061",
+      "position": [
+        0.1,
+        -0.37,
+        0.125
+      ],
+      "rotation": [
+        0.10754974124858976,
+        -0.3576281994962687,
+        0.05983919275299646,
+        0.9257183130375505
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "parentId": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
+      "components": {
+        "6dbe1aeb-d495-4b89-86a4-e09c75de1c9f": {
+          "id": "6dbe1aeb-d495-4b89-86a4-e09c75de1c9f",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromX": 45,
+            "toX": -45,
+            "fromY": -359,
+            "toY": 359,
+            "fromZ": -359,
+            "toZ": 359,
+            "shortestPath": false,
+            "duration": 10000
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/bmo-bites/cereal.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "bite-3",
+      "order": 3.6091103343879984
+    },
+    "d4e88012-9a3d-4646-8cca-4f39df11c484": {
+      "id": "d4e88012-9a3d-4646-8cca-4f39df11c484",
+      "position": [
+        0.008416325022933685,
+        0.14500785001594696,
+        0.4000000000000001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.17500000000000002,
+        0.17500000000000002,
+        0.17500000000000002
+      ],
+      "parentId": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
+      "components": {
+        "fedb6633-9d3c-4c12-a0e1-083bf806def0": {
+          "id": "fedb6633-9d3c-4c12-a0e1-083bf806def0",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": -0.2,
+            "toZ": 0.4,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic"
+          }
+        },
+        "37c1026b-5d4e-4d43-bda6-b37739634e3e": {
+          "id": "37c1026b-5d4e-4d43-bda6-b37739634e3e",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromZ": -180,
+            "toZ": 180,
+            "duration": 10000,
+            "shortestPath": false
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/bmo-bites/cereal.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "bite-4",
+      "order": 3.6091103343879984
     },
     "f5031c20-99b9-4505-9a93-57a4a3e9b75d": {
       "id": "f5031c20-99b9-4505-9a93-57a4a3e9b75d",
@@ -349,1064 +595,6 @@
         "name": "waves"
       },
       "order": 2.182242201057824
-    },
-    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
-      "components": {},
-      "geometry": null,
-      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
-      "light": {
-        "type": "ambient"
-      },
-      "material": null,
-      "name": "Ambient Light",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 0.4038940050501252
-    },
-    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
-      "camera": {
-        "type": "perspective",
-        "xr": {
-          "desktop": "disabled",
-          "xrCameraType": "world",
-          "headset": "AR",
-          "phone": "AR",
-          "world": {
-            "disableWorldTracking": false
-          }
-        }
-      },
-      "components": {},
-      "geometry": null,
-      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
-      "material": null,
-      "name": "Camera",
-      "position": [
-        0,
-        5,
-        5
-      ],
-      "rotation": [
-        -1.8412919444518387e-17,
-        0.9537169517857893,
-        -0.30070579621354565,
-        -5.839832572618051e-17
-      ],
-      "scale": [
-        0.9999998646558023,
-        0.9999999931513284,
-        0.9999998715044741
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.0308214152219775
-    },
-    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
-      "components": {},
-      "geometry": null,
-      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
-      "light": {
-        "intensity": 1,
-        "type": "directional"
-      },
-      "material": null,
-      "name": "Directional Light",
-      "position": [
-        20,
-        20,
-        10
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 0.6644431107322474
-    },
-    "a8f21946-b2fe-4589-9302-6232ec649775": {
-      "id": "a8f21946-b2fe-4589-9302-6232ec649775",
-      "position": [
-        1,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Air",
-      "imageTarget": {
-        "name": "22_Element_Air"
-      },
-      "order": 2.150211680966083
-    },
-    "15816879-3500-4b51-9c88-2419bf1a7bff": {
-      "id": "15816879-3500-4b51-9c88-2419bf1a7bff",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "28878a86-3de0-4d09-a97d-e2aca00f534b",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Container.gltf/0_Card_Container.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Container.gltf",
-      "order": 2.716933167964583
-    },
-    "26105c67-faa8-43cb-901e-6fcb80f31f87": {
-      "id": "26105c67-faa8-43cb-901e-6fcb80f31f87",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "28878a86-3de0-4d09-a97d-e2aca00f534b",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Front.gltf/0_Card_Front.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Front.gltf",
-      "order": 0.2059880580250355
-    },
-    "0cfa66a2-eff3-41a1-b0f0-0bcfc198966f": {
-      "id": "0cfa66a2-eff3-41a1-b0f0-0bcfc198966f",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.9999999999999998,
-        0.9999999999999998,
-        0.9999999999999998
-      ],
-      "parentId": "28878a86-3de0-4d09-a97d-e2aca00f534b",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/22_Element_Air.gltf/22_Element_Air.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "22_Element_Air.gltf",
-      "order": 3.8259768816164055
-    },
-    "28878a86-3de0-4d09-a97d-e2aca00f534b": {
-      "id": "28878a86-3de0-4d09-a97d-e2aca00f534b",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.31,
-        0.31,
-        0.31
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a8f21946-b2fe-4589-9302-6232ec649775",
-      "components": {},
-      "name": "Card"
-    },
-    "fa9f1e85-91a8-4d7c-88e9-f63f0a3f0e81": {
-      "id": "fa9f1e85-91a8-4d7c-88e9-f63f0a3f0e81",
-      "position": [
-        3,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Water",
-      "imageTarget": {
-        "name": "23_Element_Water"
-      },
-      "order": 3.681079881923593
-    },
-    "d344585b-22b4-49ab-96b8-6d07012a39dd": {
-      "id": "d344585b-22b4-49ab-96b8-6d07012a39dd",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.31,
-        0.31,
-        0.31
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "fa9f1e85-91a8-4d7c-88e9-f63f0a3f0e81",
-      "components": {},
-      "name": "Card"
-    },
-    "0a66b32e-b653-43ef-ba69-b69fc236c5a6": {
-      "id": "0a66b32e-b653-43ef-ba69-b69fc236c5a6",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "d344585b-22b4-49ab-96b8-6d07012a39dd",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Container.gltf/0_Card_Container.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Container.gltf",
-      "order": 0.48035683673324503
-    },
-    "096e63a7-1a4d-4e13-85a6-caa07f78e552": {
-      "id": "096e63a7-1a4d-4e13-85a6-caa07f78e552",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "d344585b-22b4-49ab-96b8-6d07012a39dd",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Front.gltf/0_Card_Front.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Front.gltf",
-      "order": 0.2059880580250355
-    },
-    "543b0031-e027-4d0c-9129-ed558a1776c1": {
-      "id": "543b0031-e027-4d0c-9129-ed558a1776c1",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        0.9999999999999998
-      ],
-      "scale": [
-        1,
-        0.9999999999999999,
-        0.9999999999999999
-      ],
-      "parentId": "d344585b-22b4-49ab-96b8-6d07012a39dd",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/23_Element_Water.gltf/23_Element_Water.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "23_Element_Water.gltf",
-      "order": 0.7960714756297046
-    },
-    "9e8d85dc-ed76-4e95-933b-896094458bde": {
-      "id": "9e8d85dc-ed76-4e95-933b-896094458bde",
-      "position": [
-        -1,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Earth",
-      "imageTarget": {
-        "name": "25_Element_Earth"
-      },
-      "order": 5.546400582424154
-    },
-    "ee9c57e2-266c-4ada-b2c2-d75518b49425": {
-      "id": "ee9c57e2-266c-4ada-b2c2-d75518b49425",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.31,
-        0.31,
-        0.31
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "9e8d85dc-ed76-4e95-933b-896094458bde",
-      "components": {},
-      "name": "Card"
-    },
-    "a75f7292-09c1-4446-8129-2ec59e0094c8": {
-      "id": "a75f7292-09c1-4446-8129-2ec59e0094c8",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.9999999999999999,
-        0.9999999999999998,
-        0.9999999999999998
-      ],
-      "parentId": "ee9c57e2-266c-4ada-b2c2-d75518b49425",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/25_Element_Earth.gltf/25_Element_Earth.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "25_Element_Earth.gltf",
-      "order": 3.244088868463868
-    },
-    "3cfec7f2-6686-4ec4-b09e-3156dad6b74e": {
-      "id": "3cfec7f2-6686-4ec4-b09e-3156dad6b74e",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        0.9999999999999998
-      ],
-      "scale": [
-        1,
-        0.9999999999999999,
-        0.9999999999999999
-      ],
-      "parentId": "ee9c57e2-266c-4ada-b2c2-d75518b49425",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Front.gltf/0_Card_Front.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Front.gltf",
-      "order": -3.707290811090295
-    },
-    "78a96e21-9e95-469b-afd2-c42b68efde7e": {
-      "id": "78a96e21-9e95-469b-afd2-c42b68efde7e",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        0.9999999999999998
-      ],
-      "scale": [
-        1,
-        0.9999999999999999,
-        0.9999999999999999
-      ],
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "ee9c57e2-266c-4ada-b2c2-d75518b49425",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Container.gltf/0_Card_Container.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Container.gltf",
-      "order": -2.0190705743302577
-    },
-    "cac6e34c-a449-4bd8-9fad-3bb9d083b92a": {
-      "id": "cac6e34c-a449-4bd8-9fad-3bb9d083b92a",
-      "position": [
-        -3,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Fire",
-      "imageTarget": {
-        "name": "20_Element_Fire"
-      },
-      "order": 6.768719824337127
-    },
-    "608c9340-f8f8-4b2b-94d6-d0e9d818411e": {
-      "id": "608c9340-f8f8-4b2b-94d6-d0e9d818411e",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.31,
-        0.31,
-        0.31
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "cac6e34c-a449-4bd8-9fad-3bb9d083b92a",
-      "components": {},
-      "name": "Card"
-    },
-    "82dfdd68-5722-415a-9f6c-9f30c92240f0": {
-      "id": "82dfdd68-5722-415a-9f6c-9f30c92240f0",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        0.9999999999999998
-      ],
-      "scale": [
-        1,
-        0.9999999999999999,
-        0.9999999999999999
-      ],
-      "parentId": "608c9340-f8f8-4b2b-94d6-d0e9d818411e",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Front.gltf/0_Card_Front.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Front.gltf",
-      "order": -3.707290811090295
-    },
-    "08d59c7d-ef2a-4167-a8b2-4b860be9780b": {
-      "id": "08d59c7d-ef2a-4167-a8b2-4b860be9780b",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        0.9999999999999998
-      ],
-      "scale": [
-        1,
-        0.9999999999999999,
-        0.9999999999999999
-      ],
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "608c9340-f8f8-4b2b-94d6-d0e9d818411e",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/0_Card_Container.gltf/0_Card_Container.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "0_Card_Container.gltf",
-      "order": -2.0190705743302577
-    },
-    "491bf145-06fa-476d-9498-fca791972776": {
-      "id": "491bf145-06fa-476d-9498-fca791972776",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "608c9340-f8f8-4b2b-94d6-d0e9d818411e",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/20_Element_Fire.gltf/20_Element_Fire.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "20_Element_Fire.gltf"
-    },
-    "f251ec0b-764f-4b71-b107-e95fa8289f64": {
-      "id": "f251ec0b-764f-4b71-b107-e95fa8289f64",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "82dc9290-dd7d-439e-be09-8026accf61a3",
-      "components": {},
-      "light": {
-        "type": "directional",
-        "intensity": 1,
-        "shadowBias": 0.001,
-        "shadowMapSize": [
-          2048,
-          2048
-        ]
-      },
-      "name": "Directional Light",
-      "order": 0.9478917339896731
-    },
-    "6f397a6c-b64a-4e99-a82f-f7790af757d1": {
-      "id": "6f397a6c-b64a-4e99-a82f-f7790af757d1",
-      "position": [
-        0,
-        2,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "82dc9290-dd7d-439e-be09-8026accf61a3",
-      "components": {},
-      "name": "Camera",
-      "camera": {
-        "type": "perspective",
-        "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
-          "desktop": "3D",
-          "headset": "AR"
-        }
-      },
-      "order": 1.947891733989673
-    },
-    "dabcb628-b0de-45ff-a469-80becf29083a": {
-      "id": "dabcb628-b0de-45ff-a469-80becf29083a",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "82dc9290-dd7d-439e-be09-8026accf61a3",
-      "components": {},
-      "name": "BMO Bites",
-      "imageTarget": {
-        "name": "bmo-bites"
-      },
-      "order": 2.947891733989673,
-      "hidden": false,
-      "disabled": true
-    },
-    "d16a4cc9-f659-45cb-b679-98b57462d5d8": {
-      "id": "d16a4cc9-f659-45cb-b679-98b57462d5d8",
-      "position": [
-        0.13276764781956785,
-        0.21215878926033777,
-        0.08
-      ],
-      "rotation": [
-        0.20094019083745732,
-        -0.001171723063434574,
-        -0.11420191349359511,
-        0.9729232188233922
-      ],
-      "scale": [
-        0.1,
-        0.1,
-        0.1
-      ],
-      "parentId": "dabcb628-b0de-45ff-a469-80becf29083a",
-      "components": {
-        "c577f458-7869-46fc-b8ab-9834a13d00b7": {
-          "id": "c577f458-7869-46fc-b8ab-9834a13d00b7",
-          "name": "scale-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": 0.15,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "duration": 3000,
-            "toY": 0.15,
-            "toZ": 0.15,
-            "easingFunction": "Quadratic"
-          }
-        },
-        "affc37ad-3596-4957-84fd-e39246e55b14": {
-          "id": "affc37ad-3596-4957-84fd-e39246e55b14",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromY": -359,
-            "fromZ": -359,
-            "toY": 359,
-            "toZ": 359,
-            "duration": 10000,
-            "shortestPath": false
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/bmo-bites/cereal.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "bite-1",
-      "order": 0.6091103343879982
-    },
-    "6d7611d5-545a-4aba-8e35-ac90fbb09990": {
-      "id": "6d7611d5-545a-4aba-8e35-ac90fbb09990",
-      "position": [
-        0.015,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "parentId": "dabcb628-b0de-45ff-a469-80becf29083a",
-      "components": {
-        "99f4e33f-fdc7-46f3-b73a-bbc966361770": {
-          "id": "99f4e33f-fdc7-46f3-b73a-bbc966361770",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "65628c81-0ac3-4c19-bdfd-24611faebf83"
-            }
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/bmo-bites/bmo.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "bmo",
-      "order": 5.218220668775997
-    },
-    "92a0a53b-6689-447c-a289-77c0aae4c356": {
-      "id": "92a0a53b-6689-447c-a289-77c0aae4c356",
-      "position": [
-        -0.24,
-        -0.315,
-        0.115
-      ],
-      "rotation": [
-        -0.19400182829444446,
-        -0.09484343125449407,
-        -0.18203661161643842,
-        0.9592865506184755
-      ],
-      "scale": [
-        0.15,
-        0.15,
-        0.15
-      ],
-      "parentId": "dabcb628-b0de-45ff-a469-80becf29083a",
-      "components": {
-        "0fe49b81-5baf-417d-92f6-c49afadb7c4e": {
-          "id": "0fe49b81-5baf-417d-92f6-c49afadb7c4e",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromX": -180,
-            "toX": 180,
-            "shortestPath": false,
-            "duration": 5000
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/bmo-bites/cereal.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "bite-2",
-      "order": 2.6091103343879984
-    },
-    "4cf5cf03-ce67-412a-a73d-e7139d90a732": {
-      "id": "4cf5cf03-ce67-412a-a73d-e7139d90a732",
-      "position": [
-        0.1,
-        -0.37,
-        0.125
-      ],
-      "rotation": [
-        0.10754974124858976,
-        -0.3576281994962687,
-        0.05983919275299646,
-        0.9257183130375505
-      ],
-      "scale": [
-        0.1,
-        0.1,
-        0.1
-      ],
-      "parentId": "dabcb628-b0de-45ff-a469-80becf29083a",
-      "components": {
-        "6dbe1aeb-d495-4b89-86a4-e09c75de1c9f": {
-          "id": "6dbe1aeb-d495-4b89-86a4-e09c75de1c9f",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromX": 45,
-            "toX": -45,
-            "fromY": -359,
-            "toY": 359,
-            "fromZ": -359,
-            "toZ": 359,
-            "shortestPath": false,
-            "duration": 10000
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/bmo-bites/cereal.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "bite-3",
-      "order": 3.6091103343879984
-    },
-    "65628c81-0ac3-4c19-bdfd-24611faebf83": {
-      "id": "65628c81-0ac3-4c19-bdfd-24611faebf83",
-      "position": [
-        0.008416325022933685,
-        0.14500785001594696,
-        0.4000000000000001
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.17500000000000002,
-        0.17500000000000002,
-        0.17500000000000002
-      ],
-      "parentId": "dabcb628-b0de-45ff-a469-80becf29083a",
-      "components": {
-        "fedb6633-9d3c-4c12-a0e1-083bf806def0": {
-          "id": "fedb6633-9d3c-4c12-a0e1-083bf806def0",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -0.2,
-            "toZ": 0.4,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic"
-          }
-        },
-        "37c1026b-5d4e-4d43-bda6-b37739634e3e": {
-          "id": "37c1026b-5d4e-4d43-bda6-b37739634e3e",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromZ": -180,
-            "toZ": 180,
-            "duration": 10000,
-            "shortestPath": false
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/bmo-bites/cereal.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "bite-4",
-      "order": 3.6091103343879984
-    },
-    "bbd21856-07c2-4ffc-ae33-8a6fae2c8b4a": {
-      "id": "bbd21856-07c2-4ffc-ae33-8a6fae2c8b4a",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "82dc9290-dd7d-439e-be09-8026accf61a3",
-      "components": {},
-      "light": {
-        "type": "ambient"
-      },
-      "name": "Ambient Light",
-      "order": 1.6718376009845095
     },
     "5a978218-72c3-4861-af58-541f3cf2b778": {
       "id": "5a978218-72c3-4861-af58-541f3cf2b778",
@@ -1837,10 +1025,10 @@
           "id": "1b7e28d5-3787-4a01-a9cd-8712cc181735",
           "name": "space-selector",
           "parameters": {
-            "space1": "Playing Cards",
-            "space2": "BMO Bites",
+            "space1": "Toggle SLAM (OFICINA)",
+            "space2": "Toggle SLAM",
             "space3": "Magic Photos",
-            "space4": "Toggle SLAM",
+            "space4": "",
             "option1": {
               "type": "entity",
               "id": "fec36eea-c33c-4a66-be5e-efa6ffd3122e"
@@ -2496,195 +1684,6 @@
       "parentId": "377b65a9-0810-4e9a-8efd-261b32b1bd8b",
       "hidden": true
     },
-    "a97e1719-a0bc-4d6f-89d5-e82b59a2883e": {
-      "id": "a97e1719-a0bc-4d6f-89d5-e82b59a2883e",
-      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
-      "position": [
-        -0.00693457817019813,
-        0.4968687380710721,
-        0.07973519208916391
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
-          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "6f397a6c-b64a-4e99-a82f-f7790af757d1"
-            }
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/petrobras_marca.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "petrobras_marca.glb",
-      "order": 7.328162466016803
-    },
-    "a8f754af-c5e4-46e9-834d-3679ea0eb017": {
-      "id": "a8f754af-c5e4-46e9-834d-3679ea0eb017",
-      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
-      "position": [
-        -0.6822067611903913,
-        0.38931823386297,
-        0.08682583192020393
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/Vista Frontal - Mineirinho.jpg"
-        }
-      },
-      "components": {},
-      "name": "Obra Alunos",
-      "order": 8.52951148151326
-    },
-    "fb3dfae8-a0e8-460a-9def-df9bbe6a97c6": {
-      "id": "fb3dfae8-a0e8-460a-9def-df9bbe6a97c6",
-      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
-      "position": [
-        -0.6573831779874544,
-        -0.21382164479048055,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/Vista Frontal.jpg"
-        }
-      },
-      "components": {},
-      "name": "Obra Alunos (2)",
-      "order": 9.382586543391177
-    },
-    "a6bdd730-a865-4777-aea6-24ec824c10f9": {
-      "id": "a6bdd730-a865-4777-aea6-24ec824c10f9",
-      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
-      "position": [
-        0.6698848034640354,
-        0.1359757019671024,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/miniatura bate-bola ZOOM - digitalizada.png"
-        }
-      },
-      "components": {},
-      "name": "Obra Alunos (1)",
-      "order": 9.72063777490497
-    },
-    "65e9ba30-42b7-4eb1-8001-26fcc7ecbf6d": {
-      "id": "65e9ba30-42b7-4eb1-8001-26fcc7ecbf6d",
-      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
-      "position": [
-        0.4527466323089863,
-        0.7557481093765125,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/Vista Superior.jpg"
-        },
-        "repeatX": 1
-      },
-      "components": {},
-      "name": "Obra Alunos (3)",
-      "order": 11.270953522202769
-    },
     "641787b1-b0e8-4cb9-beab-cb42bbf80b9e": {
       "id": "641787b1-b0e8-4cb9-beab-cb42bbf80b9e",
       "position": [
@@ -3075,30 +2074,6 @@
     }
   },
   "spaces": {
-    "88453035-dc0f-486d-868a-8ff7c2fda864": {
-      "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "name": "Playing Cards",
-      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
-      "includedSpaces": [
-        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
-      ],
-      "reflections": {
-        "type": "url",
-        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
-      }
-    },
-    "82dc9290-dd7d-439e-be09-8026accf61a3": {
-      "id": "82dc9290-dd7d-439e-be09-8026accf61a3",
-      "name": "BMO Bites",
-      "activeCamera": "6f397a6c-b64a-4e99-a82f-f7790af757d1",
-      "includedSpaces": [
-        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
-      ],
-      "reflections": {
-        "type": "url",
-        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
-      }
-    },
     "0a687c86-deaf-4f23-9f7c-2acd2eeb9310": {
       "id": "0a687c86-deaf-4f23-9f7c-2acd2eeb9310",
       "name": "Space Selector",
