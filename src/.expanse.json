@@ -1803,46 +1803,6 @@
       "order": 3.513191113816268,
       "hidden": false
     },
-    "ce4c1903-bacf-4acf-876e-b8653345c0fa": {
-      "id": "ce4c1903-bacf-4acf-876e-b8653345c0fa",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "9627b52c-4b23-436c-8011-5d2c2d4c39c9",
-      "components": {
-        "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b": {
-          "id": "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b",
-          "name": "Toggle SLAM on Found",
-          "parameters": {
-            "imageTargetName": "toggle-slam",
-            "worldContent": {
-              "type": "entity",
-              "id": "b39d0d67-ca78-489c-a29d-7bc1509710e1"
-            }
-          }
-        }
-      },
-      "name": "Image Target",
-      "imageTarget": {
-        "name": "toggle-slam"
-      },
-      "order": 3.8421274092108453
-    },
     "ef9c249a-979e-413d-af94-b189b96b2db5": {
       "id": "ef9c249a-979e-413d-af94-b189b96b2db5",
       "name": "metagallery_transparent",
@@ -1885,7 +1845,7 @@
     },
     "bebe843c-2d67-430d-9345-783b00bfef45": {
       "id": "bebe843c-2d67-430d-9345-783b00bfef45",
-      "parentId": "ef9c249a-979e-413d-af94-b189b96b2db5",
+      "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
         -0.00693457817019813,
         0.4968687380710721,
@@ -1911,7 +1871,7 @@
           "parameters": {
             "target": {
               "type": "entity",
-              "id": "6f397a6c-b64a-4e99-a82f-f7790af757d1"
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
             }
           }
         }
@@ -1929,7 +1889,7 @@
     },
     "1bbc58df-a265-4742-87ef-8307d7d33f12": {
       "id": "1bbc58df-a265-4742-87ef-8307d7d33f12",
-      "parentId": "ef9c249a-979e-413d-af94-b189b96b2db5",
+      "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
         -0.6822067611903913,
         0.38931823386297,
@@ -1959,13 +1919,24 @@
           "asset": "assets/oficina-ebat/Vista Frontal - Mineirinho.jpg"
         }
       },
-      "components": {},
+      "components": {
+        "51bfa145-2abc-4b31-ba94-de4564f67a13": {
+          "id": "51bfa145-2abc-4b31-ba94-de4564f67a13",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos",
       "order": 8.52951148151326
     },
     "1e82eadc-9217-4412-b6a3-8f2eae312ace": {
       "id": "1e82eadc-9217-4412-b6a3-8f2eae312ace",
-      "parentId": "ef9c249a-979e-413d-af94-b189b96b2db5",
+      "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
         -0.6573831779874544,
         -0.21382164479048055,
@@ -1995,13 +1966,24 @@
           "asset": "assets/oficina-ebat/Vista Frontal.jpg"
         }
       },
-      "components": {},
+      "components": {
+        "71ba38c5-4c46-4683-a0cc-9ec200873240": {
+          "id": "71ba38c5-4c46-4683-a0cc-9ec200873240",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (2)",
       "order": 9.382586543391177
     },
     "1396cace-ab90-4a5c-85e8-484eb4bb8ceb": {
       "id": "1396cace-ab90-4a5c-85e8-484eb4bb8ceb",
-      "parentId": "ef9c249a-979e-413d-af94-b189b96b2db5",
+      "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
         0.6698848034640354,
         0.1359757019671024,
@@ -2031,13 +2013,24 @@
           "asset": "assets/oficina-ebat/miniatura bate-bola ZOOM - digitalizada.png"
         }
       },
-      "components": {},
+      "components": {
+        "1e20d321-f936-45af-ab06-f9fe5b72c5e4": {
+          "id": "1e20d321-f936-45af-ab06-f9fe5b72c5e4",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (1)",
       "order": 9.72063777490497
     },
     "d12af5f6-91ec-458d-877e-89ae1c823f94": {
       "id": "d12af5f6-91ec-458d-877e-89ae1c823f94",
-      "parentId": "ef9c249a-979e-413d-af94-b189b96b2db5",
+      "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
         0.4527466323089863,
         0.7557481093765125,
@@ -2068,7 +2061,18 @@
         },
         "repeatX": 1
       },
-      "components": {},
+      "components": {
+        "474a9325-3e73-4cd7-b5a7-998e13c7fb67": {
+          "id": "474a9325-3e73-4cd7-b5a7-998e13c7fb67",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (3)",
       "order": 11.270953522202769
     }
