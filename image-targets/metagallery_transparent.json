@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 87,
+    "left": 143,
+    "width": 814,
+    "height": 1085,
+    "isRotated": false,
+    "originalWidth": 1080,
+    "originalHeight": 1350
+  },
+  "imagePath": "image-targets/metagallery_transparent_luminance.png",
+  "metadata": null,
+  "name": "metagallery_transparent",
+  "resources": {
+    "originalImage": "metagallery_transparent_original.png",
+    "croppedImage": "metagallery_transparent_cropped.png",
+    "thumbnailImage": "metagallery_transparent_thumbnail.png",
+    "luminanceImage": "metagallery_transparent_luminance.png"
+  },
+  "created": 1786592029322,
+  "updated": 1786592053992
+}

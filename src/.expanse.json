@@ -886,7 +886,9 @@
       "imageTarget": {
         "name": "bmo-bites"
       },
-      "order": 2.947891733989673
+      "order": 2.947891733989673,
+      "hidden": false,
+      "disabled": true
     },
     "d16a4cc9-f659-45cb-b679-98b57462d5d8": {
       "id": "d16a4cc9-f659-45cb-b679-98b57462d5d8",
@@ -1262,7 +1264,13 @@
       "instanceData": {
         "instanceOf": "35d3cf8f-c4ba-4b9c-9601-b13ab6dcb449",
         "deletions": {},
-        "children": {}
+        "children": {
+          "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9": {
+            "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9",
+            "deletions": {},
+            "hidden": false
+          }
+        }
       },
       "parentId": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
       "components": {},
@@ -1277,7 +1285,8 @@
         3,
         3,
         3
-      ]
+      ],
+      "hidden": false
     },
     "c93c08df-1d89-4e42-af5c-3f6959bfa608": {
       "id": "c93c08df-1d89-4e42-af5c-3f6959bfa608",
@@ -2241,6 +2250,229 @@
       "order": 17.028744183474238,
       "parentId": "377b65a9-0810-4e9a-8efd-261b32b1bd8b",
       "hidden": true
+    },
+    "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c": {
+      "id": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "82dc9290-dd7d-439e-be09-8026accf61a3",
+      "components": {
+        "22393b29-c07e-419b-b652-6fb4c862d503": {
+          "id": "22393b29-c07e-419b-b652-6fb4c862d503",
+          "name": "MakeSticky",
+          "parameters": {}
+        }
+      },
+      "name": "metagallery_transparent",
+      "imageTarget": {
+        "name": "metagallery_transparent"
+      },
+      "order": 4.101294575608643
+    },
+    "4bfd933c-928d-46da-8680-0cea2f920607": {
+      "id": "4bfd933c-928d-46da-8680-0cea2f920607",
+      "position": [
+        -0.00693457817019813,
+        0.7311113641512702,
+        0.07973519208916391
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
+      "components": {
+        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
+          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "6f397a6c-b64a-4e99-a82f-f7790af757d1"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/petrobras_marca.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "petrobras_marca.glb",
+      "order": 7.328162466016803
+    },
+    "b43af7af-0027-4f5d-90bf-9c9dbf54861c": {
+      "id": "b43af7af-0027-4f5d-90bf-9c9dbf54861c",
+      "position": [
+        -0.7010923971196469,
+        0.29808572479356094,
+        0.08682583192020393
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/Vista Frontal - Mineirinho.jpg"
+        }
+      },
+      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c",
+      "components": {},
+      "name": "Obra Alunos",
+      "order": 8.52951148151326
+    },
+    "47831cd8-d79c-425c-b8b9-e9defef9eb2d": {
+      "id": "47831cd8-d79c-425c-b8b9-e9defef9eb2d",
+      "position": [
+        0.6626787413085977,
+        0.1359757019671024,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/miniatura bate-bola ZOOM - digitalizada.png"
+        }
+      },
+      "components": {},
+      "name": "Obra Alunos (1)",
+      "order": 9.72063777490497,
+      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c"
+    },
+    "7d55cfeb-4277-4be9-a5e6-755303dda8a1": {
+      "id": "7d55cfeb-4277-4be9-a5e6-755303dda8a1",
+      "position": [
+        -0.8054193573899289,
+        -0.1854614094620995,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/Vista Frontal.jpg"
+        }
+      },
+      "components": {},
+      "name": "Obra Alunos (2)",
+      "order": 9.382586543391177,
+      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c"
+    },
+    "c7a91c67-4acc-4460-83c0-7ea29e77b7cc": {
+      "id": "c7a91c67-4acc-4460-83c0-7ea29e77b7cc",
+      "position": [
+        0.5685007587432132,
+        0.7396654721372328,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/Vista Superior.jpg"
+        },
+        "repeatX": 1
+      },
+      "components": {},
+      "name": "Obra Alunos (3)",
+      "order": 11.270953522202769,
+      "parentId": "ad8f64a0-bd39-4d9c-b0fe-534a59e8179c"
     }
   },
   "spaces": {
@@ -2302,7 +2534,7 @@
       }
     }
   },
-  "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+  "entrySpaceId": "82dc9290-dd7d-439e-be09-8026accf61a3",
   "runtimeVersion": {
     "type": "version",
     "level": "major",
