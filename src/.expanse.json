@@ -721,271 +721,6 @@
       ],
       "hidden": false
     },
-    "c93c08df-1d89-4e42-af5c-3f6959bfa608": {
-      "id": "c93c08df-1d89-4e42-af5c-3f6959bfa608",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "light": {
-        "type": "directional"
-      },
-      "name": "Directional Light",
-      "order": 0.8421274092108453
-    },
-    "d1374482-064a-4a24-b9be-de5c8debb80e": {
-      "id": "d1374482-064a-4a24-b9be-de5c8debb80e",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "light": {
-        "type": "ambient"
-      },
-      "name": "Ambient Light",
-      "order": 1.8421274092108453
-    },
-    "17d4e695-a04f-4b93-b0e2-a3b783b8a937": {
-      "id": "17d4e695-a04f-4b93-b0e2-a3b783b8a937",
-      "position": [
-        0,
-        2,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "name": "Camera",
-      "camera": {
-        "type": "perspective",
-        "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
-          "desktop": "3D",
-          "headset": "AR",
-          "world": {
-            "disableWorldTracking": true
-          }
-        }
-      },
-      "order": 2.8421274092108453
-    },
-    "c9ebc1a7-e91e-417b-b829-d5063c0d3152": {
-      "id": "c9ebc1a7-e91e-417b-b829-d5063c0d3152",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {
-        "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b": {
-          "id": "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b",
-          "name": "Toggle SLAM on Found",
-          "parameters": {
-            "imageTargetName": "toggle-slam",
-            "worldContent": {
-              "type": "entity",
-              "id": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44"
-            }
-          }
-        }
-      },
-      "name": "Image Target",
-      "imageTarget": {
-        "name": "toggle-slam"
-      },
-      "order": 3.8421274092108453
-    },
-    "91576797-b198-4057-89f6-e37f24fbb359": {
-      "id": "91576797-b198-4057-89f6-e37f24fbb359",
-      "position": [
-        0,
-        0.4883078761413766,
-        -2.168404344971009e-19
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        0.9999999999999999,
-        0.9999999999999999
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/toggle-slam/palm-tree.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Palm Tree",
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      },
-      "order": 0.028252234929867615
-    },
-    "209a5635-6d02-44fe-b8b5-805733169f46": {
-      "id": "209a5635-6d02-44fe-b8b5-805733169f46",
-      "position": [
-        0.1,
-        0.2,
-        2.1684043449710084e-19
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        0.9999999999999998,
-        0.9999999999999998
-      ],
-      "parentId": "91576797-b198-4057-89f6-e37f24fbb359",
-      "components": {
-        "14b19145-59f3-4c4c-95b4-09f698198dd1": {
-          "id": "14b19145-59f3-4c4c-95b4-09f698198dd1",
-          "name": "Coconut Spawner",
-          "parameters": {
-            "coconutPrefab": {
-              "type": "entity",
-              "id": "1bb413ea-6380-4a48-a4f3-75ed3fd834fd"
-            }
-          }
-        }
-      },
-      "name": "Spawner",
-      "hidden": false
-    },
-    "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44": {
-      "id": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "name": "World Content",
-      "order": 3.513191113816268
-    },
-    "3b49cf5d-d1e2-429f-b60a-2c64b327b887": {
-      "id": "3b49cf5d-d1e2-429f-b60a-2c64b327b887",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        -0.707106799999999,
-        0,
-        0,
-        0.7071067623730954
-      ],
-      "scale": [
-        1,
-        1.0000000532124818,
-        1.0000000532124818
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 10,
-        "height": 10
-      },
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
-      "components": {},
-      "name": "Ground",
-      "order": -1.0282522349298677,
-      "collider": {
-        "geometry": {
-          "type": "auto"
-        }
-      }
-    },
     "f3e1df90-81c2-440d-a36f-6f72a2b2895b": {
       "id": "f3e1df90-81c2-440d-a36f-6f72a2b2895b",
       "position": [
@@ -1848,8 +1583,8 @@
       "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
         -0.00693457817019813,
-        0.4968687380710721,
-        0.07973519208916391
+        0.5318009930000618,
+        0.15
       ],
       "rotation": [
         0,
@@ -1874,6 +1609,18 @@
               "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
             }
           }
+        },
+        "6790d15f-023a-45d2-9c41-cc7c98de2fee": {
+          "id": "6790d15f-023a-45d2-9c41-cc7c98de2fee",
+          "name": "custom-vec3-animation",
+          "parameters": {
+            "reverse": true,
+            "toX": 1.2,
+            "toY": 1.2,
+            "toZ": 1.2,
+            "easeIn": true,
+            "easeOut": true
+          }
         }
       },
       "gltfModel": {
@@ -1891,20 +1638,20 @@
       "id": "1bbc58df-a265-4742-87ef-8307d7d33f12",
       "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
-        -0.6822067611903913,
-        0.38931823386297,
-        0.08682583192020393
+        -0.75,
+        0.15,
+        0.5
       ],
       "rotation": [
         0,
+        0.3826834323650898,
         0,
-        0,
-        1
+        0.9238795325112867
       ],
       "scale": [
-        0.4,
-        0.4,
-        0.4
+        0.75,
+        0.7499999999999999,
+        0.7499999999999999
       ],
       "geometry": {
         "type": "plane",
@@ -1938,20 +1685,20 @@
       "id": "1e82eadc-9217-4412-b6a3-8f2eae312ace",
       "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
-        -0.6573831779874544,
-        -0.21382164479048055,
-        0
+        -1,
+        0.15,
+        1.17
       ],
       "rotation": [
         0,
+        0.7071067811865475,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
-        0.4,
-        0.4,
-        0.4
+        0.75,
+        0.7499999999999999,
+        0.7499999999999999
       ],
       "geometry": {
         "type": "plane",
@@ -1985,20 +1732,20 @@
       "id": "1396cace-ab90-4a5c-85e8-484eb4bb8ceb",
       "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
-        0.6698848034640354,
-        0.1359757019671024,
-        0
+        1,
+        0.15,
+        1.1703900631871735
       ],
       "rotation": [
         0,
+        -0.7071067811865475,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
-        0.4,
-        0.4,
-        0.4
+        0.75,
+        0.7499999999999999,
+        0.7499999999999999
       ],
       "geometry": {
         "type": "plane",
@@ -2032,20 +1779,20 @@
       "id": "d12af5f6-91ec-458d-877e-89ae1c823f94",
       "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
       "position": [
-        0.4527466323089863,
-        0.7557481093765125,
-        0
+        0.75,
+        0.15,
+        0.5
       ],
       "rotation": [
         0,
+        -0.3826834323650899,
         0,
-        0,
-        1
+        0.9238795325112867
       ],
       "scale": [
-        0.4,
-        0.4,
-        0.4
+        0.7499999999999999,
+        0.7499999999999999,
+        0.7499999999999999
       ],
       "geometry": {
         "type": "plane",
@@ -2075,6 +1822,48 @@
       },
       "name": "Obra Alunos (3)",
       "order": 11.270953522202769
+    },
+    "94e62e84-87c3-428b-a9b0-7ff7532d0b92": {
+      "id": "94e62e84-87c3-428b-a9b0-7ff7532d0b92",
+      "position": [
+        0,
+        -0.4197693456075294,
+        0.14848107238191888
+      ],
+      "rotation": [
+        -0.13052619222005163,
+        0,
+        0,
+        0.9914448613738103
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5000000000000001
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 0.563,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/video player oficina.mp4"
+        }
+      },
+      "components": {},
+      "name": "video player vertical",
+      "videoControls": {
+        "paused": true,
+        "loop": true,
+        "positional": true
+      },
+      "order": 13.554641990647493,
+      "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1",
+      "hidden": false
     }
   },
   "spaces": {
@@ -2098,18 +1887,6 @@
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
       ]
-    },
-    "585f02ca-0418-46b7-8317-8926be71e007": {
-      "id": "585f02ca-0418-46b7-8317-8926be71e007",
-      "name": "Toggle SLAM",
-      "activeCamera": "17d4e695-a04f-4b93-b0e2-a3b783b8a937",
-      "includedSpaces": [
-        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
-      ],
-      "reflections": {
-        "type": "url",
-        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
-      }
     },
     "9627b52c-4b23-436c-8011-5d2c2d4c39c9": {
       "id": "9627b52c-4b23-436c-8011-5d2c2d4c39c9",
