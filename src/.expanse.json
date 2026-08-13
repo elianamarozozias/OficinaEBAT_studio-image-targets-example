@@ -1771,7 +1771,7 @@
           "desktop": "3D",
           "headset": "AR",
           "world": {
-            "disableWorldTracking": false
+            "disableWorldTracking": true
           }
         }
       },
@@ -1864,7 +1864,18 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
+          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -1874,10 +1885,7 @@
         "loop": true
       },
       "name": "petrobras_marca.glb",
-      "order": 7.328162466016803,
-      "shadow": {
-        "receiveShadow": true
-      }
+      "order": 7.328162466016803
     },
     "1bbc58df-a265-4742-87ef-8307d7d33f12": {
       "id": "1bbc58df-a265-4742-87ef-8307d7d33f12",
@@ -1911,7 +1919,18 @@
           "asset": "assets/oficina-ebat/Vista Frontal - Mineirinho.jpg"
         }
       },
-      "components": {},
+      "components": {
+        "51bfa145-2abc-4b31-ba94-de4564f67a13": {
+          "id": "51bfa145-2abc-4b31-ba94-de4564f67a13",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos",
       "order": 8.52951148151326
     },
@@ -1947,7 +1966,18 @@
           "asset": "assets/oficina-ebat/Vista Frontal.jpg"
         }
       },
-      "components": {},
+      "components": {
+        "71ba38c5-4c46-4683-a0cc-9ec200873240": {
+          "id": "71ba38c5-4c46-4683-a0cc-9ec200873240",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (2)",
       "order": 9.382586543391177
     },
@@ -1983,7 +2013,18 @@
           "asset": "assets/oficina-ebat/miniatura bate-bola ZOOM - digitalizada.png"
         }
       },
-      "components": {},
+      "components": {
+        "1e20d321-f936-45af-ab06-f9fe5b72c5e4": {
+          "id": "1e20d321-f936-45af-ab06-f9fe5b72c5e4",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (1)",
       "order": 9.72063777490497
     },
@@ -2020,7 +2061,18 @@
         },
         "repeatX": 1
       },
-      "components": {},
+      "components": {
+        "474a9325-3e73-4cd7-b5a7-998e13c7fb67": {
+          "id": "474a9325-3e73-4cd7-b5a7-998e13c7fb67",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (3)",
       "order": 11.270953522202769
     }
