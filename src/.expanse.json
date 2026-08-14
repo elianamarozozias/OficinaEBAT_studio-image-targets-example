@@ -596,6 +596,396 @@
       },
       "order": 2.182242201057824
     },
+    "5a978218-72c3-4861-af58-541f3cf2b778": {
+      "id": "5a978218-72c3-4861-af58-541f3cf2b778",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
+      "components": {},
+      "light": {
+        "type": "directional"
+      },
+      "name": "Directional Light",
+      "order": 1.9273918594562236
+    },
+    "aad90277-8886-49f1-ac94-e3782ee7a2ce": {
+      "id": "aad90277-8886-49f1-ac94-e3782ee7a2ce",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
+      "components": {},
+      "light": {
+        "type": "ambient"
+      },
+      "name": "Ambient Light",
+      "order": 2.9273918594562236
+    },
+    "57e4eb17-2dd3-48fa-90a0-087c2be9eb35": {
+      "id": "57e4eb17-2dd3-48fa-90a0-087c2be9eb35",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "rotation": [
+        0,
+        -1,
+        0,
+        6.123233995736766e-17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "AR"
+        }
+      },
+      "order": 3.9273918594562236
+    },
+    "3b0d1a95-9612-4e1b-b0a0-c8ca633213ba": {
+      "id": "3b0d1a95-9612-4e1b-b0a0-c8ca633213ba",
+      "position": [
+        0,
+        2,
+        -5
+      ],
+      "name": "Image Target Video",
+      "instanceData": {
+        "instanceOf": "35d3cf8f-c4ba-4b9c-9601-b13ab6dcb449",
+        "deletions": {},
+        "children": {
+          "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9": {
+            "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9",
+            "deletions": {},
+            "hidden": false
+          }
+        }
+      },
+      "parentId": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
+      "components": {},
+      "order": 5.687308473077543,
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "hidden": false
+    },
+    "c93c08df-1d89-4e42-af5c-3f6959bfa608": {
+      "id": "c93c08df-1d89-4e42-af5c-3f6959bfa608",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
+      "components": {},
+      "light": {
+        "type": "directional"
+      },
+      "name": "Directional Light",
+      "order": 0.8421274092108453
+    },
+    "d1374482-064a-4a24-b9be-de5c8debb80e": {
+      "id": "d1374482-064a-4a24-b9be-de5c8debb80e",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
+      "components": {},
+      "light": {
+        "type": "ambient"
+      },
+      "name": "Ambient Light",
+      "order": 1.8421274092108453
+    },
+    "17d4e695-a04f-4b93-b0e2-a3b783b8a937": {
+      "id": "17d4e695-a04f-4b93-b0e2-a3b783b8a937",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "AR",
+          "world": {
+            "disableWorldTracking": true
+          }
+        }
+      },
+      "order": 2.8421274092108453
+    },
+    "c9ebc1a7-e91e-417b-b829-d5063c0d3152": {
+      "id": "c9ebc1a7-e91e-417b-b829-d5063c0d3152",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
+      "components": {
+        "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b": {
+          "id": "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b",
+          "name": "Toggle SLAM on Found",
+          "parameters": {
+            "imageTargetName": "toggle-slam",
+            "worldContent": {
+              "type": "entity",
+              "id": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44"
+            }
+          }
+        }
+      },
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "toggle-slam"
+      },
+      "order": 3.8421274092108453
+    },
+    "91576797-b198-4057-89f6-e37f24fbb359": {
+      "id": "91576797-b198-4057-89f6-e37f24fbb359",
+      "position": [
+        0,
+        0.4883078761413766,
+        -2.168404344971009e-19
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/toggle-slam/palm-tree.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Palm Tree",
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "order": 0.028252234929867615
+    },
+    "209a5635-6d02-44fe-b8b5-805733169f46": {
+      "id": "209a5635-6d02-44fe-b8b5-805733169f46",
+      "position": [
+        0.1,
+        0.2,
+        2.1684043449710084e-19
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        0.9999999999999998,
+        0.9999999999999998
+      ],
+      "parentId": "91576797-b198-4057-89f6-e37f24fbb359",
+      "components": {
+        "14b19145-59f3-4c4c-95b4-09f698198dd1": {
+          "id": "14b19145-59f3-4c4c-95b4-09f698198dd1",
+          "name": "Coconut Spawner",
+          "parameters": {
+            "coconutPrefab": {
+              "type": "entity",
+              "id": "1bb413ea-6380-4a48-a4f3-75ed3fd834fd"
+            }
+          }
+        }
+      },
+      "name": "Spawner",
+      "hidden": false
+    },
+    "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44": {
+      "id": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
+      "components": {},
+      "name": "World Content",
+      "order": 3.513191113816268
+    },
+    "3b49cf5d-d1e2-429f-b60a-2c64b327b887": {
+      "id": "3b49cf5d-d1e2-429f-b60a-2c64b327b887",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 10,
+        "height": 10
+      },
+      "material": {
+        "type": "hider"
+      },
+      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
+      "components": {},
+      "name": "Ground",
+      "order": -1.0282522349298677,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
     "f3e1df90-81c2-440d-a36f-6f72a2b2895b": {
       "id": "f3e1df90-81c2-440d-a36f-6f72a2b2895b",
       "position": [
@@ -1320,8 +1710,7 @@
         "type": "directional"
       },
       "name": "Directional Light",
-      "order": 0.8421274092108453,
-      "hidden": false
+      "order": 0.8421274092108453
     },
     "2bb5b842-f692-4e3c-a8a9-11480920f4d9": {
       "id": "2bb5b842-f692-4e3c-a8a9-11480920f4d9",
@@ -1349,8 +1738,7 @@
         "type": "ambient"
       },
       "name": "Ambient Light",
-      "order": 1.8421274092108453,
-      "hidden": false
+      "order": 1.8421274092108453
     },
     "f98d03ec-a99b-4360-847a-0ff9f16be624": {
       "id": "f98d03ec-a99b-4360-847a-0ff9f16be624",
@@ -1476,7 +1864,18 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
+          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -1494,13 +1893,13 @@
       "position": [
         -0.6822067611903913,
         0.38931823386297,
-        0.15
+        0.08682583192020393
       ],
       "rotation": [
         0,
-        0.13052619222005157,
         0,
-        0.9914448613738104
+        0,
+        1
       ],
       "scale": [
         0.4,
@@ -1518,10 +1917,20 @@
         "textureSrc": {
           "type": "asset",
           "asset": "assets/oficina-ebat/Vista Frontal - Mineirinho.jpg"
-        },
-        "side": "double"
+        }
       },
-      "components": {},
+      "components": {
+        "51bfa145-2abc-4b31-ba94-de4564f67a13": {
+          "id": "51bfa145-2abc-4b31-ba94-de4564f67a13",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos",
       "order": 8.52951148151326
     },
@@ -1531,13 +1940,13 @@
       "position": [
         -0.6573831779874544,
         -0.21382164479048055,
-        0.15
+        0
       ],
       "rotation": [
         0,
-        0.13052619222005157,
         0,
-        0.9914448613738104
+        0,
+        1
       ],
       "scale": [
         0.4,
@@ -1555,10 +1964,20 @@
         "textureSrc": {
           "type": "asset",
           "asset": "assets/oficina-ebat/Vista Frontal.jpg"
-        },
-        "side": "double"
+        }
       },
-      "components": {},
+      "components": {
+        "71ba38c5-4c46-4683-a0cc-9ec200873240": {
+          "id": "71ba38c5-4c46-4683-a0cc-9ec200873240",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (2)",
       "order": 9.382586543391177
     },
@@ -1568,13 +1987,13 @@
       "position": [
         0.6698848034640354,
         0.1359757019671024,
-        0.15
+        0
       ],
       "rotation": [
         0,
-        -0.13052619222005157,
         0,
-        0.9914448613738104
+        0,
+        1
       ],
       "scale": [
         0.4,
@@ -1592,10 +2011,20 @@
         "textureSrc": {
           "type": "asset",
           "asset": "assets/oficina-ebat/miniatura bate-bola ZOOM - digitalizada.png"
-        },
-        "side": "double"
+        }
       },
-      "components": {},
+      "components": {
+        "1e20d321-f936-45af-ab06-f9fe5b72c5e4": {
+          "id": "1e20d321-f936-45af-ab06-f9fe5b72c5e4",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (1)",
       "order": 9.72063777490497
     },
@@ -1605,13 +2034,13 @@
       "position": [
         0.4527466323089863,
         0.7557481093765125,
-        0.15
+        0
       ],
       "rotation": [
         0,
-        -0.13052619222005157,
         0,
-        0.9914448613738104
+        0,
+        1
       ],
       "scale": [
         0.4,
@@ -1630,10 +2059,20 @@
           "type": "asset",
           "asset": "assets/oficina-ebat/Vista Superior.jpg"
         },
-        "repeatX": 1,
-        "side": "double"
+        "repeatX": 1
       },
-      "components": {},
+      "components": {
+        "474a9325-3e73-4cd7-b5a7-998e13c7fb67": {
+          "id": "474a9325-3e73-4cd7-b5a7-998e13c7fb67",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
       "name": "Obra Alunos (3)",
       "order": 11.270953522202769
     }
@@ -1648,9 +2087,33 @@
         "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
       }
     },
+    "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb": {
+      "id": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
+      "name": "Magic Photos",
+      "activeCamera": "57e4eb17-2dd3-48fa-90a0-087c2be9eb35",
+      "reflections": {
+        "type": "url",
+        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
+      },
+      "includedSpaces": [
+        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
+      ]
+    },
+    "585f02ca-0418-46b7-8317-8926be71e007": {
+      "id": "585f02ca-0418-46b7-8317-8926be71e007",
+      "name": "Toggle SLAM",
+      "activeCamera": "17d4e695-a04f-4b93-b0e2-a3b783b8a937",
+      "includedSpaces": [
+        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
+      ],
+      "reflections": {
+        "type": "url",
+        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
+      }
+    },
     "9627b52c-4b23-436c-8011-5d2c2d4c39c9": {
       "id": "9627b52c-4b23-436c-8011-5d2c2d4c39c9",
-      "name": "Fachada Oficina",
+      "name": "Toggle SLAM (OFICINA)",
       "activeCamera": "f98d03ec-a99b-4360-847a-0ff9f16be624",
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
