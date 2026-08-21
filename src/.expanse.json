@@ -2500,110 +2500,6 @@
       "order": 4.101294575608643,
       "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f"
     },
-    "94c0c970-7db0-4587-9351-e2cdcc31bd86": {
-      "id": "94c0c970-7db0-4587-9351-e2cdcc31bd86",
-      "position": [
-        0.6327727124415566,
-        0.46925901089843447,
-        0.2
-      ],
-      "rotation": [
-        0,
-        -0.3007057995042731,
-        0,
-        0.9537169507482269
-      ],
-      "scale": [
-        1.5000000000000024,
-        1.5,
-        1.5000000000000024
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4": {
-          "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromZ": 0,
-            "toZ": 0,
-            "duration": 1500,
-            "shortestPath": false,
-            "autoFrom": false,
-            "toY": 35,
-            "reverse": false,
-            "easeIn": false,
-            "easingFunction": "Bounce",
-            "toX": 0,
-            "easeOut": false,
-            "fromY": -35
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Simbolo3D_Petrobras.gltf (1)",
-      "order": 8.438123969782655,
-      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
-    },
-    "775a7782-8880-4b10-bb2f-40fb8567a3fe": {
-      "id": "775a7782-8880-4b10-bb2f-40fb8567a3fe",
-      "position": [
-        -0.6192919435414268,
-        0.42162771779462094,
-        0.315
-      ],
-      "rotation": [
-        -0.17364817766693033,
-        0,
-        0,
-        0.984807753012208
-      ],
-      "scale": [
-        1.5000000000000009,
-        1.5000000000000002,
-        1.5000000000000007
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4": {
-          "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromZ": 0,
-            "toZ": 0,
-            "duration": 3000,
-            "shortestPath": false,
-            "autoFrom": false,
-            "toY": 0,
-            "easeIn": false,
-            "easeOut": false,
-            "easingFunction": "Bounce",
-            "toX": 20,
-            "fromX": -20,
-            "reverse": false
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Simbolo3D_Petrobras.gltf (2)",
-      "order": 8.493104721665581,
-      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
-    },
     "162d48ec-df0f-401e-b4fd-8fc2117d1023": {
       "id": "162d48ec-df0f-401e-b4fd-8fc2117d1023",
       "position": [
@@ -2651,6 +2547,100 @@
       },
       "name": "Obra Alunos (6)",
       "order": 10.892609867180683,
+      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
+    },
+    "039abbff-0316-41f2-82a6-3fa4397a6b0a": {
+      "id": "039abbff-0316-41f2-82a6-3fa4397a6b0a",
+      "position": [
+        0.5743288791118414,
+        0.43367660779061057,
+        0
+      ],
+      "rotation": [
+        0,
+        -1,
+        0,
+        6.123233995736766e-17
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
+      "components": {
+        "4a9e8baf-52d0-4b40-a457-1113c4e18a2c": {
+          "id": "4a9e8baf-52d0-4b40-a457-1113c4e18a2c",
+          "name": "rotate-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toY": 250,
+            "reverse": true,
+            "easeIn": true,
+            "easingFunction": "Back",
+            "easeOut": true,
+            "duration": 3000
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Simbolo3D_Petrobras.gltf",
+      "order": 11.992867563715595
+    },
+    "f5b14f78-deb9-4c33-bbee-bb5284259c2e": {
+      "id": "f5b14f78-deb9-4c33-bbee-bb5284259c2e",
+      "position": [
+        -0.5391661784994453,
+        0.5489329647842166,
+        0
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "4a9e8baf-52d0-4b40-a457-1113c4e18a2c": {
+          "id": "4a9e8baf-52d0-4b40-a457-1113c4e18a2c",
+          "name": "rotate-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toY": 150,
+            "reverse": true,
+            "easeIn": true,
+            "easingFunction": "Back",
+            "easeOut": true,
+            "duration": 3000
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Simbolo3D_Petrobras.gltf (1)",
+      "order": 13.307242738184623,
       "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
     }
   },
