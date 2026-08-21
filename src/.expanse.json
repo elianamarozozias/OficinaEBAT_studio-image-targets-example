@@ -761,7 +761,7 @@
           "name": "space-selector",
           "parameters": {
             "space1": "Experiencia Petrobras",
-            "space2": "OFICINA RA",
+            "space2": "Experiencia Petrobras 2",
             "space3": "",
             "space4": "",
             "option1": {
@@ -2536,7 +2536,11 @@
             "easingFunction": "Back",
             "toX": 0,
             "easeOut": true,
-            "fromY": -35
+            "fromY": -35,
+            "target": {
+              "type": "entity",
+              "id": "9f248e7d-4c44-41db-b12d-0612f08896ea"
+            }
           }
         }
       },
@@ -2588,7 +2592,11 @@
             "easingFunction": "Back",
             "toX": 20,
             "fromX": -20,
-            "reverse": true
+            "reverse": true,
+            "target": {
+              "type": "entity",
+              "id": "9f248e7d-4c44-41db-b12d-0612f08896ea"
+            }
           }
         }
       },
@@ -2689,6 +2697,414 @@
       "name": "Obra Alunos (6)",
       "order": 10.892609867180683,
       "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
+    },
+    "741363ec-bed8-4bd1-a3c8-01d6a1076dd5": {
+      "id": "741363ec-bed8-4bd1-a3c8-01d6a1076dd5",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "33934889-f674-49a4-83eb-e2c67a82c4f7",
+      "components": {},
+      "light": {
+        "type": "directional"
+      },
+      "name": "Directional Light",
+      "order": 0.8421274092108453
+    },
+    "4ccfc2d3-5802-4871-9d00-55cab6992636": {
+      "id": "4ccfc2d3-5802-4871-9d00-55cab6992636",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "33934889-f674-49a4-83eb-e2c67a82c4f7",
+      "components": {},
+      "light": {
+        "type": "ambient"
+      },
+      "name": "Ambient Light",
+      "order": 1.8421274092108453,
+      "hidden": false
+    },
+    "3ecd8df8-f983-4be8-9acf-c0e98b5acf87": {
+      "id": "3ecd8df8-f983-4be8-9acf-c0e98b5acf87",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "33934889-f674-49a4-83eb-e2c67a82c4f7",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "AR",
+          "world": {
+            "disableWorldTracking": true
+          }
+        }
+      },
+      "order": 2.8421274092108453
+    },
+    "40774036-2904-43a8-bbf5-9795f0458c58": {
+      "id": "40774036-2904-43a8-bbf5-9795f0458c58",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "33934889-f674-49a4-83eb-e2c67a82c4f7",
+      "components": {},
+      "name": "World Content",
+      "order": 3.513191113816268,
+      "hidden": false
+    },
+    "122b72f3-5669-46e9-ab10-8de420f94ffe": {
+      "id": "122b72f3-5669-46e9-ab10-8de420f94ffe",
+      "parentId": "40774036-2904-43a8-bbf5-9795f0458c58",
+      "position": [
+        0,
+        0.48935574182715524,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "geometry": null,
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "components": {
+        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
+          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "3ecd8df8-f983-4be8-9acf-c0e98b5acf87"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/petrobras_marca.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "petrobras_marca.glb",
+      "order": 7.328162466016803,
+      "shadow": {
+        "receiveShadow": true
+      }
+    },
+    "16f67b04-6393-4c98-b594-e3fd5c1668bf": {
+      "id": "16f67b04-6393-4c98-b594-e3fd5c1668bf",
+      "position": [
+        0.6327727124415566,
+        0.46925901089843447,
+        0.2
+      ],
+      "rotation": [
+        0,
+        -0.3007057995042731,
+        0,
+        0.9537169507482269
+      ],
+      "scale": [
+        1.5000000000000024,
+        1.5,
+        1.5000000000000024
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4": {
+          "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromZ": 0,
+            "toZ": 0,
+            "duration": 1500,
+            "shortestPath": true,
+            "autoFrom": false,
+            "toY": 35,
+            "reverse": true,
+            "easeIn": true,
+            "easingFunction": "Back",
+            "toX": 0,
+            "easeOut": true,
+            "fromY": -35,
+            "target": {
+              "type": "entity",
+              "id": "3ecd8df8-f983-4be8-9acf-c0e98b5acf87"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Simbolo3D_Petrobras.gltf (1)",
+      "order": 8.438123969782655,
+      "parentId": "40774036-2904-43a8-bbf5-9795f0458c58"
+    },
+    "31222ffc-8a39-4aab-8e14-fde9e162c822": {
+      "id": "31222ffc-8a39-4aab-8e14-fde9e162c822",
+      "position": [
+        -0.6192919435414268,
+        0.42162771779462094,
+        0.315
+      ],
+      "rotation": [
+        -0.17364817766693033,
+        0,
+        0,
+        0.984807753012208
+      ],
+      "scale": [
+        1.5000000000000009,
+        1.5000000000000002,
+        1.5000000000000007
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4": {
+          "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromZ": 0,
+            "toZ": 0,
+            "duration": 3000,
+            "shortestPath": true,
+            "autoFrom": false,
+            "toY": 0,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back",
+            "toX": 20,
+            "fromX": -20,
+            "reverse": true,
+            "target": {
+              "type": "entity",
+              "id": "3ecd8df8-f983-4be8-9acf-c0e98b5acf87"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Simbolo3D_Petrobras.gltf (2)",
+      "order": 8.493104721665581,
+      "parentId": "40774036-2904-43a8-bbf5-9795f0458c58"
+    },
+    "54d3c9a6-134f-41f5-8380-57cda93d97e5": {
+      "id": "54d3c9a6-134f-41f5-8380-57cda93d97e5",
+      "position": [
+        0,
+        0.73847613857422,
+        0.31525635343867126
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40774036-2904-43a8-bbf5-9795f0458c58",
+      "components": {},
+      "ui": {
+        "type": "overlay",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Patrocínio@300x-8.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "name": "Image",
+      "order": 9.63516403295556,
+      "hidden": true
+    },
+    "71dc0725-c0b3-4aec-b8cf-061b7a25840e": {
+      "id": "71dc0725-c0b3-4aec-b8cf-061b7a25840e",
+      "position": [
+        0,
+        0.85,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 26,
+        "height": 6
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Patrocínio@300x-8.png"
+        },
+        "forceTransparent": true,
+        "textureFiltering": "smooth"
+      },
+      "components": {
+        "51bfa145-2abc-4b31-ba94-de4564f67a13": {
+          "id": "51bfa145-2abc-4b31-ba94-de4564f67a13",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
+      "name": "Obra Alunos (6)",
+      "order": 10.892609867180683,
+      "parentId": "40774036-2904-43a8-bbf5-9795f0458c58"
+    },
+    "fa40eccd-7ffa-4598-b573-6830447b840a": {
+      "id": "fa40eccd-7ffa-4598-b573-6830447b840a",
+      "name": "metagallery_transparent",
+      "components": {
+        "b7ec320a-32bf-4d8d-8683-ac7cc08bfa99": {
+          "id": "b7ec320a-32bf-4d8d-8683-ac7cc08bfa99",
+          "name": "Toggle SLAM on Found",
+          "parameters": {
+            "worldContent": {
+              "type": "entity",
+              "id": "40774036-2904-43a8-bbf5-9795f0458c58"
+            },
+            "imageTargetName": "metagallery_transparent"
+          }
+        }
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "imageTarget": {
+        "name": "metagallery_transparent"
+      },
+      "order": 4.101294575608643,
+      "parentId": "33934889-f674-49a4-83eb-e2c67a82c4f7"
     }
   },
   "spaces": {
@@ -2729,6 +3145,18 @@
       "id": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f",
       "name": "Experiencia Petrobras",
       "activeCamera": "9f248e7d-4c44-41db-b12d-0612f08896ea",
+      "includedSpaces": [
+        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
+      ],
+      "reflections": {
+        "type": "url",
+        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
+      }
+    },
+    "33934889-f674-49a4-83eb-e2c67a82c4f7": {
+      "id": "33934889-f674-49a4-83eb-e2c67a82c4f7",
+      "name": "Experiencia Petrobras 2",
+      "activeCamera": "3ecd8df8-f983-4be8-9acf-c0e98b5acf87",
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
       ],
