@@ -2384,83 +2384,6 @@
       },
       "order": 2.8421274092108453
     },
-    "b71e94c2-ae33-45cd-b6d1-e00056f8b43c": {
-      "id": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f",
-      "components": {},
-      "name": "World Content",
-      "order": 3.513191113816268,
-      "hidden": false
-    },
-    "d7805e65-1b55-495d-893f-f1e0cdb5deaa": {
-      "id": "d7805e65-1b55-495d-893f-f1e0cdb5deaa",
-      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
-      "position": [
-        0,
-        0.48935574182715524,
-        0.15
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        3,
-        3,
-        1
-      ],
-      "geometry": null,
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF"
-      },
-      "components": {
-        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
-          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "9f248e7d-4c44-41db-b12d-0612f08896ea"
-            }
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/petrobras_marca.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "petrobras_marca.glb",
-      "order": 7.328162466016803,
-      "shadow": {
-        "receiveShadow": true
-      },
-      "hidden": true
-    },
     "6da62a6b-6acc-4f94-80ca-0f6288299a1b": {
       "id": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
       "name": "metagallery_transparent",
@@ -2493,8 +2416,8 @@
       "id": "162d48ec-df0f-401e-b4fd-8fc2117d1023",
       "position": [
         0,
-        0.3589850579398458,
-        0.15
+        0.36,
+        0.01
       ],
       "rotation": [
         0,
@@ -2522,34 +2445,24 @@
         "forceTransparent": true,
         "textureFiltering": "smooth"
       },
-      "components": {
-        "51bfa145-2abc-4b31-ba94-de4564f67a13": {
-          "id": "51bfa145-2abc-4b31-ba94-de4564f67a13",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
-            }
-          }
-        }
-      },
-      "name": "Obra Alunos (6)",
+      "components": {},
+      "name": "Patrocinio",
       "order": 10.892609867180683,
-      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b"
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
+      "hidden": true
     },
     "039abbff-0316-41f2-82a6-3fa4397a6b0a": {
       "id": "039abbff-0316-41f2-82a6-3fa4397a6b0a",
       "position": [
-        0.5743288791118414,
-        -0.0573383342695436,
-        0.1
+        0.04543318300752841,
+        -0.26123302776808854,
+        0.2
       ],
       "rotation": [
         0,
-        1,
         0,
-        -6.123233995736766e-17
+        0,
+        1
       ],
       "scale": [
         1.25,
@@ -2564,13 +2477,10 @@
           "id": "4a9e8baf-52d0-4b40-a457-1113c4e18a2c",
           "name": "rotate-animation",
           "parameters": {
-            "autoFrom": true,
-            "toY": 250,
-            "reverse": true,
-            "easeIn": true,
-            "easingFunction": "Back",
-            "easeOut": true,
-            "duration": 3000
+            "fromZ": -180,
+            "toZ": 180,
+            "duration": 10000,
+            "shortestPath": false
           }
         }
       },
@@ -2588,15 +2498,15 @@
     "f5b14f78-deb9-4c33-bbee-bb5284259c2e": {
       "id": "f5b14f78-deb9-4c33-bbee-bb5284259c2e",
       "position": [
-        -0.5391661784994453,
-        0.057918022724062435,
+        -0.4032838194718469,
+        0.05582755679133411,
         0.15
       ],
       "rotation": [
         0,
-        1,
         0,
-        -6.123233995736766e-17
+        0,
+        1
       ],
       "scale": [
         1.25,
@@ -2610,13 +2520,10 @@
           "id": "4a9e8baf-52d0-4b40-a457-1113c4e18a2c",
           "name": "rotate-animation",
           "parameters": {
-            "autoFrom": true,
-            "toY": 150,
-            "reverse": true,
-            "easeIn": true,
-            "easingFunction": "Back",
-            "easeOut": true,
-            "duration": 3000
+            "fromX": -180,
+            "toX": 180,
+            "shortestPath": false,
+            "duration": 5000
           }
         }
       },
@@ -2673,7 +2580,7 @@
       "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
       "position": [
         0,
-        0,
+        0.026769187184501664,
         0
       ],
       "rotation": [
@@ -2708,6 +2615,103 @@
         "positional": true
       },
       "order": 14.630172580913973
+    },
+    "657e534a-c06b-4b0d-b876-95786f8fae4f": {
+      "id": "657e534a-c06b-4b0d-b876-95786f8fae4f",
+      "position": [
+        0.4133607693991752,
+        0.2353313620975911,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "4a9e8baf-52d0-4b40-a457-1113c4e18a2c": {
+          "id": "4a9e8baf-52d0-4b40-a457-1113c4e18a2c",
+          "name": "rotate-animation",
+          "parameters": {
+            "fromX": 45,
+            "toX": -45,
+            "fromY": -359,
+            "toY": 359,
+            "fromZ": -359,
+            "toZ": 359,
+            "shortestPath": false,
+            "duration": 10000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Simbolo3D_Petrobras.gltf (2)",
+      "order": 12.90948403430557,
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b"
+    },
+    "cffda970-a077-48fc-a806-e845a083bd75": {
+      "id": "cffda970-a077-48fc-a806-e845a083bd75",
+      "position": [
+        0,
+        0.5,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
+      "components": {
+        "4c83a1db-a1a9-40c6-933e-04671b90dd3a": {
+          "id": "4c83a1db-a1a9-40c6-933e-04671b90dd3a",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": 250,
+            "reverse": true,
+            "easeIn": true,
+            "easingFunction": "Circular",
+            "autoFrom": true
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/petrobras_marca.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "petrobras_marca.glb",
+      "order": 9.144210949910306
     }
   },
   "spaces": {
