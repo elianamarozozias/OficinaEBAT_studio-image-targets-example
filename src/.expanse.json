@@ -2500,61 +2500,12 @@
       "order": 4.101294575608643,
       "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f"
     },
-    "9eef6bb8-64ef-4445-ab3b-13424d5d6662": {
-      "id": "9eef6bb8-64ef-4445-ab3b-13424d5d6662",
-      "position": [
-        -0.002562776920038312,
-        0.935695084710449,
-        0.6
-      ],
-      "rotation": [
-        0,
-        0,
-        -0.3826834323650898,
-        0.9238795325112867
-      ],
-      "scale": [
-        1.2500000000000004,
-        1.2500000000000004,
-        1.25
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
-      "components": {
-        "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4": {
-          "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromZ": -45,
-            "toZ": 45,
-            "duration": 4000,
-            "shortestPath": false,
-            "autoFrom": false,
-            "toY": 0,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Back"
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/Simbolo3D_Petrobras.gltf"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Simbolo3D_Petrobras.gltf",
-      "order": 8.383143217899729
-    },
     "94c0c970-7db0-4587-9351-e2cdcc31bd86": {
       "id": "94c0c970-7db0-4587-9351-e2cdcc31bd86",
       "position": [
         0.6327727124415566,
         0.46925901089843447,
-        0.35
+        0.2
       ],
       "rotation": [
         0,
@@ -2577,10 +2528,10 @@
             "fromZ": 0,
             "toZ": 0,
             "duration": 1500,
-            "shortestPath": false,
+            "shortestPath": true,
             "autoFrom": false,
             "toY": 35,
-            "reverse": false,
+            "reverse": true,
             "easeIn": true,
             "easingFunction": "Back",
             "toX": 0,
@@ -2606,7 +2557,7 @@
       "position": [
         -0.6192919435414268,
         0.42162771779462094,
-        0.09999999999999999
+        0.315
       ],
       "rotation": [
         -0.17364817766693033,
@@ -2629,14 +2580,15 @@
             "fromZ": 0,
             "toZ": 0,
             "duration": 3000,
-            "shortestPath": false,
+            "shortestPath": true,
             "autoFrom": false,
             "toY": 0,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Back",
             "toX": 20,
-            "fromX": -20
+            "fromX": -20,
+            "reverse": true
           }
         }
       },
@@ -2693,8 +2645,8 @@
       "id": "162d48ec-df0f-401e-b4fd-8fc2117d1023",
       "position": [
         0,
-        0.7773266660765568,
-        0.315
+        0.85,
+        0.15
       ],
       "rotation": [
         0,
