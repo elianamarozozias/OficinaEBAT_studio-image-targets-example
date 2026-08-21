@@ -2414,7 +2414,7 @@
       "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
       "position": [
         0,
-        0,
+        0.4517491907693214,
         0.15
       ],
       "rotation": [
@@ -2444,28 +2444,19 @@
             }
           }
         },
-        "7b6dad60-afb9-4cc1-bc53-2d98757a3f13": {
-          "id": "7b6dad60-afb9-4cc1-bc53-2d98757a3f13",
-          "name": "particle-emitter",
+        "948bad2a-11ff-4ddc-a8cb-03aca7e46635": {
+          "id": "948bad2a-11ff-4ddc-a8cb-03aca7e46635",
+          "name": "position-animation",
           "parameters": {
-            "emitterLife": 0,
-            "particlesPerShot": 10,
-            "emitDelay": 0.2,
-            "minimumLifespan": 3.5,
-            "maximumLifespan": 5,
-            "mass": 0.5,
-            "gravity": 0.05,
-            "scale": 0.05,
-            "forceX": 0.5,
-            "forceY": -0.8,
-            "forceZ": 0.3,
-            "spread": 90,
-            "radialVelocity": 0.4,
-            "spawnAreaType": "point",
-            "boundingZoneType": "none",
-            "resourceType": "sprite",
-            "resourceUrl": "https://cdn.8thwall.com/web/assets/sprites/circle_05-m1igpyne.png",
-            "animateColor": false
+            "autoFrom": true,
+            "toX": -0.05,
+            "toZ": 0.2,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Elastic",
+            "toY": 0.552
           }
         }
       },
@@ -2527,14 +2518,14 @@
       "id": "9eef6bb8-64ef-4445-ab3b-13424d5d6662",
       "position": [
         0,
-        -0.476865437018145,
+        0.8571731834413118,
         0.6
       ],
       "rotation": [
         0,
         0,
-        0,
-        1
+        -0.38268343236508984,
+        0.9238795325112867
       ],
       "scale": [
         1.25,
@@ -2550,28 +2541,14 @@
           "name": "rotate-animation",
           "parameters": {
             "fromZ": -180,
-            "toZ": 0,
+            "toZ": 45,
             "duration": 7500,
             "shortestPath": false,
             "autoFrom": true,
-            "toY": 180,
+            "toY": 0,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Bounce"
-          }
-        },
-        "9797432d-4018-4974-bf4f-181e4a2692f1": {
-          "id": "9797432d-4018-4974-bf4f-181e4a2692f1",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -0.2,
-            "toZ": 0.4,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic"
           }
         }
       },
@@ -2589,20 +2566,20 @@
     "94c0c970-7db0-4587-9351-e2cdcc31bd86": {
       "id": "94c0c970-7db0-4587-9351-e2cdcc31bd86",
       "position": [
-        0.4737061045198372,
-        0.25782589026287905,
+        0.6327727124415566,
+        0.08065600676372625,
         0.35
       ],
       "rotation": [
         0,
+        -0.30070579950427573,
         0,
-        0,
-        1
+        0.9537169507482262
       ],
       "scale": [
+        1.5000000000000024,
         1.5,
-        1.5,
-        1.5
+        1.5000000000000024
       ],
       "geometry": null,
       "material": null,
@@ -2616,24 +2593,11 @@
             "duration": 10000,
             "shortestPath": false,
             "autoFrom": true,
-            "toY": 180,
+            "toY": 35,
             "reverse": true,
             "easeIn": true,
-            "easingFunction": "Sinusoidal"
-          }
-        },
-        "9797432d-4018-4974-bf4f-181e4a2692f1": {
-          "id": "9797432d-4018-4974-bf4f-181e4a2692f1",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -0.2,
-            "toZ": 0.4,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Sinusoidal",
+            "toX": 0
           }
         }
       },
@@ -2652,15 +2616,15 @@
     "775a7782-8880-4b10-bb2f-40fb8567a3fe": {
       "id": "775a7782-8880-4b10-bb2f-40fb8567a3fe",
       "position": [
-        -0.3753898113947903,
-        0.5277490322431344,
+        -0.6192919435414267,
+        0.3037932393485767,
         0.1
       ],
       "rotation": [
+        -0.17364817766693033,
         0,
         0,
-        0,
-        1
+        0.9848077530122079
       ],
       "scale": [
         1.5,
@@ -2679,24 +2643,11 @@
             "duration": 5000,
             "shortestPath": false,
             "autoFrom": true,
-            "toY": 180,
+            "toY": 0,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Back"
-          }
-        },
-        "9797432d-4018-4974-bf4f-181e4a2692f1": {
-          "id": "9797432d-4018-4974-bf4f-181e4a2692f1",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -0.2,
-            "toZ": 0.4,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Back",
+            "toX": 20
           }
         }
       },
