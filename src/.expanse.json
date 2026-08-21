@@ -2818,56 +2818,6 @@
       "order": 3.513191113816268,
       "hidden": false
     },
-    "122b72f3-5669-46e9-ab10-8de420f94ffe": {
-      "id": "122b72f3-5669-46e9-ab10-8de420f94ffe",
-      "parentId": "40774036-2904-43a8-bbf5-9795f0458c58",
-      "position": [
-        0,
-        0.48935574182715524,
-        0.15
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        3,
-        3,
-        1
-      ],
-      "geometry": null,
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF"
-      },
-      "components": {
-        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
-          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "3ecd8df8-f983-4be8-9acf-c0e98b5acf87"
-            }
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/petrobras_marca.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "petrobras_marca.glb",
-      "order": 7.328162466016803,
-      "shadow": {
-        "receiveShadow": true
-      }
-    },
     "16f67b04-6393-4c98-b594-e3fd5c1668bf": {
       "id": "16f67b04-6393-4c98-b594-e3fd5c1668bf",
       "position": [
@@ -3105,6 +3055,71 @@
       },
       "order": 4.101294575608643,
       "parentId": "33934889-f674-49a4-83eb-e2c67a82c4f7"
+    },
+    "bcee5110-9f69-4016-8439-ad508587dfc3": {
+      "id": "bcee5110-9f69-4016-8439-ad508587dfc3",
+      "name": "Image Target Video",
+      "components": {},
+      "position": [
+        0.11432057304339693,
+        0,
+        0.7185008281885867
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "33934889-f674-49a4-83eb-e2c67a82c4f7"
+    },
+    "d5f7ff7f-69b6-451f-a23c-eb290b8b7025": {
+      "id": "d5f7ff7f-69b6-451f-a23c-eb290b8b7025",
+      "parentId": "bcee5110-9f69-4016-8439-ad508587dfc3",
+      "position": [
+        -0.0417885394655664,
+        0.14709570993019425,
+        0.010000000000000009
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/magic-photos/waves.mp4"
+        }
+      },
+      "components": {},
+      "name": "Video Player",
+      "videoControls": {
+        "paused": true,
+        "loop": true,
+        "positional": true
+      },
+      "order": 3.3346999960249617
     }
   },
   "spaces": {
