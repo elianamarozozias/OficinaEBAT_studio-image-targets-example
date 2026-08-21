@@ -688,26 +688,25 @@
     },
     "3b0d1a95-9612-4e1b-b0a0-c8ca633213ba": {
       "id": "3b0d1a95-9612-4e1b-b0a0-c8ca633213ba",
+      "name": "Image Target Video",
+      "components": {
+        "6d46f7c7-07bd-493a-8b13-10201e919994": {
+          "id": "6d46f7c7-07bd-493a-8b13-10201e919994",
+          "name": "Pause Video on Image Target Lost",
+          "parameters": {
+            "videoPlayer": {
+              "type": "entity",
+              "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9"
+            },
+            "imageTargetName": "waves"
+          }
+        }
+      },
       "position": [
         0,
         2,
         -5
       ],
-      "name": "Image Target Video",
-      "instanceData": {
-        "instanceOf": "35d3cf8f-c4ba-4b9c-9601-b13ab6dcb449",
-        "deletions": {},
-        "children": {
-          "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9": {
-            "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9",
-            "deletions": {},
-            "hidden": false
-          }
-        }
-      },
-      "parentId": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
-      "components": {},
-      "order": 5.687308473077543,
       "rotation": [
         0,
         0,
@@ -719,272 +718,11 @@
         3,
         3
       ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6b515fd2-ee2b-475f-98f5-a6cc41ee2cdb",
+      "order": 5.687308473077543,
       "hidden": false
-    },
-    "c93c08df-1d89-4e42-af5c-3f6959bfa608": {
-      "id": "c93c08df-1d89-4e42-af5c-3f6959bfa608",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "light": {
-        "type": "directional"
-      },
-      "name": "Directional Light",
-      "order": 0.8421274092108453
-    },
-    "d1374482-064a-4a24-b9be-de5c8debb80e": {
-      "id": "d1374482-064a-4a24-b9be-de5c8debb80e",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "light": {
-        "type": "ambient"
-      },
-      "name": "Ambient Light",
-      "order": 1.8421274092108453
-    },
-    "17d4e695-a04f-4b93-b0e2-a3b783b8a937": {
-      "id": "17d4e695-a04f-4b93-b0e2-a3b783b8a937",
-      "position": [
-        0,
-        2,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "name": "Camera",
-      "camera": {
-        "type": "perspective",
-        "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
-          "desktop": "3D",
-          "headset": "AR",
-          "world": {
-            "disableWorldTracking": true
-          }
-        }
-      },
-      "order": 2.8421274092108453
-    },
-    "c9ebc1a7-e91e-417b-b829-d5063c0d3152": {
-      "id": "c9ebc1a7-e91e-417b-b829-d5063c0d3152",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {
-        "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b": {
-          "id": "7c7dd0ef-b10c-4e43-87a8-9a92fb1ae75b",
-          "name": "Toggle SLAM on Found",
-          "parameters": {
-            "imageTargetName": "toggle-slam",
-            "worldContent": {
-              "type": "entity",
-              "id": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44"
-            }
-          }
-        }
-      },
-      "name": "Image Target",
-      "imageTarget": {
-        "name": "toggle-slam"
-      },
-      "order": 3.8421274092108453
-    },
-    "91576797-b198-4057-89f6-e37f24fbb359": {
-      "id": "91576797-b198-4057-89f6-e37f24fbb359",
-      "position": [
-        0,
-        0.4883078761413766,
-        -2.168404344971009e-19
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        0.9999999999999999,
-        0.9999999999999999
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/toggle-slam/palm-tree.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Palm Tree",
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      },
-      "order": 0.028252234929867615
-    },
-    "209a5635-6d02-44fe-b8b5-805733169f46": {
-      "id": "209a5635-6d02-44fe-b8b5-805733169f46",
-      "position": [
-        0.1,
-        0.2,
-        2.1684043449710084e-19
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        0.9999999999999998,
-        0.9999999999999998
-      ],
-      "parentId": "91576797-b198-4057-89f6-e37f24fbb359",
-      "components": {
-        "14b19145-59f3-4c4c-95b4-09f698198dd1": {
-          "id": "14b19145-59f3-4c4c-95b4-09f698198dd1",
-          "name": "Coconut Spawner",
-          "parameters": {
-            "coconutPrefab": {
-              "type": "entity",
-              "id": "1bb413ea-6380-4a48-a4f3-75ed3fd834fd"
-            }
-          }
-        }
-      },
-      "name": "Spawner",
-      "hidden": false
-    },
-    "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44": {
-      "id": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "585f02ca-0418-46b7-8317-8926be71e007",
-      "components": {},
-      "name": "World Content",
-      "order": 3.513191113816268
-    },
-    "3b49cf5d-d1e2-429f-b60a-2c64b327b887": {
-      "id": "3b49cf5d-d1e2-429f-b60a-2c64b327b887",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        -0.707106799999999,
-        0,
-        0,
-        0.7071067623730954
-      ],
-      "scale": [
-        1,
-        1.0000000532124818,
-        1.0000000532124818
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 10,
-        "height": 10
-      },
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
-      "components": {},
-      "name": "Ground",
-      "order": -1.0282522349298677,
-      "collider": {
-        "geometry": {
-          "type": "auto"
-        }
-      }
     },
     "f3e1df90-81c2-440d-a36f-6f72a2b2895b": {
       "id": "f3e1df90-81c2-440d-a36f-6f72a2b2895b",
@@ -1025,9 +763,9 @@
           "id": "1b7e28d5-3787-4a01-a9cd-8712cc181735",
           "name": "space-selector",
           "parameters": {
-            "space1": "Toggle SLAM (OFICINA)",
-            "space2": "Toggle SLAM",
-            "space3": "Magic Photos",
+            "space1": "Experiência Petrobras – Realidade Aumentada",
+            "space2": "OFICINA RA",
+            "space3": "",
             "space4": "",
             "option1": {
               "type": "entity",
@@ -2554,6 +2292,311 @@
       "name": "Obra Alunos (16)",
       "order": 8.87519258692689,
       "parentId": "b39d0d67-ca78-489c-a29d-7bc1509710e1"
+    },
+    "e5a074dc-45d3-4b7b-a2a6-c96288404b6f": {
+      "id": "e5a074dc-45d3-4b7b-a2a6-c96288404b6f",
+      "parentId": "3b0d1a95-9612-4e1b-b0a0-c8ca633213ba",
+      "position": [
+        0,
+        0,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Target",
+      "imageTarget": {
+        "name": "waves"
+      },
+      "order": 2.182242201057824
+    },
+    "d46435dc-b0ac-4305-a355-8e399643cbc4": {
+      "id": "d46435dc-b0ac-4305-a355-8e399643cbc4",
+      "parentId": "e5a074dc-45d3-4b7b-a2a6-c96288404b6f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/magic-photos/waves.mp4"
+        }
+      },
+      "components": {},
+      "name": "Video Player",
+      "videoControls": {
+        "paused": true,
+        "loop": true,
+        "positional": true
+      },
+      "order": 0.5911211005289122,
+      "hidden": false
+    },
+    "e6bccad3-86f1-430e-9cda-55949ce1549a": {
+      "id": "e6bccad3-86f1-430e-9cda-55949ce1549a",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a216afef-a286-40e0-8302-489180bb0d43",
+      "components": {},
+      "light": {
+        "type": "directional"
+      },
+      "name": "Directional Light",
+      "order": 0.8421274092108453
+    },
+    "819ce713-5fe3-4bb7-9dbf-05893e0edc1a": {
+      "id": "819ce713-5fe3-4bb7-9dbf-05893e0edc1a",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a216afef-a286-40e0-8302-489180bb0d43",
+      "components": {},
+      "light": {
+        "type": "ambient"
+      },
+      "name": "Ambient Light",
+      "order": 1.8421274092108453
+    },
+    "89a07c3f-40ae-410d-9412-6525d433fe51": {
+      "id": "89a07c3f-40ae-410d-9412-6525d433fe51",
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a216afef-a286-40e0-8302-489180bb0d43",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "3D",
+          "headset": "AR",
+          "world": {
+            "disableWorldTracking": true
+          }
+        }
+      },
+      "order": 2.8421274092108453
+    },
+    "b89a345c-f644-40e4-9917-4c3f9a9e705b": {
+      "id": "b89a345c-f644-40e4-9917-4c3f9a9e705b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a216afef-a286-40e0-8302-489180bb0d43",
+      "components": {},
+      "name": "World Content",
+      "order": 3.513191113816268,
+      "hidden": false
+    },
+    "3ca60c72-bd63-4974-9fdb-0e060c545d8e": {
+      "id": "3ca60c72-bd63-4974-9fdb-0e060c545d8e",
+      "parentId": "b89a345c-f644-40e4-9917-4c3f9a9e705b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "components": {
+        "c7d16bcf-4558-4a78-b4e2-49aa524ce0f8": {
+          "id": "c7d16bcf-4558-4a78-b4e2-49aa524ce0f8",
+          "name": "position-animation",
+          "parameters": {
+            "toZ": 0.3,
+            "duration": 500,
+            "loop": false,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Elastic"
+          }
+        },
+        "e998e330-212e-4181-92d6-1818564848a1": {
+          "id": "e998e330-212e-4181-92d6-1818564848a1",
+          "name": "scale-animation",
+          "parameters": {
+            "loop": false,
+            "duration": 500,
+            "toX": 3,
+            "toY": 3,
+            "toZ": 3,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Elastic"
+          }
+        },
+        "000e45e7-5bb0-4f6d-9601-85e7a14910bc": {
+          "id": "000e45e7-5bb0-4f6d-9601-85e7a14910bc",
+          "name": "rotate-animation",
+          "parameters": {
+            "duration": 250,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Circular"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/petrobras_marca.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "petrobras_marca.glb",
+      "order": 7.328162466016803,
+      "shadow": {
+        "receiveShadow": true
+      }
+    },
+    "3b8e7ffc-c6bd-4185-9566-e84cdf711eda": {
+      "id": "3b8e7ffc-c6bd-4185-9566-e84cdf711eda",
+      "name": "metagallery_transparent",
+      "components": {
+        "b7ec320a-32bf-4d8d-8683-ac7cc08bfa99": {
+          "id": "b7ec320a-32bf-4d8d-8683-ac7cc08bfa99",
+          "name": "Toggle SLAM on Found",
+          "parameters": {
+            "worldContent": {
+              "type": "entity",
+              "id": "b89a345c-f644-40e4-9917-4c3f9a9e705b"
+            },
+            "imageTargetName": "metagallery_transparent"
+          }
+        }
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "imageTarget": {
+        "name": "metagallery_transparent"
+      },
+      "order": 4.101294575608643,
+      "parentId": "a216afef-a286-40e0-8302-489180bb0d43"
     }
   },
   "spaces": {
@@ -2578,10 +2621,10 @@
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
       ]
     },
-    "585f02ca-0418-46b7-8317-8926be71e007": {
-      "id": "585f02ca-0418-46b7-8317-8926be71e007",
-      "name": "Toggle SLAM",
-      "activeCamera": "17d4e695-a04f-4b93-b0e2-a3b783b8a937",
+    "9627b52c-4b23-436c-8011-5d2c2d4c39c9": {
+      "id": "9627b52c-4b23-436c-8011-5d2c2d4c39c9",
+      "name": "OFICINA RA",
+      "activeCamera": "f98d03ec-a99b-4360-847a-0ff9f16be624",
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
       ],
@@ -2590,10 +2633,10 @@
         "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
       }
     },
-    "9627b52c-4b23-436c-8011-5d2c2d4c39c9": {
-      "id": "9627b52c-4b23-436c-8011-5d2c2d4c39c9",
-      "name": "Toggle SLAM (OFICINA)",
-      "activeCamera": "f98d03ec-a99b-4360-847a-0ff9f16be624",
+    "a216afef-a286-40e0-8302-489180bb0d43": {
+      "id": "a216afef-a286-40e0-8302-489180bb0d43",
+      "name": "Experiência Petrobras – Realidade Aumentada",
+      "activeCamera": "89a07c3f-40ae-410d-9412-6525d433fe51",
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
       ],
@@ -2603,7 +2646,7 @@
       }
     }
   },
-  "entrySpaceId": "9627b52c-4b23-436c-8011-5d2c2d4c39c9",
+  "entrySpaceId": "a216afef-a286-40e0-8302-489180bb0d43",
   "runtimeVersion": {
     "type": "version",
     "level": "major",
