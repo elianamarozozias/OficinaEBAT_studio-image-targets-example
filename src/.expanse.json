@@ -2488,7 +2488,7 @@
       "position": [
         0,
         0,
-        0
+        0.1
       ],
       "rotation": [
         0,
@@ -2507,40 +2507,14 @@
         "color": "#FFFFFF"
       },
       "components": {
-        "c7d16bcf-4558-4a78-b4e2-49aa524ce0f8": {
-          "id": "c7d16bcf-4558-4a78-b4e2-49aa524ce0f8",
-          "name": "position-animation",
+        "2c938328-420a-4a95-b61b-fdb5530fa08b": {
+          "id": "2c938328-420a-4a95-b61b-fdb5530fa08b",
+          "name": "look-at-animation",
           "parameters": {
-            "toZ": 0.3,
-            "duration": 500,
-            "loop": false,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Elastic"
-          }
-        },
-        "e998e330-212e-4181-92d6-1818564848a1": {
-          "id": "e998e330-212e-4181-92d6-1818564848a1",
-          "name": "scale-animation",
-          "parameters": {
-            "loop": false,
-            "duration": 500,
-            "toX": 3,
-            "toY": 3,
-            "toZ": 3,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Elastic"
-          }
-        },
-        "000e45e7-5bb0-4f6d-9601-85e7a14910bc": {
-          "id": "000e45e7-5bb0-4f6d-9601-85e7a14910bc",
-          "name": "rotate-animation",
-          "parameters": {
-            "duration": 250,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Circular"
+            "target": {
+              "type": "entity",
+              "id": "89a07c3f-40ae-410d-9412-6525d433fe51"
+            }
           }
         }
       },
@@ -2635,7 +2609,7 @@
     },
     "a216afef-a286-40e0-8302-489180bb0d43": {
       "id": "a216afef-a286-40e0-8302-489180bb0d43",
-      "name": "Experiência Petrobras – Realidade Aumentada",
+      "name": "Experiência Petrobras",
       "activeCamera": "89a07c3f-40ae-410d-9412-6525d433fe51",
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"

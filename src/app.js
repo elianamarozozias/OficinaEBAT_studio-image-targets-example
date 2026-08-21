@@ -1,3 +1,16 @@
+// Injeta a transparencia direto na pagina para evitar flashbang preto/branco
+const style = document.createElement('style')
+style.innerHTML = `
+  html, body, canvas, .ar-canvas {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+`
+document.head.appendChild(style)
+
+// Inicializacao limpa do 8th Wall (sem tela intermediaria)
 const onxrloaded = () => {
   XR8.XrController.configure({
     imageTargetData: [
@@ -11,7 +24,6 @@ const onxrloaded = () => {
       require('../image-targets/metagallery_transparent.json'),
     ],
   })
-  XR8.addCameraPipelineModule(LandingPage.pipelineModule())
 }
-window.XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
 
+window.XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
