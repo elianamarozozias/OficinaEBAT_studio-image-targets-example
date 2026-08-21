@@ -2458,24 +2458,13 @@
       "order": 7.328162466016803,
       "shadow": {
         "receiveShadow": true
-      }
+      },
+      "hidden": true
     },
     "6da62a6b-6acc-4f94-80ca-0f6288299a1b": {
       "id": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
       "name": "metagallery_transparent",
-      "components": {
-        "b7ec320a-32bf-4d8d-8683-ac7cc08bfa99": {
-          "id": "b7ec320a-32bf-4d8d-8683-ac7cc08bfa99",
-          "name": "Toggle SLAM on Found",
-          "parameters": {
-            "worldContent": {
-              "type": "entity",
-              "id": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
-            },
-            "imageTargetName": "metagallery_transparent"
-          }
-        }
-      },
+      "components": {},
       "position": [
         0,
         0,
@@ -2488,9 +2477,9 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        1.25,
+        1.25,
+        1.25
       ],
       "geometry": null,
       "material": null,
@@ -2498,13 +2487,13 @@
         "name": "metagallery_transparent"
       },
       "order": 4.101294575608643,
-      "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f"
+      "parentId": "aa88edb0-db3a-4908-b262-571459a68864"
     },
     "162d48ec-df0f-401e-b4fd-8fc2117d1023": {
       "id": "162d48ec-df0f-401e-b4fd-8fc2117d1023",
       "position": [
         0,
-        0.85,
+        0.3589850579398458,
         0.15
       ],
       "rotation": [
@@ -2547,13 +2536,13 @@
       },
       "name": "Obra Alunos (6)",
       "order": 10.892609867180683,
-      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b"
     },
     "039abbff-0316-41f2-82a6-3fa4397a6b0a": {
       "id": "039abbff-0316-41f2-82a6-3fa4397a6b0a",
       "position": [
         0.5743288791118414,
-        0.43367660779061057,
+        -0.0573383342695436,
         0.2
       ],
       "rotation": [
@@ -2569,7 +2558,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
       "components": {
         "4a9e8baf-52d0-4b40-a457-1113c4e18a2c": {
           "id": "4a9e8baf-52d0-4b40-a457-1113c4e18a2c",
@@ -2600,7 +2589,7 @@
       "id": "f5b14f78-deb9-4c33-bbee-bb5284259c2e",
       "position": [
         -0.5391661784994453,
-        0.5489329647842166,
+        0.057918022724062435,
         0.4
       ],
       "rotation": [
@@ -2641,7 +2630,84 @@
       },
       "name": "Simbolo3D_Petrobras.gltf (1)",
       "order": 13.307242738184623,
-      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b"
+    },
+    "aa88edb0-db3a-4908-b262-571459a68864": {
+      "id": "aa88edb0-db3a-4908-b262-571459a68864",
+      "name": "Image Target Video",
+      "components": {
+        "6d46f7c7-07bd-493a-8b13-10201e919994": {
+          "id": "6d46f7c7-07bd-493a-8b13-10201e919994",
+          "name": "Pause Video on Image Target Lost",
+          "parameters": {
+            "videoPlayer": {
+              "type": "entity",
+              "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9"
+            },
+            "imageTargetName": "metagallery_transparent"
+          }
+        }
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f"
+    },
+    "073ae69b-a216-49bc-b4b2-51d433ddb6d5": {
+      "id": "073ae69b-a216-49bc-b4b2-51d433ddb6d5",
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
+      "position": [
+        0,
+        0,
+        0.007999999999999998
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/magic-photos/waves.mp4"
+        }
+      },
+      "components": {},
+      "name": "Video Player",
+      "videoControls": {
+        "paused": true,
+        "loop": true,
+        "positional": true
+      },
+      "order": 14.630172580913973
     }
   },
   "spaces": {
