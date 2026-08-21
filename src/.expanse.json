@@ -2443,21 +2443,6 @@
               "id": "9f248e7d-4c44-41db-b12d-0612f08896ea"
             }
           }
-        },
-        "948bad2a-11ff-4ddc-a8cb-03aca7e46635": {
-          "id": "948bad2a-11ff-4ddc-a8cb-03aca7e46635",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -0.05,
-            "toZ": 0.2,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Elastic",
-            "toY": 0.552
-          }
         }
       },
       "gltfModel": {
@@ -2542,13 +2527,13 @@
           "parameters": {
             "fromZ": -180,
             "toZ": 45,
-            "duration": 7500,
+            "duration": 4000,
             "shortestPath": false,
             "autoFrom": true,
             "toY": 0,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Bounce"
+            "easingFunction": "Back"
           }
         }
       },
@@ -2590,14 +2575,15 @@
           "parameters": {
             "fromZ": -180,
             "toZ": 0,
-            "duration": 10000,
+            "duration": 1500,
             "shortestPath": false,
             "autoFrom": true,
             "toY": 35,
-            "reverse": true,
+            "reverse": false,
             "easeIn": true,
-            "easingFunction": "Sinusoidal",
-            "toX": 0
+            "easingFunction": "Back",
+            "toX": 0,
+            "easeOut": true
           }
         }
       },
@@ -2640,7 +2626,7 @@
           "parameters": {
             "fromZ": -180,
             "toZ": 0,
-            "duration": 5000,
+            "duration": 3000,
             "shortestPath": false,
             "autoFrom": true,
             "toY": 0,
@@ -2683,7 +2669,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f",
+      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
       "components": {},
       "ui": {
         "type": "3d",
@@ -2697,7 +2683,7 @@
         "backgroundSize": "contain"
       },
       "name": "Image",
-      "order": 5.661628170239927
+      "order": 9.63516403295556
     }
   },
   "spaces": {
