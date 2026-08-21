@@ -2344,7 +2344,8 @@
         "type": "ambient"
       },
       "name": "Ambient Light",
-      "order": 1.8421274092108453
+      "order": 1.8421274092108453,
+      "hidden": false
     },
     "9f248e7d-4c44-41db-b12d-0612f08896ea": {
       "id": "9f248e7d-4c44-41db-b12d-0612f08896ea",
@@ -2426,7 +2427,7 @@
       "scale": [
         3,
         3,
-        3
+        1
       ],
       "geometry": null,
       "material": {
@@ -2507,10 +2508,10 @@
         0.6
       ],
       "rotation": [
-        0.3826834323650898,
-        -0.9238795325112867,
-        -2.3432602026631493e-17,
-        5.657130561438501e-17
+        0,
+        0,
+        -0.3826834323650898,
+        0.9238795325112867
       ],
       "scale": [
         1.2500000000000004,
@@ -2525,11 +2526,11 @@
           "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
           "name": "rotate-animation",
           "parameters": {
-            "fromZ": -180,
+            "fromZ": -45,
             "toZ": 45,
             "duration": 4000,
             "shortestPath": false,
-            "autoFrom": true,
+            "autoFrom": false,
             "toY": 0,
             "easeIn": true,
             "easeOut": true,
@@ -2557,9 +2558,9 @@
       ],
       "rotation": [
         0,
-        0.9537169507482269,
+        -0.3007057995042731,
         0,
-        0.30070579950427306
+        0.9537169507482269
       ],
       "scale": [
         1.5000000000000024,
@@ -2573,17 +2574,18 @@
           "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
           "name": "rotate-animation",
           "parameters": {
-            "fromZ": -180,
+            "fromZ": 0,
             "toZ": 0,
             "duration": 1500,
             "shortestPath": false,
-            "autoFrom": true,
+            "autoFrom": false,
             "toY": 35,
             "reverse": false,
             "easeIn": true,
             "easingFunction": "Back",
             "toX": 0,
-            "easeOut": true
+            "easeOut": true,
+            "fromY": -35
           }
         }
       },
@@ -2607,10 +2609,10 @@
         0.09999999999999999
       ],
       "rotation": [
-        -1.0632884247878856e-17,
-        -0.984807753012208,
         -0.17364817766693033,
-        6.030208312509488e-17
+        0,
+        0,
+        0.984807753012208
       ],
       "scale": [
         1.5000000000000009,
@@ -2624,16 +2626,17 @@
           "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
           "name": "rotate-animation",
           "parameters": {
-            "fromZ": -180,
+            "fromZ": 0,
             "toZ": 0,
             "duration": 3000,
             "shortestPath": false,
-            "autoFrom": true,
+            "autoFrom": false,
             "toY": 0,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Back",
-            "toX": 20
+            "toX": 20,
+            "fromX": -20
           }
         }
       },
@@ -2672,7 +2675,7 @@
       "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
       "components": {},
       "ui": {
-        "type": "3d",
+        "type": "overlay",
         "width": 100,
         "height": 100,
         "image": {
@@ -2683,7 +2686,57 @@
         "backgroundSize": "contain"
       },
       "name": "Image",
-      "order": 9.63516403295556
+      "order": 9.63516403295556,
+      "hidden": true
+    },
+    "162d48ec-df0f-401e-b4fd-8fc2117d1023": {
+      "id": "162d48ec-df0f-401e-b4fd-8fc2117d1023",
+      "position": [
+        0,
+        0.7773266660765568,
+        0.315
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 26,
+        "height": 6
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Patrocínio@300x-8.png"
+        },
+        "forceTransparent": true,
+        "textureFiltering": "smooth"
+      },
+      "components": {
+        "51bfa145-2abc-4b31-ba94-de4564f67a13": {
+          "id": "51bfa145-2abc-4b31-ba94-de4564f67a13",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "f98d03ec-a99b-4360-847a-0ff9f16be624"
+            }
+          }
+        }
+      },
+      "name": "Obra Alunos (6)",
+      "order": 10.892609867180683,
+      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
     }
   },
   "spaces": {
