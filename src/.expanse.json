@@ -2444,27 +2444,28 @@
             }
           }
         },
-        "5408af97-89b7-4da4-a86a-bba9dd4498bc": {
-          "id": "5408af97-89b7-4da4-a86a-bba9dd4498bc",
+        "7b6dad60-afb9-4cc1-bc53-2d98757a3f13": {
+          "id": "7b6dad60-afb9-4cc1-bc53-2d98757a3f13",
           "name": "particle-emitter",
           "parameters": {
             "emitterLife": 0,
-            "particlesPerShot": 20,
-            "emitDelay": 0.1,
-            "minimumLifespan": 1,
-            "maximumLifespan": 1,
-            "mass": 1,
-            "gravity": 0.2,
-            "scale": 0.2,
-            "forceX": 5,
-            "forceY": 12,
-            "forceZ": 5,
-            "spread": 360,
-            "radialVelocity": 5,
+            "particlesPerShot": 10,
+            "emitDelay": 0.2,
+            "minimumLifespan": 3.5,
+            "maximumLifespan": 5,
+            "mass": 0.5,
+            "gravity": 0.05,
+            "scale": 0.05,
+            "forceX": 0.5,
+            "forceY": -0.8,
+            "forceZ": 0.3,
+            "spread": 90,
+            "radialVelocity": 0.4,
             "spawnAreaType": "point",
             "boundingZoneType": "none",
             "resourceType": "sprite",
-            "resourceUrl": "https://cdn.8thwall.com/web/assets/sprites/circle_05-m1igpyne.png"
+            "resourceUrl": "https://cdn.8thwall.com/web/assets/sprites/circle_05-m1igpyne.png",
+            "animateColor": false
           }
         }
       },
@@ -2542,16 +2543,21 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f",
+      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c",
       "components": {
         "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4": {
           "id": "d1d87d12-d6a5-46ba-8fb7-03e56e3bb1a4",
           "name": "rotate-animation",
           "parameters": {
             "fromZ": -180,
-            "toZ": 180,
-            "duration": 10000,
-            "shortestPath": false
+            "toZ": 0,
+            "duration": 7500,
+            "shortestPath": false,
+            "autoFrom": true,
+            "toY": 180,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Bounce"
           }
         },
         "9797432d-4018-4974-bf4f-181e4a2692f1": {
@@ -2578,7 +2584,7 @@
         "loop": true
       },
       "name": "Simbolo3D_Petrobras.gltf",
-      "order": 5.263447102744374
+      "order": 8.383143217899729
     },
     "94c0c970-7db0-4587-9351-e2cdcc31bd86": {
       "id": "94c0c970-7db0-4587-9351-e2cdcc31bd86",
@@ -2606,9 +2612,14 @@
           "name": "rotate-animation",
           "parameters": {
             "fromZ": -180,
-            "toZ": 180,
+            "toZ": 0,
             "duration": 10000,
-            "shortestPath": false
+            "shortestPath": false,
+            "autoFrom": true,
+            "toY": 180,
+            "reverse": true,
+            "easeIn": true,
+            "easingFunction": "Sinusoidal"
           }
         },
         "9797432d-4018-4974-bf4f-181e4a2692f1": {
@@ -2635,8 +2646,8 @@
         "loop": true
       },
       "name": "Simbolo3D_Petrobras.gltf (1)",
-      "order": 6.888794721672963,
-      "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f"
+      "order": 8.438123969782655,
+      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
     },
     "775a7782-8880-4b10-bb2f-40fb8567a3fe": {
       "id": "775a7782-8880-4b10-bb2f-40fb8567a3fe",
@@ -2664,9 +2675,14 @@
           "name": "rotate-animation",
           "parameters": {
             "fromZ": -180,
-            "toZ": 180,
-            "duration": 10000,
-            "shortestPath": false
+            "toZ": 0,
+            "duration": 5000,
+            "shortestPath": false,
+            "autoFrom": true,
+            "toY": 180,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back"
           }
         },
         "9797432d-4018-4974-bf4f-181e4a2692f1": {
@@ -2693,8 +2709,8 @@
         "loop": true
       },
       "name": "Simbolo3D_Petrobras.gltf (2)",
-      "order": 8.53481474989903,
-      "parentId": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f"
+      "order": 8.493104721665581,
+      "parentId": "b71e94c2-ae33-45cd-b6d1-e00056f8b43c"
     }
   },
   "spaces": {
@@ -2733,7 +2749,7 @@
     },
     "8afcfd26-fcb3-4fe6-a0f7-919892794e4f": {
       "id": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f",
-      "name": "Experiência Petrobras",
+      "name": "Experiencia Petrobras",
       "activeCamera": "9f248e7d-4c44-41db-b12d-0612f08896ea",
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
