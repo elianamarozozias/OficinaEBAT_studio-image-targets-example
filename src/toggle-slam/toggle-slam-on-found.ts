@@ -10,21 +10,30 @@ ecs.registerComponent({
   schemaDefaults: {
     imageTargetName: '',
   },
-  stateMachine: ({world, eid, schemaAttribute}) => {
+  stateMachine: ({world, eid, schemaAttribute, dataAttribute}) => {
     ecs.defineState('default')
       .initial()
       .onEnter(() => {
         const {worldContent} = schemaAttribute.get(eid)
-        // Apenas esconde o conteúdo inicialmente, sem desativar o motor SLAM da câmera
+
+        ecs.Camera.mutate(world, world.camera.getActiveEid(), (c) => {
+          c.disableWorldTracking = true
+        })
+
         ecs.Hidden.set(world, worldContent)
       })
       .listen(world.events.globalId, 'reality.imagefound', (e) => {
-        const {name, position, scale} = e.data as any
+        const {name, position, rotation, scale} = e.data as any
         const {imageTargetName, worldContent} = schemaAttribute.get(eid)
 
         if (name === imageTargetName) {
-          // Posiciona, escala e revela o objeto sem engasgo de tracking
+          ecs.Camera.mutate(world, world.camera.getActiveEid(), (c) => {
+            c.disableWorldTracking = false
+          })
+
+          // console.log(e.data)
           world.setScale(worldContent, scale, scale, scale)
+          // world.setQuaternion(worldContent, rotation.x, rotation.y, rotation.z, rotation.w)
           world.setPosition(worldContent, position.x, position.y, position.z)
           ecs.Hidden.remove(world, worldContent)
         }
