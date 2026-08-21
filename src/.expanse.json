@@ -760,8 +760,8 @@
           "id": "1b7e28d5-3787-4a01-a9cd-8712cc181735",
           "name": "space-selector",
           "parameters": {
-            "space1": "OFICINA RA",
-            "space2": "Experiência Petrobras",
+            "space1": "Experiencia Petrobras",
+            "space2": "OFICINA RA",
             "space3": "",
             "space4": "",
             "option1": {
