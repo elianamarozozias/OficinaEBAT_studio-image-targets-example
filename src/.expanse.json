@@ -2543,7 +2543,7 @@
       "position": [
         0.5743288791118414,
         -0.0573383342695436,
-        0.2
+        0.1
       ],
       "rotation": [
         0,
@@ -2590,7 +2590,7 @@
       "position": [
         -0.5391661784994453,
         0.057918022724062435,
-        0.4
+        0.15
       ],
       "rotation": [
         0,
@@ -2642,7 +2642,7 @@
           "parameters": {
             "videoPlayer": {
               "type": "entity",
-              "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9"
+              "id": "073ae69b-a216-49bc-b4b2-51d433ddb6d5"
             },
             "imageTargetName": "metagallery_transparent"
           }
@@ -2674,7 +2674,7 @@
       "position": [
         0,
         0,
-        0.007999999999999998
+        0
       ],
       "rotation": [
         0,
@@ -2697,13 +2697,13 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/magic-photos/waves.mp4"
+          "asset": "assets/PETROBRAS/motion petrobras.mp4"
         }
       },
       "components": {},
       "name": "Video Player",
       "videoControls": {
-        "paused": true,
+        "paused": false,
         "loop": true,
         "positional": true
       },
