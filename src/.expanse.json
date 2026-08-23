@@ -2191,7 +2191,8 @@
         "type": "directional"
       },
       "name": "Directional Light",
-      "order": 0.8421274092108453
+      "order": 0.8421274092108453,
+      "hidden": false
     },
     "dc78e8c8-1c16-4c7c-b04f-a810e61777f2": {
       "id": "dc78e8c8-1c16-4c7c-b04f-a810e61777f2",
@@ -2338,9 +2339,9 @@
         1
       ],
       "scale": [
-        0.8,
-        0.8,
-        0.8
+        0.78,
+        0.7799999999999998,
+        0.7799999999999998
       ],
       "geometry": {
         "type": "plane",
@@ -2370,7 +2371,7 @@
       "position": [
         0,
         -0.33120592560163564,
-        0.05
+        0.1
       ],
       "rotation": [
         0,
@@ -2391,11 +2392,49 @@
           "id": "4c83a1db-a1a9-40c6-933e-04671b90dd3a",
           "name": "rotate-animation",
           "parameters": {
-            "toY": 250,
+            "toY": -180,
             "reverse": true,
             "easeIn": true,
-            "easingFunction": "Circular",
-            "autoFrom": true
+            "easingFunction": "Elastic",
+            "autoFrom": true,
+            "duration": 2000
+          }
+        },
+        "2e9edec6-e363-481f-9be6-b3064fccc860": {
+          "id": "2e9edec6-e363-481f-9be6-b3064fccc860",
+          "name": "particle-emitter",
+          "parameters": {
+            "emitterLife": 0,
+            "particlesPerShot": 10,
+            "emitDelay": 0.3,
+            "minimumLifespan": 5,
+            "maximumLifespan": 7,
+            "mass": 1,
+            "gravity": 0,
+            "scale": 0.05,
+            "forceX": 0.05,
+            "forceY": 0.1,
+            "forceZ": 0.05,
+            "spread": 360,
+            "radialVelocity": 0.05,
+            "spawnAreaType": "sphere",
+            "boundingZoneType": "none",
+            "resourceType": "sprite",
+            "resourceUrl": "https://cdn.8thwall.com/web/assets/sprites/circle_05-m1igpyne.png",
+            "spawnAreaRadius": 2,
+            "animateColor": true,
+            "colorStart": "FDC82F",
+            "colorEnd": "FFFFFF"
+          }
+        },
+        "f5d80771-a2dd-426b-8488-b4a6354a7bb5": {
+          "id": "f5d80771-a2dd-426b-8488-b4a6354a7bb5",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "9f248e7d-4c44-41db-b12d-0612f08896ea"
+            }
           }
         }
       },
@@ -2408,7 +2447,256 @@
         "loop": true
       },
       "name": "petrobras_marca.glb",
-      "order": 9.144210949910306
+      "order": 9.144210949910306,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "dd511ec6-935d-412d-acff-21322f2dc828": {
+      "id": "dd511ec6-935d-412d-acff-21322f2dc828",
+      "position": [
+        0.41685884096885134,
+        0.27101048611682743,
+        0.1
+      ],
+      "rotation": [
+        0.5303243123139645,
+        0.3323585399565276,
+        0.39681390046504283,
+        0.6714407293904691
+      ],
+      "scale": [
+        1.0000000000000009,
+        1.0000000000000022,
+        1.0000000000000022
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
+      "components": {
+        "32b2bafc-c8d1-4ae0-91d3-c9eaa64f4d6d": {
+          "id": "32b2bafc-c8d1-4ae0-91d3-c9eaa64f4d6d",
+          "name": "scale-animation",
+          "parameters": {
+            "autoFrom": false,
+            "toX": 1,
+            "toY": 1,
+            "toZ": 1,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Elastic",
+            "loop": false,
+            "duration": 3000
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/branches_with_leaves.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "branches_with_leaves.glb",
+      "order": 16.101687477729833
+    },
+    "d54b0a98-0f15-42e9-89f3-3b6736cf7b99": {
+      "id": "d54b0a98-0f15-42e9-89f3-3b6736cf7b99",
+      "position": [
+        -0.3771262016082149,
+        0.2930133139807377,
+        0.05339361045411986
+      ],
+      "rotation": [
+        0.4597473666446429,
+        -0.3006431527113312,
+        -0.41650193064249824,
+        0.7244116201181336
+      ],
+      "scale": [
+        1.0000000000000002,
+        1.0000000000000018,
+        1.0000000000000029
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
+      "components": {
+        "73a55c41-db4c-4d98-a3d4-1405607a2d8d": {
+          "id": "73a55c41-db4c-4d98-a3d4-1405607a2d8d",
+          "name": "scale-animation",
+          "parameters": {
+            "autoFrom": false,
+            "toX": 1,
+            "toY": 1,
+            "toZ": 1,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Elastic",
+            "loop": false,
+            "duration": 3250
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/branches_with_leaves.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "branches_with_leaves.glb (1)",
+      "order": 17.255770821358194
+    },
+    "fdc6441b-f559-4e2c-b624-1d7dd413b945": {
+      "id": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0a687c86-deaf-4f23-9f7c-2acd2eeb9310",
+      "components": {
+        "de081841-b636-40d3-a9db-167e05a13e71": {
+          "id": "de081841-b636-40d3-a9db-167e05a13e71",
+          "name": "Hide On Click",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 444,
+        "height": 107,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Botão Instrução",
+      "order": 1.6227325057183766
+    },
+    "f56e0f5c-c587-49e9-891f-225bd5f904e8": {
+      "id": "f56e0f5c-c587-49e9-891f-225bd5f904e8",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 70,
+        "height": 70,
+        "image": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Untitled design.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.34653713004725345
+    },
+    "0849e16f-4139-4067-ab75-0011a6c6e7c4": {
+      "id": "0849e16f-4139-4067-ab75-0011a6c6e7c4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 256,
+        "height": 99,
+        "text": "Aponte para a logo Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "verticalTextAlign": "center"
+      },
+      "order": 1.4045234358629677
+    },
+    "0c437c28-6768-4c8e-ba6b-b9a94c8cd09e": {
+      "id": "0c437c28-6768-4c8e-ba6b-b9a94c8cd09e",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": 70,
+        "height": 70,
+        "image": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/ebat_marca.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 2.565287169964389,
+      "parentId": "fdc6441b-f559-4e2c-b624-1d7dd413b945"
     }
   },
   "spaces": {
