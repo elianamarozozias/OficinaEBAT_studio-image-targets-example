@@ -2291,19 +2291,7 @@
     "aa88edb0-db3a-4908-b262-571459a68864": {
       "id": "aa88edb0-db3a-4908-b262-571459a68864",
       "name": "Image Target Video",
-      "components": {
-        "6d46f7c7-07bd-493a-8b13-10201e919994": {
-          "id": "6d46f7c7-07bd-493a-8b13-10201e919994",
-          "name": "Pause Video on Image Target Lost",
-          "parameters": {
-            "videoPlayer": {
-              "type": "entity",
-              "id": "073ae69b-a216-49bc-b4b2-51d433ddb6d5"
-            },
-            "imageTargetName": "metagallery_transparent"
-          }
-        }
-      },
+      "components": {},
       "position": [
         0,
         0,
@@ -2382,7 +2370,7 @@
       "scale": [
         2,
         2,
-        0.6666666666666666
+        2
       ],
       "geometry": null,
       "material": null,
@@ -2392,12 +2380,18 @@
           "id": "4c83a1db-a1a9-40c6-933e-04671b90dd3a",
           "name": "rotate-animation",
           "parameters": {
-            "toY": -180,
-            "reverse": true,
+            "fromX": -180,
+            "toX": 180,
+            "shortestPath": false,
+            "duration": 5000,
             "easeIn": true,
-            "easingFunction": "Elastic",
-            "autoFrom": true,
-            "duration": 2000
+            "reverse": true,
+            "easeOut": true,
+            "easingFunction": "Back",
+            "fromZ": -180,
+            "toZ": -180,
+            "toY": -180,
+            "fromY": -180
           }
         },
         "2e9edec6-e363-481f-9be6-b3064fccc860": {
@@ -2424,17 +2418,8 @@
             "spawnAreaRadius": 2,
             "animateColor": true,
             "colorStart": "FDC82F",
-            "colorEnd": "FFFFFF"
-          }
-        },
-        "f5d80771-a2dd-426b-8488-b4a6354a7bb5": {
-          "id": "f5d80771-a2dd-426b-8488-b4a6354a7bb5",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "9f248e7d-4c44-41db-b12d-0612f08896ea"
-            }
+            "colorEnd": "FFFFFF",
+            "stopped": true
           }
         }
       },
@@ -2486,8 +2471,9 @@
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Elastic",
-            "loop": false,
-            "duration": 3000
+            "loop": true,
+            "duration": 3000,
+            "reverse": true
           }
         }
       },
@@ -2535,8 +2521,9 @@
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Elastic",
-            "loop": false,
-            "duration": 3250
+            "loop": true,
+            "duration": 3250,
+            "reverse": true
           }
         }
       },
@@ -2554,8 +2541,8 @@
     "fdc6441b-f559-4e2c-b624-1d7dd413b945": {
       "id": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
       "position": [
-        0,
-        0,
+        1.230393809301395,
+        0.19869485854092606,
         0
       ],
       "rotation": [
@@ -2571,7 +2558,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "0a687c86-deaf-4f23-9f7c-2acd2eeb9310",
+      "parentId": "f3e1df90-81c2-440d-a36f-6f72a2b2895b",
       "components": {
         "de081841-b636-40d3-a9db-167e05a13e71": {
           "id": "de081841-b636-40d3-a9db-167e05a13e71",
@@ -2580,20 +2567,22 @@
         }
       },
       "ui": {
-        "type": "3d",
-        "width": 444,
-        "height": 107,
+        "type": "overlay",
+        "width": 353,
+        "height": 85.06981981981981,
         "background": "#ad50ff",
         "borderRadius": 18,
         "flexDirection": "row",
         "backgroundOpacity": 1,
         "padding": "10",
-        "gap": "6",
+        "gap": 4,
         "alignItems": "center",
-        "justifyContent": "center"
+        "justifyContent": "center",
+        "paddingTop": 0,
+        "paddingBottom": 0
       },
       "name": "Botão Instrução",
-      "order": 1.6227325057183766
+      "order": 5.805174384584662
     },
     "f56e0f5c-c587-49e9-891f-225bd5f904e8": {
       "id": "f56e0f5c-c587-49e9-891f-225bd5f904e8",
@@ -2609,9 +2598,9 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0,
+        0,
+        0
       ],
       "geometry": null,
       "material": null,
@@ -2619,11 +2608,11 @@
       "components": {},
       "name": "Icon",
       "ui": {
-        "width": 70,
-        "height": 70,
+        "width": 60,
+        "height": 40,
         "image": {
           "type": "asset",
-          "asset": "assets/PETROBRAS/Untitled design.png"
+          "asset": "assets/oficina-ebat/ebat_marca.png"
         },
         "backgroundOpacity": 1,
         "backgroundSize": "contain"
@@ -2644,9 +2633,9 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0,
+        0,
+        0
       ],
       "geometry": null,
       "material": null,
@@ -2654,8 +2643,8 @@
       "components": {},
       "name": "Text",
       "ui": {
-        "width": 256,
-        "height": 99,
+        "width": 211,
+        "height": 81.59765625,
         "text": "Aponte para a logo Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
         "color": "#ffffff",
         "fontSize": 16,
@@ -2677,20 +2666,20 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0,
+        0,
+        0
       ],
       "geometry": null,
       "material": null,
       "components": {},
       "name": "Icon (1)",
       "ui": {
-        "width": 70,
-        "height": 70,
+        "width": 60,
+        "height": 40,
         "image": {
           "type": "asset",
-          "asset": "assets/oficina-ebat/ebat_marca.png"
+          "asset": "assets/PETROBRAS/Untitled design.png"
         },
         "backgroundOpacity": 1,
         "backgroundSize": "contain"
