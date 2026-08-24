@@ -7,12 +7,16 @@ ecs.registerComponent({
     ecs.defineState('default')
       .initial()
       .listen(world.events.globalId, 'reality.imagefound', () => {
-        // Encontrou a imagem: remove o Hidden para exibir as partículas
-        ecs.Hidden.remove(world, eid)
+        // Encontrou a imagem: ativa a emissão de partículas
+        ecs.ParticleEmitter.set(world, eid, {
+          stopped: false,
+        })
       })
       .listen(world.events.globalId, 'reality.imagelost', () => {
-        // Perdeu a imagem: aplica o Hidden para ocultar no mesmo frame
-        ecs.Hidden.set(world, eid)
+        // Perdeu a imagem: pausa a emissão
+        ecs.ParticleEmitter.set(world, eid, {
+          stopped: true,
+        })
       })
   },
 })

@@ -2263,22 +2263,7 @@
     "6da62a6b-6acc-4f94-80ca-0f6288299a1b": {
       "id": "6da62a6b-6acc-4f94-80ca-0f6288299a1b",
       "name": "metagallery_transparent",
-      "components": {
-        "7ad476ee-f7ae-488f-8934-a07ae2d34b35": {
-          "id": "7ad476ee-f7ae-488f-8934-a07ae2d34b35",
-          "name": "scale-animation",
-          "parameters": {
-            "toX": 2,
-            "toY": 2,
-            "toZ": 2,
-            "easeIn": true,
-            "easeOut": true,
-            "duration": 3000,
-            "loop": false,
-            "easingFunction": "Elastic"
-          }
-        }
-      },
+      "components": {},
       "position": [
         0,
         0,
@@ -2301,8 +2286,7 @@
         "name": "metagallery_transparent"
       },
       "order": 4.101294575608643,
-      "parentId": "aa88edb0-db3a-4908-b262-571459a68864",
-      "hidden": false
+      "parentId": "aa88edb0-db3a-4908-b262-571459a68864"
     },
     "aa88edb0-db3a-4908-b262-571459a68864": {
       "id": "aa88edb0-db3a-4908-b262-571459a68864",
@@ -2359,8 +2343,7 @@
           "type": "asset",
           "asset": "assets/PETROBRAS/motion petrobras 3.mp4"
         },
-        "wireframe": false,
-        "opacity": 1
+        "wireframe": false
       },
       "components": {
         "95bd41bb-b1dd-4f0d-aeed-3d4f2467917b": {
