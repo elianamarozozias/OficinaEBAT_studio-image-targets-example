@@ -635,7 +635,7 @@
           "id": "1b7e28d5-3787-4a01-a9cd-8712cc181735",
           "name": "space-selector",
           "parameters": {
-            "space1": "Experiencia Petrobras",
+            "space1": "Experiencia Petrobras - RA",
             "space2": "",
             "space3": "",
             "space4": "",
@@ -2341,7 +2341,7 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/PETROBRAS/motion petrobras 3.mp4"
+          "asset": "assets/PETROBRAS/motion petrobras 4.mp4"
         },
         "wireframe": false
       },
@@ -2727,7 +2727,7 @@
     },
     "8afcfd26-fcb3-4fe6-a0f7-919892794e4f": {
       "id": "8afcfd26-fcb3-4fe6-a0f7-919892794e4f",
-      "name": "Experiencia Petrobras",
+      "name": "Experiencia Petrobras - RA",
       "activeCamera": "9f248e7d-4c44-41db-b12d-0612f08896ea",
       "includedSpaces": [
         "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
