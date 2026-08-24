@@ -2345,7 +2345,13 @@
         },
         "wireframe": false
       },
-      "components": {},
+      "components": {
+        "95bd41bb-b1dd-4f0d-aeed-3d4f2467917b": {
+          "id": "95bd41bb-b1dd-4f0d-aeed-3d4f2467917b",
+          "name": "Video Target Sync",
+          "parameters": {}
+        }
+      },
       "name": "Video Player Petrobras",
       "videoControls": {
         "paused": true,
@@ -2370,7 +2376,7 @@
       "scale": [
         2,
         2,
-        2
+        1
       ],
       "geometry": null,
       "material": null,
@@ -2421,6 +2427,11 @@
             "colorEnd": "FFFFFF",
             "stopped": true
           }
+        },
+        "6f3721da-1a0f-47d5-b7a8-7265fd328838": {
+          "id": "6f3721da-1a0f-47d5-b7a8-7265fd328838",
+          "name": "Particle Target Sync",
+          "parameters": {}
         }
       },
       "gltfModel": {
@@ -2471,7 +2482,7 @@
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Elastic",
-            "loop": true,
+            "loop": false,
             "duration": 3000,
             "reverse": true
           }
@@ -2521,7 +2532,7 @@
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Elastic",
-            "loop": true,
+            "loop": false,
             "duration": 3250,
             "reverse": true
           }
@@ -2568,7 +2579,7 @@
       },
       "ui": {
         "type": "overlay",
-        "width": 353,
+        "width": 365,
         "height": 85.06981981981981,
         "background": "#ad50ff",
         "borderRadius": 18,
@@ -2643,12 +2654,16 @@
       "components": {},
       "name": "Text",
       "ui": {
-        "width": 211,
+        "width": 227,
         "height": 81.59765625,
-        "text": "Aponte para a logo Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
+        "text": "Aponte o celular para a logo da Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
         "color": "#ffffff",
         "fontSize": 16,
-        "verticalTextAlign": "center"
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Nunito"
+        }
       },
       "order": 1.4045234358629677
     },
