@@ -2799,7 +2799,7 @@
       "material": null,
       "parentId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
       "components": {},
-      "name": "Camera",
+      "name": "Camera RA",
       "camera": {
         "type": "perspective",
         "xr": {
