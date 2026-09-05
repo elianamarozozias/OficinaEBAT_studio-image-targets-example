@@ -2774,9 +2774,9 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
-          "desktop": "disabled",
+          "xrCameraType": "3dOnly",
+          "phone": "3D",
+          "desktop": "3D",
           "headset": "disabled",
           "world": {
             "disableWorldTracking": true,
