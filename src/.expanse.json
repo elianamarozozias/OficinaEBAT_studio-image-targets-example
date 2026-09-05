@@ -2774,12 +2774,13 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
+          "xrCameraType": "3dOnly",
+          "phone": "3D",
           "desktop": "3D",
-          "headset": "AR",
+          "headset": "disabled",
           "world": {
-            "disableWorldTracking": true
+            "disableWorldTracking": true,
+            "scale": "absolute"
           }
         }
       },
@@ -2871,7 +2872,7 @@
             "animateColor": true,
             "colorStart": "FDC82F",
             "colorEnd": "FFFFFF",
-            "stopped": false
+            "stopped": true
           }
         },
         "bd399528-6bc3-45a8-9ddb-a60bbba22c3b": {
@@ -2985,7 +2986,7 @@
         "receiveShadow": true,
         "castShadow": false
       },
-      "hidden": false
+      "hidden": true
     },
     "85bc5862-6f55-42ee-9417-4abb6b95da80": {
       "id": "85bc5862-6f55-42ee-9417-4abb6b95da80",
@@ -3787,33 +3788,6 @@
       "name": "floating-island. menorglb (3)",
       "order": 10.305787046100477,
       "parentId": "5c75e478-f369-4208-86d8-000794989978"
-    },
-    "bc115315-5c15-4f7d-9927-6c6975dd8ee8": {
-      "id": "bc115315-5c15-4f7d-9927-6c6975dd8ee8",
-      "position": [
-        -2.694560911912916,
-        0,
-        0.35175387328267593
-      ],
-      "name": "BMO Bites",
-      "instanceData": {
-        "instanceOf": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
-        "deletions": {},
-        "children": {}
-      },
-      "parentId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
-      "components": {},
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
     }
   },
   "spaces": {
