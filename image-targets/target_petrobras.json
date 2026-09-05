@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 57,
+    "left": 0,
+    "width": 1414,
+    "height": 1885,
+    "isRotated": false,
+    "originalWidth": 1414,
+    "originalHeight": 2000
+  },
+  "imagePath": "image-targets/target_petrobras_luminance.png",
+  "metadata": null,
+  "name": "target_petrobras",
+  "resources": {
+    "originalImage": "target_petrobras_original.png",
+    "croppedImage": "target_petrobras_cropped.png",
+    "thumbnailImage": "target_petrobras_thumbnail.png",
+    "luminanceImage": "target_petrobras_luminance.png"
+  },
+  "created": 1788632399526,
+  "updated": 1788632399526
+}
