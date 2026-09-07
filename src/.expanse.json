@@ -2836,18 +2836,23 @@
         "color": "#FFFFFF"
       },
       "components": {
-        "44221e24-3fe5-4491-8e65-b0ad81be0dde": {
-          "id": "44221e24-3fe5-4491-8e65-b0ad81be0dde",
-          "name": "look-at-animation",
+        "b58e5c44-220d-47fe-a769-7bc8027346cd": {
+          "id": "b58e5c44-220d-47fe-a769-7bc8027346cd",
+          "name": "position-animation",
           "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "43cd6001-7516-4e0a-8e7e-d1e6ce4bc2a7"
-            }
+            "autoFrom": true,
+            "toX": 0.072,
+            "toZ": 0.163,
+            "toY": 1.9,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "duration": 1000,
+            "reverse": true
           }
         },
-        "c5a4039e-6526-4344-8207-9335514fddc3": {
-          "id": "c5a4039e-6526-4344-8207-9335514fddc3",
+        "c2df5399-0cc0-46e5-9108-6ff836912313": {
+          "id": "c2df5399-0cc0-46e5-9108-6ff836912313",
           "name": "particle-emitter",
           "parameters": {
             "emitterLife": 0,
@@ -2861,36 +2866,17 @@
             "forceX": 0.05,
             "forceY": 0.1,
             "forceZ": 0.05,
-            "spread": 50,
+            "spread": 360,
             "radialVelocity": 0.05,
             "spawnAreaType": "sphere",
             "boundingZoneType": "none",
             "resourceType": "sprite",
-            "resourceUrl": "https://cdn.8thwall.com/web/assets/sprites/circle_05-m1igpyne.png",
-            "spawnAreaRadius": 0.5,
+            "resourceUrl": "assets/PETROBRAS/Ellipse 5.png",
+            "spawnAreaRadius": 2,
             "animateColor": true,
             "colorStart": "FDC82F",
             "colorEnd": "FFFFFF",
             "stopped": false
-          }
-        },
-        "bd399528-6bc3-45a8-9ddb-a60bbba22c3b": {
-          "id": "bd399528-6bc3-45a8-9ddb-a60bbba22c3b",
-          "name": "rotate-animation",
-          "parameters": {
-            "fromX": -180,
-            "toX": 180,
-            "shortestPath": false,
-            "duration": 5000,
-            "easeIn": true,
-            "reverse": true,
-            "easeOut": true,
-            "easingFunction": "Back",
-            "fromZ": -180,
-            "toZ": -180,
-            "toY": -180,
-            "fromY": -180,
-            "autoFrom": false
           }
         }
       },
@@ -2953,7 +2939,7 @@
       "id": "21631ab8-2bb6-4789-8d3f-e8e8a96cd455",
       "position": [
         0,
-        0,
+        -1.4195857915047185,
         0
       ],
       "rotation": [
@@ -2985,13 +2971,13 @@
         "receiveShadow": true,
         "castShadow": false
       },
-      "hidden": false
+      "hidden": true
     },
     "85bc5862-6f55-42ee-9417-4abb6b95da80": {
       "id": "85bc5862-6f55-42ee-9417-4abb6b95da80",
       "position": [
         -1.6263032587282567e-19,
-        -0.5204252969797294,
+        -0.48963160325950605,
         0.49682644712478324
       ],
       "rotation": [
@@ -3015,13 +3001,13 @@
           "parameters": {
             "autoFrom": true,
             "toX": 0,
-            "toZ": 0,
-            "duration": 3000,
+            "toZ": 0.497,
+            "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Quadratic",
-            "toY": -0.4
+            "toY": -0.35
           }
         }
       },
@@ -3122,20 +3108,20 @@
     "b61ebeef-f317-4c99-882e-672456408fd3": {
       "id": "b61ebeef-f317-4c99-882e-672456408fd3",
       "position": [
-        0.21142873975182463,
-        1.356904842741729,
+        0.21142873975182475,
+        1.6421543430737415,
         0.3016682933061634
       ],
       "rotation": [
-        -0.5730040104246171,
+        -0.5730040104246172,
         0.7070299583938229,
-        0.41432644622001197,
-        0.010422952251151757
+        0.414326446220012,
+        0.010422952251151738
       ],
       "scale": [
-        0.4999999999999996,
-        0.5000000000000004,
-        0.4999999999999996
+        0.49999999999999956,
+        0.5000000000000003,
+        0.49999999999999956
       ],
       "geometry": null,
       "material": null,
@@ -3248,17 +3234,17 @@
       "id": "92de4095-129f-49ad-95b7-dc5ee1331068",
       "position": [
         -0.016741550969412877,
-        1.3367189837012834,
-        0.018159158857312896
+        1.7288802457604842,
+        -0.32268954128114546
       ],
       "rotation": [
         -0.2181041712484916,
-        -0.2272785164648732,
+        -0.22727851646487318,
         -0.672629593821152,
         0.6695853014766133
       ],
       "scale": [
-        0.4999999999999995,
+        0.49999999999999933,
         0.5000000000000002,
         0.4999999999999995
       ],
@@ -3307,7 +3293,51 @@
       "geometry": null,
       "material": null,
       "parentId": "975f4935-5e77-4a00-857b-580add26cd6e",
-      "components": {},
+      "components": {
+        "ec82cab4-e87e-425d-8423-e87af3c2fd2a": {
+          "id": "ec82cab4-e87e-425d-8423-e87af3c2fd2a",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": -0.012,
+            "toZ": -0.019,
+            "toY": 1.6,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "duration": 1000,
+            "reverse": true
+          }
+        },
+        "c2df5399-0cc0-46e5-9108-6ff836912313": {
+          "id": "c2df5399-0cc0-46e5-9108-6ff836912313",
+          "name": "particle-emitter",
+          "parameters": {
+            "emitterLife": 0,
+            "particlesPerShot": 10,
+            "emitDelay": 0.3,
+            "minimumLifespan": 5,
+            "maximumLifespan": 7,
+            "mass": 1,
+            "gravity": 0,
+            "scale": 0.05,
+            "forceX": 0.05,
+            "forceY": 0.1,
+            "forceZ": 0.05,
+            "spread": 360,
+            "radialVelocity": 0.05,
+            "spawnAreaType": "sphere",
+            "boundingZoneType": "none",
+            "resourceType": "sprite",
+            "resourceUrl": "assets/PETROBRAS/Ellipse 5.png",
+            "spawnAreaRadius": 2,
+            "animateColor": true,
+            "colorStart": "FDC82F",
+            "colorEnd": "FFFFFF",
+            "stopped": false
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -3325,9 +3355,9 @@
     "975f4935-5e77-4a00-857b-580add26cd6e": {
       "id": "975f4935-5e77-4a00-857b-580add26cd6e",
       "position": [
-        1.3815939983774925,
+        1.7574300727684014,
         -0.6001019349358847,
-        1.402138335211158
+        -0.48254209291415173
       ],
       "rotation": [
         0,
@@ -3349,13 +3379,14 @@
           "name": "position-animation",
           "parameters": {
             "autoFrom": true,
-            "toY": -0.55,
+            "toX": 1.757,
+            "toZ": -0.483,
+            "duration": 4500,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Quadratic",
-            "toX": 1.382,
-            "toZ": 1.402
+            "toY": -0.45
           }
         }
       },
@@ -3373,9 +3404,9 @@
     "c92df42f-8d73-4c35-996c-fdaaba34b65c": {
       "id": "c92df42f-8d73-4c35-996c-fdaaba34b65c",
       "position": [
-        -1.3444821901047577,
+        -1.636798841851957,
         -0.6001019349358847,
-        1.7207274639001213
+        -0.5460705709844258
       ],
       "rotation": [
         0,
@@ -3396,13 +3427,14 @@
           "name": "position-animation",
           "parameters": {
             "autoFrom": true,
-            "toY": -0.65,
+            "toX": -1.637,
+            "toZ": -0.546,
+            "duration": 6500,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Quadratic",
-            "toX": -1.344,
-            "toZ": 1.721
+            "toY": -0.75
           }
         }
       },
@@ -3504,9 +3536,9 @@
     "d9356fad-eb0f-4d78-9687-be2da5a2de1e": {
       "id": "d9356fad-eb0f-4d78-9687-be2da5a2de1e",
       "position": [
-        -0.016741550969412877,
-        1.3367189837012834,
-        0.018159158857312896
+        -0.016741550969414654,
+        1.797931709839698,
+        -0.32468407911417385
       ],
       "rotation": [
         -0.2181041712484916,
@@ -3515,7 +3547,7 @@
         0.6695853014766133
       ],
       "scale": [
-        0.4999999999999995,
+        0.4999999999999994,
         0.5000000000000002,
         0.4999999999999995
       ],
@@ -3564,7 +3596,51 @@
       "geometry": null,
       "material": null,
       "parentId": "c92df42f-8d73-4c35-996c-fdaaba34b65c",
-      "components": {},
+      "components": {
+        "2d0def4e-aa59-48a6-82ad-62be74778a9d": {
+          "id": "2d0def4e-aa59-48a6-82ad-62be74778a9d",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": -0.051,
+            "toZ": 0.002,
+            "toY": 2.1,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "duration": 1000,
+            "reverse": true
+          }
+        },
+        "c2df5399-0cc0-46e5-9108-6ff836912313": {
+          "id": "c2df5399-0cc0-46e5-9108-6ff836912313",
+          "name": "particle-emitter",
+          "parameters": {
+            "emitterLife": 0,
+            "particlesPerShot": 10,
+            "emitDelay": 0.3,
+            "minimumLifespan": 5,
+            "maximumLifespan": 7,
+            "mass": 1,
+            "gravity": 0,
+            "scale": 0.05,
+            "forceX": 0.05,
+            "forceY": 0.1,
+            "forceZ": 0.05,
+            "spread": 360,
+            "radialVelocity": 0.05,
+            "spawnAreaType": "sphere",
+            "boundingZoneType": "none",
+            "resourceType": "sprite",
+            "resourceUrl": "assets/PETROBRAS/Ellipse 5.png",
+            "spawnAreaRadius": 2,
+            "animateColor": true,
+            "colorStart": "FDC82F",
+            "colorEnd": "FFFFFF",
+            "stopped": false
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -3581,7 +3657,7 @@
       "position": [
         0.9159376451843158,
         -0.11433029538013417,
-        0.8428632623786378
+        -0.29098220337431224
       ],
       "rotation": [
         0,
@@ -3598,23 +3674,19 @@
       "material": null,
       "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "components": {
-        "48bf825c-9ca1-4093-a38f-b375274b320b": {
-          "id": "48bf825c-9ca1-4093-a38f-b375274b320b",
-          "name": "rotate-animation",
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
           "parameters": {
-            "fromX": 45,
-            "toX": 0,
-            "fromY": -359,
-            "toY": 359,
-            "fromZ": -359,
-            "toZ": 0,
-            "shortestPath": false,
-            "duration": 5000,
             "autoFrom": true,
+            "toX": 0.916,
+            "toZ": -0.291,
+            "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Back",
+            "toY": -0.2
           }
         }
       },
@@ -3632,9 +3704,9 @@
     "5df3a87e-8006-4850-b243-67ccfbb4edc1": {
       "id": "5df3a87e-8006-4850-b243-67ccfbb4edc1",
       "position": [
-        -0.9913643494358566,
+        -1.4734843810073555,
         0.6101471519870603,
-        0.39556587328969295
+        -0.304633952462918
       ],
       "rotation": [
         0,
@@ -3650,23 +3722,19 @@
       "geometry": null,
       "material": null,
       "components": {
-        "95fd0146-bb36-45bf-8adc-93b1011e89c0": {
-          "id": "95fd0146-bb36-45bf-8adc-93b1011e89c0",
-          "name": "rotate-animation",
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
           "parameters": {
-            "fromX": 45,
-            "toX": 0,
-            "fromY": -359,
-            "toY": 359,
-            "fromZ": -359,
-            "toZ": 0,
-            "shortestPath": false,
-            "duration": 5000,
             "autoFrom": true,
+            "toX": -1.473,
+            "toZ": -0.305,
+            "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Back",
+            "toY": 0.75
           }
         }
       },
@@ -3685,9 +3753,9 @@
     "1ba87b80-2f15-46ed-9a45-4900aff4bc0d": {
       "id": "1ba87b80-2f15-46ed-9a45-4900aff4bc0d",
       "position": [
-        -1.291598488390601,
+        -1.0156951825363012,
         -0.8057309558694146,
-        0.21704783406317396
+        -1.228203493252801
       ],
       "rotation": [
         0,
@@ -3696,30 +3764,26 @@
         0.44216001297937013
       ],
       "scale": [
-        0.09999999999999999,
         0.1,
-        0.09999999999999999
+        0.1,
+        0.1
       ],
       "geometry": null,
       "material": null,
       "components": {
-        "ccee4b72-1401-4ecc-bc3e-99652c886013": {
-          "id": "ccee4b72-1401-4ecc-bc3e-99652c886013",
-          "name": "rotate-animation",
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
           "parameters": {
-            "fromX": 45,
-            "toX": 0,
-            "fromY": -359,
-            "toY": 359,
-            "fromZ": -359,
-            "toZ": 0,
-            "shortestPath": false,
-            "duration": 5000,
             "autoFrom": true,
+            "toX": -1.016,
+            "toZ": -1.228,
+            "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Back",
+            "toY": -1
           }
         }
       },
@@ -3740,39 +3804,35 @@
       "position": [
         1.8612191326069687,
         0.6272244926360733,
-        0.2780273209833922
+        -1.0557327525084204
       ],
       "rotation": [
         -0.005234859755595538,
         0.921824418449502,
         0.002798318304793082,
-        -0.3875622623634062
+        -0.38756226236340613
       ],
       "scale": [
         0.10000000000000007,
         0.10000000000000002,
-        0.1000000000000001
+        0.10000000000000012
       ],
       "geometry": null,
       "material": null,
       "components": {
-        "c98f396f-a414-4b76-b45b-2db5ca8d87b3": {
-          "id": "c98f396f-a414-4b76-b45b-2db5ca8d87b3",
-          "name": "rotate-animation",
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
           "parameters": {
-            "fromX": 45,
-            "toX": 0,
-            "fromY": -359,
-            "toY": 359,
-            "fromZ": -359,
-            "toZ": 0,
-            "shortestPath": false,
-            "duration": 5000,
             "autoFrom": true,
+            "toX": 1.861,
+            "toZ": -1.056,
+            "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Back",
+            "toY": 0.45
           }
         }
       },
@@ -3787,33 +3847,6 @@
       "name": "floating-island. menorglb (3)",
       "order": 10.305787046100477,
       "parentId": "5c75e478-f369-4208-86d8-000794989978"
-    },
-    "bc115315-5c15-4f7d-9927-6c6975dd8ee8": {
-      "id": "bc115315-5c15-4f7d-9927-6c6975dd8ee8",
-      "position": [
-        -2.694560911912916,
-        0,
-        0.35175387328267593
-      ],
-      "name": "BMO Bites",
-      "instanceData": {
-        "instanceOf": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
-        "deletions": {},
-        "children": {}
-      },
-      "parentId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
-      "components": {},
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
     }
   },
   "spaces": {
@@ -3861,7 +3894,12 @@
         "type": "url",
         "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
       },
-      "fog": null
+      "fog": {
+        "type": "linear",
+        "near": 0.1,
+        "far": 1000,
+        "color": "#FFFFFF"
+      }
     }
   },
   "entrySpaceId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
