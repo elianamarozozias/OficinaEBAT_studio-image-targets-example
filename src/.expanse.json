@@ -3534,7 +3534,7 @@
           "parameters": {
             "autoFrom": true,
             "toX": 0.916,
-            "toZ": -0.291,
+            "toZ": -1.618,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
@@ -3582,7 +3582,7 @@
           "parameters": {
             "autoFrom": true,
             "toX": -1.473,
-            "toZ": -0.305,
+            "toZ": 0.725,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
@@ -3680,7 +3680,7 @@
           "parameters": {
             "autoFrom": true,
             "toX": 1.861,
-            "toZ": -1.056,
+            "toZ": 0.67,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
