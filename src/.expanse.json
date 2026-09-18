@@ -3405,7 +3405,7 @@
         "animationClip": "",
         "loop": true
       },
-      "name": "(METAG) floating-island_5.glb ",
+      "name": "(Tech) floating-island_5.glb ",
       "order": 1.3812416909399838,
       "parentId": "5c75e478-f369-4208-86d8-000794989978"
     },
@@ -3454,7 +3454,7 @@
         "animationClip": "",
         "loop": true
       },
-      "name": "(EBAT) floating-island_5.glb  ",
+      "name": "(Art) floating-island_5.glb  ",
       "order": 2.2538917548900947,
       "parentId": "5c75e478-f369-4208-86d8-000794989978"
     },
@@ -3653,6 +3653,114 @@
       "name": "floating-island-menor2.glb (3)",
       "order": 17.998043034251275,
       "parentId": "5c75e478-f369-4208-86d8-000794989978"
+    },
+    "2d938b10-6c70-4516-adbe-086dff167675": {
+      "id": "2d938b10-6c70-4516-adbe-086dff167675",
+      "position": [
+        0.1946994411944507,
+        2.0864914061298045,
+        0.3099290896750994
+      ],
+      "rotation": [
+        -0.0000032202685129425033,
+        0.9598594377283733,
+        0.00009511374809873053,
+        -0.28048146239417626
+      ],
+      "scale": [
+        0.8928571428571415,
+        0.8928571428571418,
+        0.8928571428571418
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/video arte 2.mp4"
+        },
+        "side": "double",
+        "textureFiltering": "smooth",
+        "blending": "additive",
+        "forceTransparent": false
+      },
+      "parentId": "8362a0bf-7724-4d12-b787-b5c5dd4a03d5",
+      "components": {
+        "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
+          "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0.195,
+            "toZ": 0.31,
+            "toY": 2.1,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic"
+          }
+        }
+      },
+      "name": "Plane",
+      "order": 5.4973632200720175,
+      "videoControls": {
+        "paused": false,
+        "loop": true,
+        "positional": true
+      }
+    },
+    "cd42d05f-8901-4d5c-93b6-85e829428bed": {
+      "id": "cd42d05f-8901-4d5c-93b6-85e829428bed",
+      "position": [
+        0.40221495782582206,
+        2.0319105171249996,
+        0.4548844569925601
+      ],
+      "rotation": [
+        0.6407599556197926,
+        0.2600308878858584,
+        -0.22531748514490288,
+        0.6863254676226068
+      ],
+      "scale": [
+        10.000000000000005,
+        10.000000000000016,
+        9.999999999999993
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f7a93591-b97c-4f75-a728-e8ca04ca7110",
+      "components": {
+        "00870f85-3640-41de-9bb1-839bd6fcc6c3": {
+          "id": "00870f85-3640-41de-9bb1-839bd6fcc6c3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "toY": 2.1,
+            "toX": 0.402,
+            "toZ": 0.455
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/arduino-uno.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "arduino-uno.glb",
+      "order": 4.3972271498800986
     }
   },
   "spaces": {
