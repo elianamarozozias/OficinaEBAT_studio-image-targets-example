@@ -1,5 +1,1271 @@
 {
   "objects": {
+    "5c75e478-f369-4208-86d8-000794989978": {
+      "id": "5c75e478-f369-4208-86d8-000794989978",
+      "name": "World Content Petrobras",
+      "components": {},
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "order": 3.513191113816268,
+      "hidden": false,
+      "parentId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24"
+    },
+    "14247880-92ea-4617-b5e3-0b9cde90fe78": {
+      "id": "14247880-92ea-4617-b5e3-0b9cde90fe78",
+      "parentId": "e4aa1cb7-0e7c-48fc-8a2f-995752fb191d",
+      "position": [
+        0.27947908315508435,
+        1.8322826711695164,
+        0.5044371478575493
+      ],
+      "rotation": [
+        0,
+        0.28982003826243913,
+        0,
+        0.9570811592657952
+      ],
+      "scale": [
+        4.999999999999998,
+        5.000000000000001,
+        4.999999999999998
+      ],
+      "geometry": null,
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "components": {
+        "b58e5c44-220d-47fe-a769-7bc8027346cd": {
+          "id": "b58e5c44-220d-47fe-a769-7bc8027346cd",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0.279,
+            "toZ": 0.504,
+            "toY": 1.9,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "duration": 1000,
+            "reverse": true
+          }
+        },
+        "c2df5399-0cc0-46e5-9108-6ff836912313": {
+          "id": "c2df5399-0cc0-46e5-9108-6ff836912313",
+          "name": "particle-emitter",
+          "parameters": {
+            "emitterLife": 0,
+            "particlesPerShot": 10,
+            "emitDelay": 0.3,
+            "minimumLifespan": 5,
+            "maximumLifespan": 7,
+            "mass": 1,
+            "gravity": 0,
+            "scale": 0.05,
+            "forceX": 0.05,
+            "forceY": 0.1,
+            "forceZ": 0.05,
+            "spread": 360,
+            "radialVelocity": 0.05,
+            "spawnAreaType": "sphere",
+            "boundingZoneType": "none",
+            "resourceType": "sprite",
+            "resourceUrl": "assets/PETROBRAS/Ellipse 5.png",
+            "spawnAreaRadius": 2,
+            "animateColor": true,
+            "colorStart": "FDC82F",
+            "colorEnd": "FFFFFF",
+            "stopped": false
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/petrobras_marca.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "petrobras_marca.glb",
+      "order": 4.504882481674356,
+      "shadow": {
+        "receiveShadow": true,
+        "castShadow": true
+      }
+    },
+    "527456ee-3f71-4e97-9ed3-ac12538dd076": {
+      "id": "527456ee-3f71-4e97-9ed3-ac12538dd076",
+      "position": [
+        -1.9961451249971844,
+        2.7101580466669395,
+        0.6929945690726119
+      ],
+      "rotation": [
+        0.18807383699033575,
+        0.8086183237959373,
+        -0.35145085662169223,
+        0.43272038736470464
+      ],
+      "scale": [
+        0.5000000000000002,
+        0.5000000000000003,
+        0.5000000000000006
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e4aa1cb7-0e7c-48fc-8a2f-995752fb191d",
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.2617993877991494,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#008542",
+        "intensity": 2.399999999999997,
+        "shadowMapSize": [
+          1024,
+          1024
+        ],
+        "decay": 1.4999999999999885
+      },
+      "name": "Luz Verde 70%",
+      "order": 4.673254437889009
+    },
+    "130f9617-0163-4738-a497-5d1ee4aece0a": {
+      "id": "130f9617-0163-4738-a497-5d1ee4aece0a",
+      "position": [
+        1.3436918819041366,
+        1.4076092561101756,
+        -1.133912326713808
+      ],
+      "rotation": [
+        -0.5422153803704678,
+        0.21160149284428692,
+        0.8004253325682363,
+        0.14334077053932182
+      ],
+      "scale": [
+        0.49999999999999994,
+        0.5000000000000002,
+        0.5000000000000007
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.2617993877991494,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#fdc830",
+        "intensity": 0.7000000000000002
+      },
+      "name": "Luz Amarela 30%",
+      "order": 4.8416263941036615,
+      "parentId": "e4aa1cb7-0e7c-48fc-8a2f-995752fb191d"
+    },
+    "1798959e-ffae-4267-a9a9-22196d460109": {
+      "id": "1798959e-ffae-4267-a9a9-22196d460109",
+      "position": [
+        0.41598058246229797,
+        1.6096565348631355,
+        0.6466557173827681
+      ],
+      "rotation": [
+        -0.5777773766969135,
+        0.7068612196066553,
+        0.40764359798386707,
+        0.01863373865310773
+      ],
+      "scale": [
+        0.49999999999999983,
+        0.5000000000000003,
+        0.4999999999999997
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca",
+      "order": 5.009998350318315,
+      "parentId": "e4aa1cb7-0e7c-48fc-8a2f-995752fb191d",
+      "hidden": false
+    },
+    "cdc78ae7-1ba3-4bb9-8032-2564662ab7a8": {
+      "id": "cdc78ae7-1ba3-4bb9-8032-2564662ab7a8",
+      "position": [
+        -1.9214397547969186,
+        2.860268645480908,
+        1.1359747172442038
+      ],
+      "rotation": [
+        0.16469528886549656,
+        0.8351777152891422,
+        -0.36299440024041585,
+        0.37893101100862675
+      ],
+      "scale": [
+        0.5357142857142858,
+        0.5357142857142855,
+        0.5357142857142858
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "dc67366b-6d3d-4e36-8290-a992b80a87cc",
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.2617993877991494,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#008542",
+        "intensity": 2.399999999999997,
+        "shadowMapSize": [
+          1024,
+          1024
+        ],
+        "decay": 1.4999999999999885
+      },
+      "name": "Luz Verde 70% (1)",
+      "order": 2
+    },
+    "a6670dc2-b8fd-4a85-9c66-3b77b6bf61fa": {
+      "id": "a6670dc2-b8fd-4a85-9c66-3b77b6bf61fa",
+      "position": [
+        1.3709855782244569,
+        1.464680655598662,
+        -1.2715706626884766
+      ],
+      "rotation": [
+        -0.4887273857827335,
+        0.22051977148518162,
+        0.8341605205913535,
+        0.12920061399567973
+      ],
+      "scale": [
+        0.535714285714285,
+        0.5357142857142853,
+        0.535714285714286
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.2617993877991494,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#fdc830",
+        "intensity": 0.7000000000000002
+      },
+      "name": "Luz Amarela 30% (1)",
+      "order": 3,
+      "parentId": "dc67366b-6d3d-4e36-8290-a992b80a87cc"
+    },
+    "5dd63c3c-0d9a-4512-9d66-d3fbd6a0db0a": {
+      "id": "5dd63c3c-0d9a-4512-9d66-d3fbd6a0db0a",
+      "position": [
+        0.61616349752566,
+        1.7957081989702481,
+        0.7292737932233819
+      ],
+      "rotation": [
+        -0.5498915355199581,
+        0.7065672503764238,
+        0.44454392264825926,
+        -0.027617398420219007
+      ],
+      "scale": [
+        0.5357142857142849,
+        0.5357142857142856,
+        0.5357142857142849
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (1)",
+      "order": 4.4829170063961,
+      "parentId": "dc67366b-6d3d-4e36-8290-a992b80a87cc",
+      "hidden": false
+    },
+    "1e3a2efe-1322-49c5-b61d-03394137dd9a": {
+      "id": "1e3a2efe-1322-49c5-b61d-03394137dd9a",
+      "position": [
+        -1.7297724861571515,
+        2.8178554082369924,
+        1.0228590264383044
+      ],
+      "rotation": [
+        0.17741099294084903,
+        0.8212756219667259,
+        -0.3569521149455914,
+        0.40818730992373947
+      ],
+      "scale": [
+        0.5000000000000011,
+        0.5000000000000004,
+        0.5000000000000008
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a2482b1e-78e3-4121-9b71-88d109cc085b",
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.2617993877991494,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#008542",
+        "intensity": 2.399999999999997,
+        "shadowMapSize": [
+          1024,
+          1024
+        ],
+        "decay": 1.4999999999999885
+      },
+      "name": "Luz Verde 70% (2)",
+      "order": 1
+    },
+    "91aba64c-1860-473d-9dc1-caebc9d407b3": {
+      "id": "91aba64c-1860-473d-9dc1-caebc9d407b3",
+      "position": [
+        1.4940945543960513,
+        1.5153066176802277,
+        -1.0016856985244011
+      ],
+      "rotation": [
+        -0.5178792846275163,
+        0.21581977119693224,
+        0.8163818213807523,
+        0.1369072482859879
+      ],
+      "scale": [
+        0.5000000000000003,
+        0.5000000000000002,
+        0.5000000000000012
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.2617993877991494,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#fdc830",
+        "intensity": 0.7000000000000002
+      },
+      "name": "Luz Amarela 30% (2)",
+      "order": 2,
+      "parentId": "a2482b1e-78e3-4121-9b71-88d109cc085b"
+    },
+    "e8a642c2-ee98-4fa1-a354-6201b288b97c": {
+      "id": "e8a642c2-ee98-4fa1-a354-6201b288b97c",
+      "position": [
+        0.6610451286177073,
+        1.8933171222395886,
+        0.8133151564741734
+      ],
+      "rotation": [
+        -0.5652467521396275,
+        0.7071018186660766,
+        0.4248483366986408,
+        -0.0026491581922913157
+      ],
+      "scale": [
+        0.49999999999999956,
+        0.5000000000000007,
+        0.49999999999999967
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (2)",
+      "order": 3,
+      "parentId": "a2482b1e-78e3-4121-9b71-88d109cc085b",
+      "hidden": false
+    },
+    "e4aa1cb7-0e7c-48fc-8a2f-995752fb191d": {
+      "id": "e4aa1cb7-0e7c-48fc-8a2f-995752fb191d",
+      "position": [
+        0,
+        -0.4766324799752633,
+        0.497
+      ],
+      "rotation": [
+        0,
+        0.9550778626194415,
+        0,
+        0.2963549836501475
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48",
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0,
+            "toZ": 0.497,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "toY": -0.35
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/floating-island_5.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "(PETRO) floating-island_5.glb",
+      "order": -0.32575610135233335
+    },
+    "a2482b1e-78e3-4121-9b71-88d109cc085b": {
+      "id": "a2482b1e-78e3-4121-9b71-88d109cc085b",
+      "position": [
+        -2.208053202979867,
+        -0.6287175586558524,
+        -0.579625000089675
+      ],
+      "rotation": [
+        -0.000035922598656224514,
+        0.7155248506161166,
+        -0.00013424222222569804,
+        0.6985872664452
+      ],
+      "scale": [
+        0.29999999999999977,
+        0.30000000000000004,
+        0.29999999999999977
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": -2.208,
+            "toZ": -0.58,
+            "duration": 6500,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "toY": -0.75
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/floating-island_5.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "(Tech) floating-island_5.glb ",
+      "order": 1.3812416909399838,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48"
+    },
+    "dc67366b-6d3d-4e36-8290-a992b80a87cc": {
+      "id": "dc67366b-6d3d-4e36-8290-a992b80a87cc",
+      "position": [
+        2.0529336648453405,
+        -0.5842361569194093,
+        -0.6088306996665004
+      ],
+      "rotation": [
+        0.00003919341110555901,
+        0.9848979128888706,
+        0.00008672295966230524,
+        -0.173136050925714
+      ],
+      "scale": [
+        0.28000000000000064,
+        0.2800000000000004,
+        0.28000000000000064
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 2.053,
+            "toZ": -0.609,
+            "duration": 4500,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "toY": -0.45
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/floating-island_5.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "(Art) floating-island_5.glb  ",
+      "order": 2.2538917548900947,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48"
+    },
+    "125cfd6a-1e59-4417-bd31-71e4d64a9b20": {
+      "id": "125cfd6a-1e59-4417-bd31-71e4d64a9b20",
+      "position": [
+        0.9159376451843158,
+        -0.4608915195558216,
+        -1.6183500347691018
+      ],
+      "rotation": [
+        0,
+        0.03439280710844524,
+        0,
+        0.9994083924098303
+      ],
+      "scale": [
+        0.10000000000000002,
+        0.1,
+        0.10000000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48",
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0.916,
+            "toZ": -1.618,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back",
+            "toY": -0.2
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "floating-island-menor2.glb",
+      "order": 13.601813434373078
+    },
+    "b2a702c2-70ef-4fdb-9bac-0ea24fe284d5": {
+      "id": "b2a702c2-70ef-4fdb-9bac-0ea24fe284d5",
+      "position": [
+        -1.4734843810073555,
+        0.6101471519870603,
+        0.7246284490482939
+      ],
+      "rotation": [
+        0,
+        0.924242567824449,
+        0,
+        0.3818058090459974
+      ],
+      "scale": [
+        0.10000000000000009,
+        0.1,
+        0.10000000000000009
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": -1.473,
+            "toZ": 0.725,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back",
+            "toY": 0.75
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "floating-island-menor2.glb (1)",
+      "order": 15.469158806940944,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48"
+    },
+    "a38fda74-0a24-4c8a-b3e5-7a357d95cd06": {
+      "id": "a38fda74-0a24-4c8a-b3e5-7a357d95cd06",
+      "position": [
+        -1.0156951825363012,
+        -0.8057309558694146,
+        -1.228203493252801
+      ],
+      "rotation": [
+        0,
+        -0.16498312722472752,
+        0,
+        0.9862963893937509
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": -1.016,
+            "toZ": -1.228,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back",
+            "toY": -1
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "floating-island-menor2.glb (2)",
+      "order": 16.758580304610586,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48"
+    },
+    "aedeae8b-2a8b-47d9-8501-1fcfc4f134c6": {
+      "id": "aedeae8b-2a8b-47d9-8501-1fcfc4f134c6",
+      "position": [
+        1.8612191326069687,
+        0.08853560996282928,
+        0.6701010583579656
+      ],
+      "rotation": [
+        -0.005761178933601818,
+        0.9440277807973217,
+        -0.0014293912308099518,
+        0.3298125448506896
+      ],
+      "scale": [
+        0.10000000000000012,
+        0.10000000000000003,
+        0.10000000000000014
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 1.861,
+            "toZ": 0.67,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back",
+            "toY": 0.45
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "floating-island-menor2.glb (3)",
+      "order": 17.998043034251275,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48"
+    },
+    "45c14fb3-e0fe-4d8a-bcbd-62b10e3b1bdf": {
+      "id": "45c14fb3-e0fe-4d8a-bcbd-62b10e3b1bdf",
+      "position": [
+        0.40221495782582206,
+        2.0319105171249996,
+        0.4548844569925601
+      ],
+      "rotation": [
+        0.6407599556197926,
+        0.2600308878858584,
+        -0.22531748514490288,
+        0.6863254676226068
+      ],
+      "scale": [
+        10.000000000000005,
+        10.000000000000016,
+        9.999999999999993
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a2482b1e-78e3-4121-9b71-88d109cc085b",
+      "components": {
+        "00870f85-3640-41de-9bb1-839bd6fcc6c3": {
+          "id": "00870f85-3640-41de-9bb1-839bd6fcc6c3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "toY": 2.1,
+            "toX": 0.402,
+            "toZ": 0.455
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/arduino-uno.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "arduino-uno.glb",
+      "order": 4.3972271498800986
+    },
+    "163e4d2d-2d53-41d9-b319-f7263867be91": {
+      "id": "163e4d2d-2d53-41d9-b319-f7263867be91",
+      "position": [
+        0.14818295819705085,
+        3.078707709668887,
+        -0.1571730658365773
+      ],
+      "rotation": [
+        -0.0000945358096893662,
+        0.20140248925297563,
+        -0.000010953350768607016,
+        0.9795085646719531
+      ],
+      "scale": [
+        1.9999999999999996,
+        2.0000000000000004,
+        1.999999999999999
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/video arte 2.mp4"
+        },
+        "side": "double",
+        "textureFiltering": "smooth",
+        "blending": "additive",
+        "forceTransparent": false
+      },
+      "components": {
+        "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
+          "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0.148,
+            "toZ": -0.157,
+            "toY": 3.35,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic"
+          }
+        }
+      },
+      "name": "Plane (1)",
+      "order": 7.273663940536032,
+      "videoControls": {
+        "paused": false,
+        "loop": true,
+        "positional": true
+      },
+      "parentId": "125cfd6a-1e59-4417-bd31-71e4d64a9b20"
+    },
+    "3d8a5a7b-1838-4ba3-b1e3-5f8400ad42b0": {
+      "id": "3d8a5a7b-1838-4ba3-b1e3-5f8400ad42b0",
+      "position": [
+        -0.14486015331448066,
+        -0.3255683129235775,
+        -0.6499955211127171
+      ],
+      "rotation": [
+        -0.2723981822738782,
+        -0.17161932445206524,
+        -0.6525000074880611,
+        0.6859954649970974
+      ],
+      "scale": [
+        0.5999999999999998,
+        0.6000000000000006,
+        0.5999999999999998
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (3)",
+      "order": 1,
+      "parentId": "163e4d2d-2d53-41d9-b319-f7263867be91",
+      "hidden": false
+    },
+    "8db06bb2-1262-4a64-a72e-1dd1b7ee4003": {
+      "id": "8db06bb2-1262-4a64-a72e-1dd1b7ee4003",
+      "position": [
+        0.15599390789053835,
+        2.0865021160490413,
+        0.26175043807586656
+      ],
+      "rotation": [
+        0.5313647066140109,
+        0.06533412746899595,
+        0.08430896630836136,
+        0.8404016888089211
+      ],
+      "scale": [
+        2.25,
+        2.2499999999999987,
+        2.250000000000003
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "dc67366b-6d3d-4e36-8290-a992b80a87cc",
+      "components": {
+        "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
+          "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0.156,
+            "toZ": 0.262,
+            "toY": 2.15,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/art-island-palette.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "art-island-palette.glb",
+      "order": 5.891359220321391
+    },
+    "d3089536-5e5f-4664-a1b3-2cfcacec3ab7": {
+      "id": "d3089536-5e5f-4664-a1b3-2cfcacec3ab7",
+      "position": [
+        -1.017501442397867,
+        -0.6743095790736208,
+        -1.2299954834786442
+      ],
+      "rotation": [
+        -1.4173798434040332e-19,
+        0.7925987186097179,
+        5.209359301944378e-20,
+        0.609743611084391
+      ],
+      "scale": [
+        0.10000000000000002,
+        0.1,
+        0.10000000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/robotic-arm.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "robotic-arm.glb",
+      "order": 15.808512617498936
+    },
+    "9cfec4c4-8bf3-403d-8151-52043540560c": {
+      "id": "9cfec4c4-8bf3-403d-8151-52043540560c",
+      "position": [
+        1.4141613517179596,
+        0.5734874040270824,
+        1.342266070569164
+      ],
+      "rotation": [
+        -0.6813898430741546,
+        0.43325053570639865,
+        -0.18896529246234892,
+        0.5588326881188297
+      ],
+      "scale": [
+        2.500000000000001,
+        2.5000000000000067,
+        2.500000000000005
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (4)",
+      "order": 3.727559419147058,
+      "hidden": false,
+      "parentId": "d3089536-5e5f-4664-a1b3-2cfcacec3ab7"
+    },
+    "e328fadc-6bdb-425f-b9eb-3134132ab0fb": {
+      "id": "e328fadc-6bdb-425f-b9eb-3134132ab0fb",
+      "position": [
+        -1.4631285747540312,
+        0.7467289847259418,
+        0.7085419432966814
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/impressora-3d.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "impressora-3d.glb",
+      "order": 19.136749023395502
+    },
+    "422656aa-0fdf-4570-8797-9d5026873e19": {
+      "id": "422656aa-0fdf-4570-8797-9d5026873e19",
+      "position": [
+        0.07116472351834435,
+        0.5812198482529349,
+        0.47193408226306266
+      ],
+      "rotation": [
+        -0.6813898430741546,
+        0.4332505357063986,
+        -0.18896529246234903,
+        0.558832688118829
+      ],
+      "scale": [
+        2.5000000000000013,
+        2.500000000000007,
+        2.5000000000000067
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (5)",
+      "order": 4.929684377867655,
+      "hidden": false,
+      "parentId": "e328fadc-6bdb-425f-b9eb-3134132ab0fb"
+    },
+    "2b0e1690-e257-4d6c-8882-a4184e9ed689": {
+      "id": "2b0e1690-e257-4d6c-8882-a4184e9ed689",
+      "position": [
+        1.8706355228203408,
+        0.31968688853315463,
+        0.6584628854535526
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48",
+      "components": {
+        "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
+          "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 1.871,
+            "toZ": 0.658,
+            "toY": 0.347,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/art-mannequin-plant-v1.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "art-mannequin-plant-v1.glb",
+      "order": 15.618004462720975
+    },
+    "1f19a91b-850a-4869-863e-0fb948be9ad7": {
+      "id": "1f19a91b-850a-4869-863e-0fb948be9ad7",
+      "position": [
+        -0.002302708190042857,
+        1.2784448533482164,
+        0.3081945075575938
+      ],
+      "rotation": [
+        -0.44454392264825965,
+        0.02761739842021911,
+        -0.5498915355199587,
+        0.7065672503764231
+      ],
+      "scale": [
+        2.1428571428571415,
+        2.1428571428571446,
+        2.1428571428571397
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (6)",
+      "order": 5.09549917835073,
+      "hidden": false,
+      "parentId": "2b0e1690-e257-4d6c-8882-a4184e9ed689"
+    },
     "d049948a-48ed-45b5-b2f5-702a6ec79bde": {
       "id": "d049948a-48ed-45b5-b2f5-702a6ec79bde",
       "position": [
@@ -2785,116 +4051,6 @@
       },
       "order": 2.8421274092108453
     },
-    "5c75e478-f369-4208-86d8-000794989978": {
-      "id": "5c75e478-f369-4208-86d8-000794989978",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
-      "components": {},
-      "name": "World Content Petrobras",
-      "order": 3.513191113816268,
-      "hidden": false
-    },
-    "5877d579-8484-4449-825a-b8dfb818c08d": {
-      "id": "5877d579-8484-4449-825a-b8dfb818c08d",
-      "parentId": "74dc3def-45df-4e84-8f28-a96d0886f541",
-      "position": [
-        0.27947908315508435,
-        1.8322826711695164,
-        0.5044371478575493
-      ],
-      "rotation": [
-        0,
-        0.28982003826243913,
-        0,
-        0.9570811592657952
-      ],
-      "scale": [
-        4.999999999999998,
-        5.000000000000001,
-        4.999999999999998
-      ],
-      "geometry": null,
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF"
-      },
-      "components": {
-        "b58e5c44-220d-47fe-a769-7bc8027346cd": {
-          "id": "b58e5c44-220d-47fe-a769-7bc8027346cd",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": 0.279,
-            "toZ": 0.504,
-            "toY": 1.9,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic",
-            "duration": 1000,
-            "reverse": true
-          }
-        },
-        "c2df5399-0cc0-46e5-9108-6ff836912313": {
-          "id": "c2df5399-0cc0-46e5-9108-6ff836912313",
-          "name": "particle-emitter",
-          "parameters": {
-            "emitterLife": 0,
-            "particlesPerShot": 10,
-            "emitDelay": 0.3,
-            "minimumLifespan": 5,
-            "maximumLifespan": 7,
-            "mass": 1,
-            "gravity": 0,
-            "scale": 0.05,
-            "forceX": 0.05,
-            "forceY": 0.1,
-            "forceZ": 0.05,
-            "spread": 360,
-            "radialVelocity": 0.05,
-            "spawnAreaType": "sphere",
-            "boundingZoneType": "none",
-            "resourceType": "sprite",
-            "resourceUrl": "assets/PETROBRAS/Ellipse 5.png",
-            "spawnAreaRadius": 2,
-            "animateColor": true,
-            "colorStart": "FDC82F",
-            "colorEnd": "FFFFFF",
-            "stopped": false
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/petrobras_marca.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "petrobras_marca.glb",
-      "order": 4.504882481674356,
-      "shadow": {
-        "receiveShadow": true,
-        "castShadow": true
-      }
-    },
     "3736992c-ae45-4da3-b5e8-b43ba6fbc383": {
       "id": "3736992c-ae45-4da3-b5e8-b43ba6fbc383",
       "position": [
@@ -2935,832 +4091,6 @@
       },
       "order": 5.716822714252985,
       "hidden": true
-    },
-    "cad3f641-f38e-406f-83b2-6bd93eb0f0d8": {
-      "id": "cad3f641-f38e-406f-83b2-6bd93eb0f0d8",
-      "position": [
-        -1.9961451249971844,
-        2.7101580466669395,
-        0.6929945690726119
-      ],
-      "rotation": [
-        0.18807383699033575,
-        0.8086183237959373,
-        -0.35145085662169223,
-        0.43272038736470464
-      ],
-      "scale": [
-        0.5000000000000002,
-        0.5000000000000003,
-        0.5000000000000006
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "74dc3def-45df-4e84-8f28-a96d0886f541",
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.2617993877991494,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#008542",
-        "intensity": 2.399999999999997,
-        "shadowMapSize": [
-          1024,
-          1024
-        ],
-        "decay": 1.4999999999999885
-      },
-      "name": "Luz Verde 70%",
-      "order": 4.673254437889009
-    },
-    "2d186c5f-bcdf-48a7-9934-d2aeb30a8280": {
-      "id": "2d186c5f-bcdf-48a7-9934-d2aeb30a8280",
-      "position": [
-        1.3436918819041366,
-        1.4076092561101756,
-        -1.133912326713808
-      ],
-      "rotation": [
-        -0.5422153803704678,
-        0.21160149284428692,
-        0.8004253325682363,
-        0.14334077053932182
-      ],
-      "scale": [
-        0.49999999999999994,
-        0.5000000000000002,
-        0.5000000000000007
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.2617993877991494,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#fdc830",
-        "intensity": 0.7000000000000002
-      },
-      "name": "Luz Amarela 30%",
-      "order": 4.8416263941036615,
-      "parentId": "74dc3def-45df-4e84-8f28-a96d0886f541"
-    },
-    "b61ebeef-f317-4c99-882e-672456408fd3": {
-      "id": "b61ebeef-f317-4c99-882e-672456408fd3",
-      "position": [
-        0.41598058246229797,
-        1.6096565348631355,
-        0.6466557173827681
-      ],
-      "rotation": [
-        -0.5777773766969135,
-        0.7068612196066553,
-        0.40764359798386707,
-        0.01863373865310773
-      ],
-      "scale": [
-        0.49999999999999983,
-        0.5000000000000003,
-        0.4999999999999997
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.4363323129985824,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#ffffff",
-        "intensity": 0.02,
-        "shadowRadius": 50,
-        "decay": 7.999999999999999
-      },
-      "name": "Luz Branca",
-      "order": 5.009998350318315,
-      "parentId": "74dc3def-45df-4e84-8f28-a96d0886f541",
-      "hidden": false
-    },
-    "ef899a4b-2e64-47d1-a400-ccd3310f9f17": {
-      "id": "ef899a4b-2e64-47d1-a400-ccd3310f9f17",
-      "position": [
-        -1.9214397547969186,
-        2.860268645480908,
-        1.1359747172442038
-      ],
-      "rotation": [
-        0.16469528886549656,
-        0.8351777152891422,
-        -0.36299440024041585,
-        0.37893101100862675
-      ],
-      "scale": [
-        0.5357142857142858,
-        0.5357142857142855,
-        0.5357142857142858
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "8362a0bf-7724-4d12-b787-b5c5dd4a03d5",
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.2617993877991494,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#008542",
-        "intensity": 2.399999999999997,
-        "shadowMapSize": [
-          1024,
-          1024
-        ],
-        "decay": 1.4999999999999885
-      },
-      "name": "Luz Verde 70% (1)",
-      "order": 2
-    },
-    "ddf702a6-d9fd-4a66-b984-3aba34168144": {
-      "id": "ddf702a6-d9fd-4a66-b984-3aba34168144",
-      "position": [
-        1.3709855782244569,
-        1.464680655598662,
-        -1.2715706626884766
-      ],
-      "rotation": [
-        -0.4887273857827335,
-        0.22051977148518162,
-        0.8341605205913535,
-        0.12920061399567973
-      ],
-      "scale": [
-        0.535714285714285,
-        0.5357142857142853,
-        0.535714285714286
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.2617993877991494,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#fdc830",
-        "intensity": 0.7000000000000002
-      },
-      "name": "Luz Amarela 30% (1)",
-      "order": 3,
-      "parentId": "8362a0bf-7724-4d12-b787-b5c5dd4a03d5"
-    },
-    "92de4095-129f-49ad-95b7-dc5ee1331068": {
-      "id": "92de4095-129f-49ad-95b7-dc5ee1331068",
-      "position": [
-        0.6161634975256582,
-        1.795708198970248,
-        0.7292737932233841
-      ],
-      "rotation": [
-        -0.5498915355199582,
-        0.7065672503764235,
-        0.44454392264825954,
-        -0.027617398420218858
-      ],
-      "scale": [
-        0.5357142857142848,
-        0.5357142857142855,
-        0.5357142857142848
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.4363323129985824,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#ffffff",
-        "intensity": 0.02,
-        "shadowRadius": 50,
-        "decay": 7.999999999999999
-      },
-      "name": "Luz Branca (1)",
-      "order": 4,
-      "parentId": "8362a0bf-7724-4d12-b787-b5c5dd4a03d5",
-      "hidden": false
-    },
-    "81ff3d48-18f7-43b9-8204-fea3c2517abf": {
-      "id": "81ff3d48-18f7-43b9-8204-fea3c2517abf",
-      "position": [
-        -1.7297724861571515,
-        2.8178554082369924,
-        1.0228590264383044
-      ],
-      "rotation": [
-        0.17741099294084903,
-        0.8212756219667259,
-        -0.3569521149455914,
-        0.40818730992373947
-      ],
-      "scale": [
-        0.5000000000000011,
-        0.5000000000000004,
-        0.5000000000000008
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "f7a93591-b97c-4f75-a728-e8ca04ca7110",
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.2617993877991494,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#008542",
-        "intensity": 2.399999999999997,
-        "shadowMapSize": [
-          1024,
-          1024
-        ],
-        "decay": 1.4999999999999885
-      },
-      "name": "Luz Verde 70% (2)",
-      "order": 1
-    },
-    "1da52b74-cd5e-4644-88c9-c3e3e0ada289": {
-      "id": "1da52b74-cd5e-4644-88c9-c3e3e0ada289",
-      "position": [
-        1.4940945543960513,
-        1.5153066176802277,
-        -1.0016856985244011
-      ],
-      "rotation": [
-        -0.5178792846275163,
-        0.21581977119693224,
-        0.8163818213807523,
-        0.1369072482859879
-      ],
-      "scale": [
-        0.5000000000000003,
-        0.5000000000000002,
-        0.5000000000000012
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.2617993877991494,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#fdc830",
-        "intensity": 0.7000000000000002
-      },
-      "name": "Luz Amarela 30% (2)",
-      "order": 2,
-      "parentId": "f7a93591-b97c-4f75-a728-e8ca04ca7110"
-    },
-    "d9356fad-eb0f-4d78-9687-be2da5a2de1e": {
-      "id": "d9356fad-eb0f-4d78-9687-be2da5a2de1e",
-      "position": [
-        0.6610451286177073,
-        1.8933171222395886,
-        0.8133151564741734
-      ],
-      "rotation": [
-        -0.5652467521396275,
-        0.7071018186660766,
-        0.4248483366986408,
-        -0.0026491581922913157
-      ],
-      "scale": [
-        0.49999999999999956,
-        0.5000000000000007,
-        0.49999999999999967
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "light": {
-        "type": "point",
-        "angle": 0.4363323129985824,
-        "shadowCamera": [
-          -50,
-          50,
-          50,
-          -50,
-          0.5,
-          50
-        ],
-        "color": "#ffffff",
-        "intensity": 0.02,
-        "shadowRadius": 50,
-        "decay": 7.999999999999999
-      },
-      "name": "Luz Branca (2)",
-      "order": 3,
-      "parentId": "f7a93591-b97c-4f75-a728-e8ca04ca7110",
-      "hidden": false
-    },
-    "74dc3def-45df-4e84-8f28-a96d0886f541": {
-      "id": "74dc3def-45df-4e84-8f28-a96d0886f541",
-      "position": [
-        0,
-        -0.4766324799752633,
-        0.497
-      ],
-      "rotation": [
-        0,
-        0.9550778626194415,
-        0,
-        0.2963549836501475
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "5c75e478-f369-4208-86d8-000794989978",
-      "components": {
-        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
-          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": 0,
-            "toZ": 0.497,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic",
-            "toY": -0.35
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/floating-island_5.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "(PETRO) floating-island_5.glb",
-      "order": -0.32575610135233335
-    },
-    "f7a93591-b97c-4f75-a728-e8ca04ca7110": {
-      "id": "f7a93591-b97c-4f75-a728-e8ca04ca7110",
-      "position": [
-        -2.208053202979867,
-        -0.6287175586558524,
-        -0.579625000089675
-      ],
-      "rotation": [
-        -0.0000359225986562245,
-        0.7155248506161166,
-        -0.00013424222222569804,
-        0.6985872664452
-      ],
-      "scale": [
-        0.29999999999999977,
-        0.30000000000000004,
-        0.29999999999999977
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
-          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -2.208,
-            "toZ": -0.58,
-            "duration": 6500,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic",
-            "toY": -0.75
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/floating-island_5.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "(Tech) floating-island_5.glb ",
-      "order": 1.3812416909399838,
-      "parentId": "5c75e478-f369-4208-86d8-000794989978"
-    },
-    "8362a0bf-7724-4d12-b787-b5c5dd4a03d5": {
-      "id": "8362a0bf-7724-4d12-b787-b5c5dd4a03d5",
-      "position": [
-        2.0529336648453405,
-        -0.5842361569194093,
-        -0.6088306996665004
-      ],
-      "rotation": [
-        0.00003919341110555901,
-        0.9848979128888706,
-        0.00008672295966230524,
-        -0.17313605092571402
-      ],
-      "scale": [
-        0.2800000000000006,
-        0.2800000000000004,
-        0.28000000000000064
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
-          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": 2.053,
-            "toZ": -0.609,
-            "duration": 4500,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic",
-            "toY": -0.45
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/floating-island_5.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "(Art) floating-island_5.glb  ",
-      "order": 2.2538917548900947,
-      "parentId": "5c75e478-f369-4208-86d8-000794989978"
-    },
-    "d998b13c-9774-47fa-a738-208c1f8e1a81": {
-      "id": "d998b13c-9774-47fa-a738-208c1f8e1a81",
-      "position": [
-        0.9159376451843158,
-        -0.4608915195558216,
-        -1.6183500347691018
-      ],
-      "rotation": [
-        0,
-        0.03439280710844524,
-        0,
-        0.9994083924098304
-      ],
-      "scale": [
-        0.10000000000000002,
-        0.1,
-        0.10000000000000002
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "5c75e478-f369-4208-86d8-000794989978",
-      "components": {
-        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
-          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": 0.916,
-            "toZ": -1.618,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Back",
-            "toY": -0.2
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "floating-island-menor2.glb",
-      "order": 13.601813434373078
-    },
-    "5a1d18a9-f8db-4d8e-abba-bca3eab9debb": {
-      "id": "5a1d18a9-f8db-4d8e-abba-bca3eab9debb",
-      "position": [
-        -1.4734843810073555,
-        0.6101471519870603,
-        0.7246284490482939
-      ],
-      "rotation": [
-        0,
-        0.924242567824449,
-        0,
-        0.3818058090459974
-      ],
-      "scale": [
-        0.1000000000000001,
-        0.1,
-        0.1000000000000001
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
-          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -1.473,
-            "toZ": 0.725,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Back",
-            "toY": 0.75
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "floating-island-menor2.glb (1)",
-      "order": 15.469158806940944,
-      "parentId": "5c75e478-f369-4208-86d8-000794989978"
-    },
-    "bdd6dd7d-5a91-4cf6-be7a-8c3618101476": {
-      "id": "bdd6dd7d-5a91-4cf6-be7a-8c3618101476",
-      "position": [
-        -1.0156951825363012,
-        -0.8057309558694146,
-        -1.228203493252801
-      ],
-      "rotation": [
-        0,
-        -0.16498312722472752,
-        0,
-        0.986296389393751
-      ],
-      "scale": [
-        0.1,
-        0.1,
-        0.1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
-          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": -1.016,
-            "toZ": -1.228,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Back",
-            "toY": -1
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "floating-island-menor2.glb (2)",
-      "order": 16.758580304610586,
-      "parentId": "5c75e478-f369-4208-86d8-000794989978"
-    },
-    "2f444118-4894-4647-a065-76a8122ee468": {
-      "id": "2f444118-4894-4647-a065-76a8122ee468",
-      "position": [
-        1.8612191326069687,
-        0.08853560996282928,
-        0.6701010583579654
-      ],
-      "rotation": [
-        -0.0016528875207185466,
-        0.1881426359557641,
-        -0.005701079269712593,
-        0.9821237774301267
-      ],
-      "scale": [
-        0.10000000000000012,
-        0.10000000000000002,
-        0.10000000000000014
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
-          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": 1.861,
-            "toZ": 0.67,
-            "duration": 5000,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Back",
-            "toY": 0.45
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/floating-island-menor2.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "floating-island-menor2.glb (3)",
-      "order": 17.998043034251275,
-      "parentId": "5c75e478-f369-4208-86d8-000794989978"
-    },
-    "2d938b10-6c70-4516-adbe-086dff167675": {
-      "id": "2d938b10-6c70-4516-adbe-086dff167675",
-      "position": [
-        0.1946994411944507,
-        2.0864914061298045,
-        0.3099290896750994
-      ],
-      "rotation": [
-        -0.0000032202685129425033,
-        0.9598594377283733,
-        0.00009511374809873053,
-        -0.28048146239417626
-      ],
-      "scale": [
-        0.8928571428571415,
-        0.8928571428571418,
-        0.8928571428571418
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "unlit",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/video arte 2.mp4"
-        },
-        "side": "double",
-        "textureFiltering": "smooth",
-        "blending": "additive",
-        "forceTransparent": false
-      },
-      "parentId": "8362a0bf-7724-4d12-b787-b5c5dd4a03d5",
-      "components": {
-        "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
-          "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "toX": 0.195,
-            "toZ": 0.31,
-            "toY": 2.1,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic"
-          }
-        }
-      },
-      "name": "Plane",
-      "order": 5.4973632200720175,
-      "videoControls": {
-        "paused": false,
-        "loop": true,
-        "positional": true
-      }
-    },
-    "cd42d05f-8901-4d5c-93b6-85e829428bed": {
-      "id": "cd42d05f-8901-4d5c-93b6-85e829428bed",
-      "position": [
-        0.40221495782582206,
-        2.0319105171249996,
-        0.4548844569925601
-      ],
-      "rotation": [
-        0.6407599556197926,
-        0.2600308878858584,
-        -0.22531748514490288,
-        0.6863254676226068
-      ],
-      "scale": [
-        10.000000000000005,
-        10.000000000000016,
-        9.999999999999993
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "f7a93591-b97c-4f75-a728-e8ca04ca7110",
-      "components": {
-        "00870f85-3640-41de-9bb1-839bd6fcc6c3": {
-          "id": "00870f85-3640-41de-9bb1-839bd6fcc6c3",
-          "name": "position-animation",
-          "parameters": {
-            "autoFrom": true,
-            "reverse": true,
-            "easeIn": true,
-            "easeOut": true,
-            "easingFunction": "Quadratic",
-            "toY": 2.1,
-            "toX": 0.402,
-            "toZ": 0.455
-          }
-        }
-      },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/arduino-uno.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "arduino-uno.glb",
-      "order": 4.3972271498800986
     },
     "d32aa92c-e8ef-41bb-9756-7a5600b8fa3c": {
       "id": "d32aa92c-e8ef-41bb-9756-7a5600b8fa3c",
@@ -3839,7 +4169,7 @@
           "desktop": "3D",
           "headset": "AR",
           "world": {
-            "disableWorldTracking": true
+            "disableWorldTracking": false
           }
         }
       },
@@ -3929,7 +4259,7 @@
       "id": "3c58c68f-6a4c-4991-a330-7d70b697cdca",
       "position": [
         0,
-        0,
+        6.550943996031839,
         0
       ],
       "rotation": [
@@ -3964,15 +4294,15 @@
         0
       ],
       "rotation": [
-        -0.7071068,
+        -0.707106799999999,
         0,
         0,
-        0.7071068
+        0.7071067623730954
       ],
       "scale": [
-        1,
-        1,
-        1
+        50,
+        50.000002660624084,
+        50.000002660624084
       ],
       "geometry": {
         "type": "plane",
@@ -3985,13 +4315,13 @@
       "parentId": "e99656bb-91b6-47bf-842b-aedb96380836",
       "components": {},
       "name": "Hider",
-      "order": 6.707776521064545
+      "order": 3.353535723619814
     },
-    "4e002588-7981-4b1f-b4e7-365d1b51d9a1": {
-      "id": "4e002588-7981-4b1f-b4e7-365d1b51d9a1",
+    "0959b9eb-1e8a-413e-bc46-6d86c2e983ca": {
+      "id": "0959b9eb-1e8a-413e-bc46-6d86c2e983ca",
       "position": [
-        0.0008972111967238128,
-        0.3236547104882175,
+        1.4848160166102642,
+        -3.542433146379236,
         0
       ],
       "rotation": [
@@ -4009,36 +4339,30 @@
       "material": null,
       "parentId": "3c58c68f-6a4c-4991-a330-7d70b697cdca",
       "components": {
-        "5c077c59-7129-4811-8a53-985d08e74253": {
-          "id": "5c077c59-7129-4811-8a53-985d08e74253",
+        "e3516363-4599-4640-9089-7d8ab65da990": {
+          "id": "e3516363-4599-4640-9089-7d8ab65da990",
           "name": "reset-button",
           "parameters": {}
         }
       },
       "ui": {
-        "type": "overlay",
+        "type": "3d",
         "width": 100,
-        "height": 36,
+        "height": 127,
         "background": "#ad50ff",
         "borderRadius": 18,
         "flexDirection": "row",
         "backgroundOpacity": 1,
         "padding": "10",
-        "gap": 0,
+        "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center",
-        "position": "absolute",
-        "top": "",
-        "left": "",
-        "bottom": "",
-        "right": "",
-        "stackingOrder": 2
+        "justifyContent": "center"
       },
       "name": "Button",
-      "order": 8.006884795243721
+      "order": 8.36326010582852
     },
-    "b70865d1-873d-47b3-a46b-d2a4cf4bcec4": {
-      "id": "b70865d1-873d-47b3-a46b-d2a4cf4bcec4",
+    "2cc99d96-95cf-4c4b-a861-2a8bac8edfe7": {
+      "id": "2cc99d96-95cf-4c4b-a861-2a8bac8edfe7",
       "position": [
         -0.323,
         0,
@@ -4057,7 +4381,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "4e002588-7981-4b1f-b4e7-365d1b51d9a1",
+      "parentId": "0959b9eb-1e8a-413e-bc46-6d86c2e983ca",
       "components": {},
       "name": "Icon",
       "ui": {
@@ -4069,10 +4393,10 @@
         },
         "backgroundOpacity": 1
       },
-      "order": 0.1583625560016237
+      "order": 0.48303104289352006
     },
-    "4d981632-907a-4a30-a0a4-66c1c349027a": {
-      "id": "4d981632-907a-4a30-a0a4-66c1c349027a",
+    "97af14e9-01fb-4adb-a7f3-2efd0d401ab7": {
+      "id": "97af14e9-01fb-4adb-a7f3-2efd0d401ab7",
       "position": [
         0,
         0,
@@ -4091,20 +4415,106 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "4e002588-7981-4b1f-b4e7-365d1b51d9a1",
+      "parentId": "0959b9eb-1e8a-413e-bc46-6d86c2e983ca",
       "components": {},
       "name": "Text",
       "ui": {
-        "width": 72,
+        "width": 50,
         "height": 14,
-        "text": "Restaurar",
+        "text": "Reset Button\n",
         "color": "#ffffff",
         "fontSize": 16
       },
-      "order": 1.035755927580762
+      "order": 1.2642975275437847
     },
-    "7a0af50d-3689-4d8a-9299-36899d8d935c": {
-      "id": "7a0af50d-3689-4d8a-9299-36899d8d935c",
+    "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6": {
+      "id": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3c58c68f-6a4c-4991-a330-7d70b697cdca",
+      "components": {
+        "542e35e3-b7c8-4950-9db2-9eba591d489c": {
+          "id": "542e35e3-b7c8-4950-9db2-9eba591d489c",
+          "name": "hide-on-ready",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "width": 393,
+        "height": 657,
+        "type": "3d",
+        "background": "#000000",
+        "backgroundOpacity": 1,
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "name": "Frame",
+      "order": 5.456568170473906
+    },
+    "c8eeffa9-e26c-445e-bf1f-f2af0b38585e": {
+      "id": "c8eeffa9-e26c-445e-bf1f-f2af0b38585e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b": {
+          "id": "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b",
+          "name": "hide-on-ready",
+          "parameters": {}
+        }
+      },
+      "name": "Text (1)",
+      "ui": {
+        "width": 185,
+        "height": 14,
+        "text": "Carregando\n",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "position": "absolute",
+        "top": 317,
+        "left": 108,
+        "bottom": 92,
+        "right": ""
+      },
+      "order": 2.7305830529551267,
+      "parentId": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6"
+    },
+    "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48": {
+      "id": "86a3e3d0-ac2d-449a-a785-c4b5f3b85d48",
       "position": [
         0,
         0,
@@ -4126,10 +4536,11 @@
       "parentId": "b9b07763-d41a-4cda-9a22-1d5238900a16",
       "components": {},
       "name": "Empty Object",
-      "order": 5.056605471041664
+      "order": 5.216125473585015
     },
-    "eb250b00-79bc-4429-a137-f6524b4d0bfa": {
-      "id": "eb250b00-79bc-4429-a137-f6524b4d0bfa",
+    "eaca0078-8879-49ca-97ff-3484ba37c5fc": {
+      "id": "eaca0078-8879-49ca-97ff-3484ba37c5fc",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "position": [
         0,
         -0.4766324799752633,
@@ -4174,12 +4585,11 @@
         "loop": true
       },
       "name": "(PETRO) floating-island_5.glb",
-      "order": 6.32456426774932,
-      "parentId": "7a0af50d-3689-4d8a-9299-36899d8d935c"
+      "order": -0.32575610135233335
     },
-    "82bb9eb3-b305-4a98-9a52-ec1c8957dfd8": {
-      "id": "82bb9eb3-b305-4a98-9a52-ec1c8957dfd8",
-      "parentId": "eb250b00-79bc-4429-a137-f6524b4d0bfa",
+    "603cde7d-2f4d-46dc-9bde-28ae924d49e7": {
+      "id": "603cde7d-2f4d-46dc-9bde-28ae924d49e7",
+      "parentId": "eaca0078-8879-49ca-97ff-3484ba37c5fc",
       "position": [
         0.27947908315508435,
         1.8322826711695164,
@@ -4255,14 +4665,15 @@
         "loop": true
       },
       "name": "petrobras_marca.glb",
-      "order": 1,
+      "order": 4.504882481674356,
       "shadow": {
         "receiveShadow": true,
         "castShadow": true
       }
     },
-    "ef95a1af-9a07-4a10-bf8f-8746abf2472a": {
-      "id": "ef95a1af-9a07-4a10-bf8f-8746abf2472a",
+    "4b5815fc-364e-42c5-a297-3d0da8f17ef8": {
+      "id": "4b5815fc-364e-42c5-a297-3d0da8f17ef8",
+      "parentId": "eaca0078-8879-49ca-97ff-3484ba37c5fc",
       "position": [
         -1.9961451249971844,
         2.7101580466669395,
@@ -4281,7 +4692,6 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "eb250b00-79bc-4429-a137-f6524b4d0bfa",
       "components": {},
       "light": {
         "type": "point",
@@ -4303,10 +4713,11 @@
         "decay": 1.4999999999999885
       },
       "name": "Luz Verde 70%",
-      "order": 2
+      "order": 4.673254437889009
     },
-    "13c2f8e4-85ff-4c7c-aa26-6e26b6feac42": {
-      "id": "13c2f8e4-85ff-4c7c-aa26-6e26b6feac42",
+    "966f9b06-c37d-4758-93b4-22e13f2a1580": {
+      "id": "966f9b06-c37d-4758-93b4-22e13f2a1580",
+      "parentId": "eaca0078-8879-49ca-97ff-3484ba37c5fc",
       "position": [
         1.3436918819041366,
         1.4076092561101756,
@@ -4341,11 +4752,11 @@
         "intensity": 0.7000000000000002
       },
       "name": "Luz Amarela 30%",
-      "order": 3,
-      "parentId": "eb250b00-79bc-4429-a137-f6524b4d0bfa"
+      "order": 4.8416263941036615
     },
-    "2a7e7b51-0f18-4c25-8225-d851152d0033": {
-      "id": "2a7e7b51-0f18-4c25-8225-d851152d0033",
+    "0c6e24e5-8115-4659-8a1b-816ded004158": {
+      "id": "0c6e24e5-8115-4659-8a1b-816ded004158",
+      "parentId": "eaca0078-8879-49ca-97ff-3484ba37c5fc",
       "position": [
         0.41598058246229797,
         1.6096565348631355,
@@ -4382,19 +4793,19 @@
         "decay": 7.999999999999999
       },
       "name": "Luz Branca",
-      "order": 4,
-      "parentId": "eb250b00-79bc-4429-a137-f6524b4d0bfa",
+      "order": 5.009998350318315,
       "hidden": false
     },
-    "df18fcc5-648b-44c2-becf-46bb85493faa": {
-      "id": "df18fcc5-648b-44c2-becf-46bb85493faa",
+    "16880c3d-e848-465b-933f-9bee67b0ccec": {
+      "id": "16880c3d-e848-465b-933f-9bee67b0ccec",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "position": [
         -2.208053202979867,
         -0.6287175586558524,
         -0.579625000089675
       ],
       "rotation": [
-        -0.00003592259865622452,
+        -0.0000359225986562245,
         0.7155248506161166,
         -0.00013424222222569804,
         0.6985872664452
@@ -4432,11 +4843,11 @@
         "loop": true
       },
       "name": "(Tech) floating-island_5.glb ",
-      "order": 7.941854872136614,
-      "parentId": "7a0af50d-3689-4d8a-9299-36899d8d935c"
+      "order": 1.3812416909399838
     },
-    "35ad6e16-aeb2-4b75-8a45-bac4aba8eb8e": {
-      "id": "35ad6e16-aeb2-4b75-8a45-bac4aba8eb8e",
+    "93ecacdf-ff35-4a50-bbdf-8bbf6965758a": {
+      "id": "93ecacdf-ff35-4a50-bbdf-8bbf6965758a",
+      "parentId": "16880c3d-e848-465b-933f-9bee67b0ccec",
       "position": [
         -1.7297724861571515,
         2.8178554082369924,
@@ -4455,7 +4866,6 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "df18fcc5-648b-44c2-becf-46bb85493faa",
       "components": {},
       "light": {
         "type": "point",
@@ -4476,11 +4886,12 @@
         ],
         "decay": 1.4999999999999885
       },
-      "name": "Luz Verde 70% (1)",
+      "name": "Luz Verde 70% (2)",
       "order": 1
     },
-    "57e25e01-d77c-4628-9dbc-8a25aac51887": {
-      "id": "57e25e01-d77c-4628-9dbc-8a25aac51887",
+    "8435632e-1ce4-4c80-9950-812efc5699c7": {
+      "id": "8435632e-1ce4-4c80-9950-812efc5699c7",
+      "parentId": "16880c3d-e848-465b-933f-9bee67b0ccec",
       "position": [
         1.4940945543960513,
         1.5153066176802277,
@@ -4514,12 +4925,12 @@
         "color": "#fdc830",
         "intensity": 0.7000000000000002
       },
-      "name": "Luz Amarela 30% (1)",
-      "order": 2,
-      "parentId": "df18fcc5-648b-44c2-becf-46bb85493faa"
+      "name": "Luz Amarela 30% (2)",
+      "order": 2
     },
-    "3daf38aa-47b3-45fd-8994-d35a52d76c16": {
-      "id": "3daf38aa-47b3-45fd-8994-d35a52d76c16",
+    "e1ec8128-c6e7-46cf-97aa-cb3fc430a476": {
+      "id": "e1ec8128-c6e7-46cf-97aa-cb3fc430a476",
+      "parentId": "16880c3d-e848-465b-933f-9bee67b0ccec",
       "position": [
         0.6610451286177073,
         1.8933171222395886,
@@ -4555,13 +4966,13 @@
         "shadowRadius": 50,
         "decay": 7.999999999999999
       },
-      "name": "Luz Branca (1)",
+      "name": "Luz Branca (2)",
       "order": 3,
-      "parentId": "df18fcc5-648b-44c2-becf-46bb85493faa",
       "hidden": false
     },
-    "d58fa7a4-e5e9-48f1-803e-b34d9cfe1979": {
-      "id": "d58fa7a4-e5e9-48f1-803e-b34d9cfe1979",
+    "012783f0-dff4-402d-bdb5-233f2bf26ab4": {
+      "id": "012783f0-dff4-402d-bdb5-233f2bf26ab4",
+      "parentId": "16880c3d-e848-465b-933f-9bee67b0ccec",
       "position": [
         0.40221495782582206,
         2.0319105171249996,
@@ -4580,7 +4991,6 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "df18fcc5-648b-44c2-becf-46bb85493faa",
       "components": {
         "00870f85-3640-41de-9bb1-839bd6fcc6c3": {
           "id": "00870f85-3640-41de-9bb1-839bd6fcc6c3",
@@ -4606,23 +5016,24 @@
         "loop": true
       },
       "name": "arduino-uno.glb",
-      "order": 4
+      "order": 4.3972271498800986
     },
-    "56b09ebc-612d-44e4-84da-d693f9059838": {
-      "id": "56b09ebc-612d-44e4-84da-d693f9059838",
+    "d40d598d-6f77-4cd5-9eb2-3047df0f0cb3": {
+      "id": "d40d598d-6f77-4cd5-9eb2-3047df0f0cb3",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "position": [
         2.0529336648453405,
         -0.5842361569194093,
         -0.6088306996665004
       ],
       "rotation": [
-        0.000039193411105559,
-        0.9848979128888707,
-        0.00008672295966230522,
-        -0.17313605092571394
+        0.00003919341110555901,
+        0.9848979128888706,
+        0.00008672295966230524,
+        -0.17313605092571402
       ],
       "scale": [
-        0.2800000000000007,
+        0.2800000000000006,
         0.2800000000000004,
         0.28000000000000064
       ],
@@ -4654,11 +5065,11 @@
         "loop": true
       },
       "name": "(Art) floating-island_5.glb  ",
-      "order": 9.782372281392027,
-      "parentId": "7a0af50d-3689-4d8a-9299-36899d8d935c"
+      "order": 2.2538917548900947
     },
-    "636f3b6f-9fc8-4a9f-80cc-84f7b22796ad": {
-      "id": "636f3b6f-9fc8-4a9f-80cc-84f7b22796ad",
+    "a998a3fc-3d65-41a2-a61a-be9c3f6e7f22": {
+      "id": "a998a3fc-3d65-41a2-a61a-be9c3f6e7f22",
+      "parentId": "d40d598d-6f77-4cd5-9eb2-3047df0f0cb3",
       "position": [
         -1.9214397547969186,
         2.860268645480908,
@@ -4677,7 +5088,6 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "56b09ebc-612d-44e4-84da-d693f9059838",
       "components": {},
       "light": {
         "type": "point",
@@ -4698,11 +5108,12 @@
         ],
         "decay": 1.4999999999999885
       },
-      "name": "Luz Verde 70% (2)",
-      "order": 1
+      "name": "Luz Verde 70% (1)",
+      "order": 2
     },
-    "7f363419-7641-41fa-b896-9a03d41aa44e": {
-      "id": "7f363419-7641-41fa-b896-9a03d41aa44e",
+    "1c549787-bcbf-42bb-b300-99fa52276960": {
+      "id": "1c549787-bcbf-42bb-b300-99fa52276960",
+      "parentId": "d40d598d-6f77-4cd5-9eb2-3047df0f0cb3",
       "position": [
         1.3709855782244569,
         1.464680655598662,
@@ -4736,27 +5147,27 @@
         "color": "#fdc830",
         "intensity": 0.7000000000000002
       },
-      "name": "Luz Amarela 30% (2)",
-      "order": 2,
-      "parentId": "56b09ebc-612d-44e4-84da-d693f9059838"
+      "name": "Luz Amarela 30% (1)",
+      "order": 3
     },
-    "ccd46a96-8428-4a1f-bd78-5f2b5812b783": {
-      "id": "ccd46a96-8428-4a1f-bd78-5f2b5812b783",
+    "81f0e84d-2bdf-4630-a2bd-ba253e0c41c8": {
+      "id": "81f0e84d-2bdf-4630-a2bd-ba253e0c41c8",
+      "parentId": "d40d598d-6f77-4cd5-9eb2-3047df0f0cb3",
       "position": [
-        0.6161634975256582,
-        1.795708198970248,
-        0.7292737932233841
+        0.61616349752566,
+        1.7957081989702481,
+        0.7292737932233819
       ],
       "rotation": [
-        -0.5498915355199582,
-        0.7065672503764235,
-        0.44454392264825954,
-        -0.027617398420218858
+        -0.5498915355199581,
+        0.7065672503764238,
+        0.44454392264825926,
+        -0.027617398420219007
       ],
       "scale": [
-        0.5357142857142848,
-        0.5357142857142855,
-        0.5357142857142848
+        0.5357142857142849,
+        0.5357142857142856,
+        0.5357142857142849
       ],
       "geometry": null,
       "material": null,
@@ -4777,56 +5188,40 @@
         "shadowRadius": 50,
         "decay": 7.999999999999999
       },
-      "name": "Luz Branca (2)",
-      "order": 3,
-      "parentId": "56b09ebc-612d-44e4-84da-d693f9059838",
+      "name": "Luz Branca (1)",
+      "order": 4.4829170063961,
       "hidden": false
     },
-    "e8c661c0-4d93-4927-8608-3c7f3bba3d9f": {
-      "id": "e8c661c0-4d93-4927-8608-3c7f3bba3d9f",
+    "eb83b0d6-9ba7-4868-9464-3500cbbbb971": {
+      "id": "eb83b0d6-9ba7-4868-9464-3500cbbbb971",
+      "parentId": "d40d598d-6f77-4cd5-9eb2-3047df0f0cb3",
       "position": [
-        0.1946994411944507,
-        2.0864914061298045,
-        0.3099290896750994
+        0.15599390789053835,
+        2.0865021160490413,
+        0.26175043807586656
       ],
       "rotation": [
-        -0.0000032202685129425033,
-        0.9598594377283733,
-        0.00009511374809873053,
-        -0.28048146239417626
+        0.5313647066140109,
+        0.06533412746899595,
+        0.08430896630836136,
+        0.8404016888089211
       ],
       "scale": [
-        0.8928571428571415,
-        0.8928571428571418,
-        0.8928571428571418
+        2.25,
+        2.2499999999999987,
+        2.250000000000003
       ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "unlit",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/video arte 2.mp4"
-        },
-        "side": "double",
-        "textureFiltering": "smooth",
-        "blending": "additive",
-        "forceTransparent": false
-      },
-      "parentId": "56b09ebc-612d-44e4-84da-d693f9059838",
+      "geometry": null,
+      "material": null,
       "components": {
         "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
           "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
           "name": "position-animation",
           "parameters": {
             "autoFrom": true,
-            "toX": 0.195,
-            "toZ": 0.31,
-            "toY": 2.1,
+            "toX": 0.156,
+            "toZ": 0.262,
+            "toY": 2.15,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
@@ -4834,16 +5229,20 @@
           }
         }
       },
-      "name": "Plane",
-      "order": 4,
-      "videoControls": {
-        "paused": false,
-        "loop": true,
-        "positional": true
-      }
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/art-island-palette.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "art-island-palette.glb",
+      "order": 5.891359220321391
     },
-    "825665e6-8f0a-4a23-b06e-08d86031f4d5": {
-      "id": "825665e6-8f0a-4a23-b06e-08d86031f4d5",
+    "7f3c3c5a-4756-49c0-b8ed-007cb6fb43e9": {
+      "id": "7f3c3c5a-4756-49c0-b8ed-007cb6fb43e9",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "position": [
         0.9159376451843158,
         -0.4608915195558216,
@@ -4853,7 +5252,7 @@
         0,
         0.03439280710844524,
         0,
-        0.9994083924098303
+        0.9994083924098304
       ],
       "scale": [
         0.10000000000000002,
@@ -4888,11 +5287,113 @@
         "loop": true
       },
       "name": "floating-island-menor2.glb",
-      "order": 7.056483633694774,
-      "parentId": "b9b07763-d41a-4cda-9a22-1d5238900a16"
+      "order": 13.601813434373078
     },
-    "0b03c696-5966-4366-867f-7fe9b43ab303": {
-      "id": "0b03c696-5966-4366-867f-7fe9b43ab303",
+    "4a674e99-49da-4c62-9be4-63503c0b9edc": {
+      "id": "4a674e99-49da-4c62-9be4-63503c0b9edc",
+      "parentId": "7f3c3c5a-4756-49c0-b8ed-007cb6fb43e9",
+      "position": [
+        0.14818295819705085,
+        3.078707709668887,
+        -0.1571730658365773
+      ],
+      "rotation": [
+        -0.0000945358096893662,
+        0.20140248925297563,
+        -0.000010953350768607016,
+        0.9795085646719531
+      ],
+      "scale": [
+        1.9999999999999996,
+        2.0000000000000004,
+        1.999999999999999
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/video arte 2.mp4"
+        },
+        "side": "double",
+        "textureFiltering": "smooth",
+        "blending": "additive",
+        "forceTransparent": false
+      },
+      "components": {
+        "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
+          "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 0.148,
+            "toZ": -0.157,
+            "toY": 3.35,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic"
+          }
+        }
+      },
+      "name": "Plane (1)",
+      "order": 7.273663940536032,
+      "videoControls": {
+        "paused": false,
+        "loop": true,
+        "positional": true
+      }
+    },
+    "aaca6d39-46ad-42e6-8200-d3e4f08ffeac": {
+      "id": "aaca6d39-46ad-42e6-8200-d3e4f08ffeac",
+      "parentId": "4a674e99-49da-4c62-9be4-63503c0b9edc",
+      "position": [
+        -0.14486015331448066,
+        -0.3255683129235775,
+        -0.6499955211127171
+      ],
+      "rotation": [
+        -0.2723981822738782,
+        -0.17161932445206524,
+        -0.6525000074880611,
+        0.6859954649970974
+      ],
+      "scale": [
+        0.5999999999999998,
+        0.6000000000000006,
+        0.5999999999999998
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (3)",
+      "order": 1,
+      "hidden": false
+    },
+    "2a4f7209-e56d-4260-ae19-55c4b3296ea5": {
+      "id": "2a4f7209-e56d-4260-ae19-55c4b3296ea5",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "position": [
         -1.4734843810073555,
         0.6101471519870603,
@@ -4905,9 +5406,9 @@
         0.3818058090459974
       ],
       "scale": [
-        0.10000000000000009,
+        0.1000000000000001,
         0.1,
-        0.10000000000000009
+        0.1000000000000001
       ],
       "geometry": null,
       "material": null,
@@ -4937,11 +5438,176 @@
         "loop": true
       },
       "name": "floating-island-menor2.glb (1)",
-      "order": 5.595092198631178,
-      "parentId": "b9b07763-d41a-4cda-9a22-1d5238900a16"
+      "order": 15.469158806940944
     },
-    "b47df013-2d72-4572-ad54-b7196c0643ef": {
-      "id": "b47df013-2d72-4572-ad54-b7196c0643ef",
+    "07827dd8-9579-4389-a2b9-51c092e3d318": {
+      "id": "07827dd8-9579-4389-a2b9-51c092e3d318",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
+      "position": [
+        1.8706355228203408,
+        0.31968688853315463,
+        0.6584628854535526
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
+          "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "toX": 1.871,
+            "toZ": 0.658,
+            "toY": 0.347,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Quadratic"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/art-mannequin-plant-v1.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "art-mannequin-plant-v1.glb",
+      "order": 15.618004462720975
+    },
+    "df9f0c3f-0dc8-43d4-b3b4-a2743f031b2d": {
+      "id": "df9f0c3f-0dc8-43d4-b3b4-a2743f031b2d",
+      "parentId": "07827dd8-9579-4389-a2b9-51c092e3d318",
+      "position": [
+        -0.002302708190042857,
+        1.2784448533482164,
+        0.3081945075575938
+      ],
+      "rotation": [
+        -0.44454392264825965,
+        0.02761739842021911,
+        -0.5498915355199587,
+        0.7065672503764231
+      ],
+      "scale": [
+        2.1428571428571415,
+        2.1428571428571446,
+        2.1428571428571397
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (6)",
+      "order": 5.09549917835073,
+      "hidden": false
+    },
+    "b1b808bb-034f-41e1-9b88-c03abfa6db7e": {
+      "id": "b1b808bb-034f-41e1-9b88-c03abfa6db7e",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
+      "position": [
+        -1.017501442397867,
+        -0.6743095790736208,
+        -1.2299954834786442
+      ],
+      "rotation": [
+        -1.4173798434040334e-19,
+        0.792598718609718,
+        5.20935930194438e-20,
+        0.6097436110843909
+      ],
+      "scale": [
+        0.10000000000000003,
+        0.1,
+        0.10000000000000003
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/robotic-arm.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "robotic-arm.glb",
+      "order": 15.808512617498936
+    },
+    "201f21e7-07c8-43d6-8e40-24c5f03b6258": {
+      "id": "201f21e7-07c8-43d6-8e40-24c5f03b6258",
+      "parentId": "b1b808bb-034f-41e1-9b88-c03abfa6db7e",
+      "position": [
+        1.4141613517179596,
+        0.5734874040270824,
+        1.342266070569164
+      ],
+      "rotation": [
+        -0.6813898430741546,
+        0.43325053570639865,
+        -0.18896529246234892,
+        0.5588326881188297
+      ],
+      "scale": [
+        2.500000000000001,
+        2.5000000000000067,
+        2.500000000000005
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (4)",
+      "order": 3.727559419147058,
+      "hidden": false
+    },
+    "46c03048-642d-43d3-9dcf-d3dfb93e0de0": {
+      "id": "46c03048-642d-43d3-9dcf-d3dfb93e0de0",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "position": [
         -1.0156951825363012,
         -0.8057309558694146,
@@ -4951,7 +5617,7 @@
         0,
         -0.16498312722472752,
         0,
-        0.9862963893937509
+        0.986296389393751
       ],
       "scale": [
         0.1,
@@ -4986,24 +5652,24 @@
         "loop": true
       },
       "name": "floating-island-menor2.glb (2)",
-      "order": 5.416898848817744,
-      "parentId": "b9b07763-d41a-4cda-9a22-1d5238900a16"
+      "order": 16.758580304610586
     },
-    "e1184ad9-2860-4fa5-93a5-b652736a867c": {
-      "id": "e1184ad9-2860-4fa5-93a5-b652736a867c",
+    "be60f413-8d1f-4646-b4d5-53013b00a3f7": {
+      "id": "be60f413-8d1f-4646-b4d5-53013b00a3f7",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
       "position": [
         1.8612191326069687,
         0.08853560996282928,
-        0.6701010583579654
+        0.6701010583579656
       ],
       "rotation": [
-        -0.0016528875207185466,
-        0.1881426359557641,
-        -0.005701079269712592,
-        0.9821237774301267
+        -0.005761178933601818,
+        0.9440277807973217,
+        -0.0014293912308099518,
+        0.3298125448506896
       ],
       "scale": [
-        0.10000000000000012,
+        0.10000000000000013,
         0.10000000000000002,
         0.10000000000000014
       ],
@@ -5035,8 +5701,82 @@
         "loop": true
       },
       "name": "floating-island-menor2.glb (3)",
-      "order": 5.228062837028696,
-      "parentId": "b9b07763-d41a-4cda-9a22-1d5238900a16"
+      "order": 17.998043034251275
+    },
+    "b33e9c04-8e4c-4b21-ab7b-86b3eadaf8dc": {
+      "id": "b33e9c04-8e4c-4b21-ab7b-86b3eadaf8dc",
+      "parentId": "5c75e478-f369-4208-86d8-000794989978",
+      "position": [
+        -1.4631285747540312,
+        0.7467289847259418,
+        0.7085419432966814
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/impressora-3d.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "impressora-3d.glb",
+      "order": 19.136749023395502
+    },
+    "3acfa421-b725-40af-9181-38fba40fb06e": {
+      "id": "3acfa421-b725-40af-9181-38fba40fb06e",
+      "parentId": "b33e9c04-8e4c-4b21-ab7b-86b3eadaf8dc",
+      "position": [
+        0.07116472351834435,
+        0.5812198482529349,
+        0.47193408226306266
+      ],
+      "rotation": [
+        -0.6813898430741546,
+        0.4332505357063986,
+        -0.18896529246234903,
+        0.558832688118829
+      ],
+      "scale": [
+        2.5000000000000013,
+        2.500000000000007,
+        2.5000000000000067
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "point",
+        "angle": 0.4363323129985824,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          50
+        ],
+        "color": "#ffffff",
+        "intensity": 0.02,
+        "shadowRadius": 50,
+        "decay": 7.999999999999999
+      },
+      "name": "Luz Branca (5)",
+      "order": 4.929684377867655,
+      "hidden": false
     }
   },
   "spaces": {
@@ -5096,16 +5836,8 @@
       "name": "RA Petrobras (World Effects)",
       "activeCamera": "7ea53af3-f648-439f-acd8-e185908903e8",
       "includedSpaces": [],
-      "reflections": {
-        "type": "url",
-        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
-      },
-      "fog": {
-        "type": "linear",
-        "near": 0.1,
-        "far": 1000,
-        "color": "#FFFFFF"
-      }
+      "reflections": null,
+      "fog": null
     }
   },
   "entrySpaceId": "e99656bb-91b6-47bf-842b-aedb96380836",
