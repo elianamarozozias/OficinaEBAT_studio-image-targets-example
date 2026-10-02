@@ -1,8 +1,5 @@
 import * as ecs from '@8thwall/ecs'
-import { Logo } from './logo'
-import { OBJECT_PLACED_EVENT, OBJECT_RESET_EVENT } from './tap-to-place'
-
-const logoQuery = ecs.defineQuery([Logo])
+import {OBJECT_PLACED_EVENT, OBJECT_RESET_EVENT} from './tap-to-place'
 
 ecs.registerComponent({
   name: 'reset-button',
@@ -14,34 +11,8 @@ ecs.registerComponent({
       .onExit(() => entity.show())
 
     defineState('placed')
-      .onEvent(ecs.input.UI_CLICK, 'resetting')
-
-    defineState('resetting')
-      .wait(1000, 'nothing-placed')
-      .onEnter(() => {
-        const tempVector = ecs.math.vec3.zero()
-        logoQuery(world).forEach(e => {
-          world.transform.getLocalPosition(e, tempVector)
-          ecs.PositionAnimation.set(world, e, {
-            duration: 1000,
-            loop: false,
-            fromX: tempVector.x,
-            fromY: tempVector.y,
-            fromZ: tempVector.z,
-            toX: tempVector.x,
-            toY: -4,
-            toZ: tempVector.z,
-            easeIn: true,
-            easingFunction: 'Quadratic'
-          })
-        })
-      })
-      .onExit(() => {
-        logoQuery(world).forEach(e => {
-          ecs.PositionAnimation.remove(world, e)
-          world.transform.setLocalPosition(e, {x: 0, y: -100, z: 0})
-        })
+      .listen(world.events.globalId, ecs.input.UI_CLICK, () => {
         world.events.dispatch(world.events.globalId, OBJECT_RESET_EVENT)
       })
-  }
+  },
 })

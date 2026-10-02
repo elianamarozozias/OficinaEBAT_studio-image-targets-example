@@ -2,15 +2,18 @@
   "objects": {
     "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6": {
       "id": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6",
+      "name": "Loading",
+      "components": {
+        "542e35e3-b7c8-4950-9db2-9eba591d489c": {
+          "id": "542e35e3-b7c8-4950-9db2-9eba591d489c",
+          "name": "hide-on-ready",
+          "parameters": {}
+        }
+      },
       "position": [
         0,
         0,
         0
-      ],
-      "scale": [
-        1,
-        1,
-        1
       ],
       "rotation": [
         0,
@@ -18,14 +21,23 @@
         0,
         1
       ],
-      "name": "Loading",
-      "instanceData": {
-        "instanceOf": "3796f77f-ce51-4b5a-8093-993153dc4fcc",
-        "deletions": {},
-        "children": {}
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "ui": {
+        "width": 393,
+        "height": 657,
+        "type": "3d",
+        "background": "#000000",
+        "backgroundOpacity": 1
       },
+      "order": 5.456568170473906,
       "parentId": "3c58c68f-6a4c-4991-a330-7d70b697cdca",
-      "components": {}
+      "hidden": false
     },
     "3796f77f-ce51-4b5a-8093-993153dc4fcc": {
       "id": "3796f77f-ce51-4b5a-8093-993153dc4fcc",
@@ -5929,6 +5941,49 @@
         "name": "target_petrobras"
       },
       "order": 6.560885428323311
+    },
+    "b98f9d08-8163-4ed0-bc53-cf3feffba7d0": {
+      "id": "b98f9d08-8163-4ed0-bc53-cf3feffba7d0",
+      "parentId": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b": {
+          "id": "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b",
+          "name": "hide-on-ready",
+          "parameters": {}
+        }
+      },
+      "name": "Text (1)",
+      "ui": {
+        "width": 185,
+        "height": 14,
+        "text": "Carregando...\n\n",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "position": "absolute",
+        "top": 317,
+        "left": 108,
+        "bottom": 92,
+        "right": ""
+      },
+      "order": 2.7305830529551267
     }
   },
   "spaces": {
@@ -5990,7 +6045,7 @@
       "fog": null
     }
   },
-  "entrySpaceId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
+  "entrySpaceId": "e99656bb-91b6-47bf-842b-aedb96380836",
   "runtimeVersion": {
     "type": "version",
     "level": "major",

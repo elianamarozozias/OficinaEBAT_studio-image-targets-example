@@ -10,7 +10,7 @@ ecs.registerComponent({
   name: 'tap-to-place',
   schema: {
     prefab: 'eid',
-    imageTargetName: ecs.string,   // nome do image target
+    imageTargetName: ecs.string,
     facingOffset: 'f32',
   },
   schemaDefaults: {
@@ -18,6 +18,7 @@ ecs.registerComponent({
   },
   stateMachine: ({world, eid, schemaAttribute, defineState}) => {
     let placedEid: any = null
+    let anchor: any = null   // posição e rotação da imagem
 
     const createParked = (spot) => {
       const newEid = world.createEntity(schemaAttribute.get(eid).prefab)
@@ -56,6 +57,11 @@ ecs.registerComponent({
         entity.setLocalPosition(position)
         entity.set(ecs.Quaternion, {x: rotation.x, y: rotation.y, z: rotation.z, w: rotation.w})
 
+        anchor = {
+          pos: {x: position.x, y: position.y, z: position.z},
+          rot: {x: rotation.x, y: rotation.y, z: rotation.z, w: rotation.w},
+        }
+
         world.events.dispatch(world.events.globalId, OBJECT_PLACED_EVENT)
         world.events.dispatch(eid, 'placed')
       })
@@ -64,9 +70,12 @@ ecs.registerComponent({
     // ancorado: reencontrar a imagem não reposiciona nada
     defineState('placed')
       .listen(world.events.globalId, OBJECT_RESET_EVENT, () => {
-        world.events.dispatch(eid, 'back')
+        if (!anchor || placedEid === null) return
+        const entity = world.getEntity(placedEid)
+        entity.setLocalPosition(anchor.pos)
+        entity.set(ecs.Quaternion, anchor.rot)
+        ecs.Scale.set(world, placedEid, {x: 1, y: 1, z: 1})
       })
-      .onEvent('back', 'scanning')
   },
 })
 
