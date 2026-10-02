@@ -4595,14 +4595,19 @@
         "type": "3d",
         "width": 120,
         "height": 51,
-        "background": "#ad50ff",
+        "background": "#ff0000",
         "borderRadius": 18,
         "flexDirection": "row",
         "backgroundOpacity": 1,
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center"
+        "justifyContent": "center",
+        "position": "absolute",
+        "top": 588,
+        "left": 257,
+        "bottom": "",
+        "right": ""
       },
       "name": "Button",
       "order": 8.36326010582852
@@ -6023,7 +6028,7 @@
         "type": "overlay",
         "width": 365,
         "height": 85.06981981981981,
-        "background": "#ad50ff",
+        "background": "#ffffff",
         "borderRadius": 18,
         "flexDirection": "row",
         "backgroundOpacity": 1,
@@ -6107,7 +6112,7 @@
         "width": 227,
         "height": 81.59765625,
         "text": "Aponte o celular para a logo da Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
-        "color": "#ffffff",
+        "color": "#000000",
         "fontSize": 16,
         "verticalTextAlign": "center",
         "font": {
@@ -6151,6 +6156,268 @@
         "backgroundSize": "contain"
       },
       "order": 2.565287169964389
+    },
+    "85fd0411-ece5-46c7-93b2-346a8adc384b": {
+      "id": "85fd0411-ece5-46c7-93b2-346a8adc384b",
+      "position": [
+        0,
+        -6.550943996031839,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3c58c68f-6a4c-4991-a330-7d70b697cdca",
+      "components": {
+        "c8b04244-9fff-4c66-9105-1faa61f33742": {
+          "id": "c8b04244-9fff-4c66-9105-1faa61f33742",
+          "name": "gestos-button",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 393,
+        "height": 105,
+        "flexDirection": "row",
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "name": "gestos-button",
+      "order": 9.885227024939761
+    },
+    "cba65b5e-70ee-471e-8ef4-0d2ca158bee7": {
+      "id": "cba65b5e-70ee-471e-8ef4-0d2ca158bee7",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "85fd0411-ece5-46c7-93b2-346a8adc384b",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 70,
+        "height": 70,
+        "image": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/mOVER - pETROBRAS.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.15685782342830018
+    },
+    "688b060c-ea7c-4012-a472-935c6597ee63": {
+      "id": "688b060c-ea7c-4012-a472-935c6597ee63",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Icon (2)",
+      "ui": {
+        "width": 70,
+        "height": 70,
+        "image": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Escalar 2 - petrobras.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 1.305476766739163,
+      "parentId": "85fd0411-ece5-46c7-93b2-346a8adc384b"
+    },
+    "7b34ad79-e9c0-4e4f-9ede-4ea0ca0c4adb": {
+      "id": "7b34ad79-e9c0-4e4f-9ede-4ea0ca0c4adb",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Icon (3)",
+      "ui": {
+        "width": 70,
+        "height": 70,
+        "image": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/rotacionar - petrobras.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 2.326793950386822,
+      "parentId": "85fd0411-ece5-46c7-93b2-346a8adc384b"
+    },
+    "f9e3f91b-f991-48fc-a7b1-1f5dc95dac1e": {
+      "id": "f9e3f91b-f991-48fc-a7b1-1f5dc95dac1e",
+      "position": [
+        0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "scale": [
+        null,
+        null,
+        null
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Text (2)",
+      "ui": {
+        "width": 71,
+        "height": 160.598,
+        "text": "Mover",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Nunito"
+        }
+      },
+      "order": -1.3731436218829196,
+      "parentId": "cba65b5e-70ee-471e-8ef4-0d2ca158bee7"
+    },
+    "e76cdfb0-2fa8-485f-a857-98665cb4a38f": {
+      "id": "e76cdfb0-2fa8-485f-a857-98665cb4a38f",
+      "position": [
+        0.646,
+        0,
+        0
+      ],
+      "rotation": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "scale": [
+        null,
+        null,
+        null
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Text (3)",
+      "ui": {
+        "width": 71,
+        "height": 160.598,
+        "text": "Escalar",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Nunito"
+        }
+      },
+      "order": -0.23763175863977026,
+      "parentId": "688b060c-ea7c-4012-a472-935c6597ee63"
+    },
+    "0f976618-60e9-4026-b38e-f0bff4d53a43": {
+      "id": "0f976618-60e9-4026-b38e-f0bff4d53a43",
+      "position": [
+        0.9690000000000001,
+        0,
+        0
+      ],
+      "rotation": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "scale": [
+        null,
+        null,
+        null
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Text (4)",
+      "ui": {
+        "width": 77,
+        "height": 160.598,
+        "text": "Rotacionar",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Nunito"
+        }
+      },
+      "order": 1.2893814462238349,
+      "parentId": "7b34ad79-e9c0-4e4f-9ede-4ea0ca0c4adb"
     }
   },
   "spaces": {
