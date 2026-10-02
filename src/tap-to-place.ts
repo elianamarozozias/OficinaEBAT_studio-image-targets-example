@@ -10,11 +10,14 @@ ecs.registerComponent({
   name: 'tap-to-place',
   schema: {
     prefab: 'eid',
+    imageTargetName: ecs.string,   // nome do image target
     facingOffset: 'f32',
+  },
+  schemaDefaults: {
+    imageTargetName: '',
   },
   stateMachine: ({world, eid, schemaAttribute, defineState}) => {
     let placedEid: any = null
-    let isPlaced = false
 
     const createParked = (spot) => {
       const newEid = world.createEntity(schemaAttribute.get(eid).prefab)
@@ -22,26 +25,21 @@ ecs.registerComponent({
       return newEid
     }
 
-    // nasce visível: o GPU renderiza e compila shader durante a tela de loading
+    // nasce visível: a GPU compila shader durante a tela de loading
     placedEid = createParked(WARMUP_SPOT)
 
     defineState('warmup')
       .initial()
-      .onEvent(ecs.events.REALITY_READY, 'initial', {target: world.events.globalId})
+      .onEvent(ecs.events.REALITY_READY, 'scanning', {target: world.events.globalId})
       .onExit(() => {
-        // realidade pronta: esconde o objeto já aquecido
         world.getEntity(placedEid).setLocalPosition(PARKING_SPOT)
       })
 
-    defineState('initial')
-      .listen(world.events.globalId, OBJECT_RESET_EVENT, () => {
-        isPlaced = false
-      })
-      .listen(eid, ecs.input.SCREEN_TOUCH_START, (e) => {
-        if (!e.data.worldPosition) {
-          return
-        }
-        const pos = e.data.worldPosition
+    defineState('scanning')
+      .listen(world.events.globalId, ecs.events.REALITY_IMAGE_FOUND, (e) => {
+        const {name, position, rotation} = e.data as any
+        const {imageTargetName} = schemaAttribute.get(eid)
+        if (name !== imageTargetName) return
 
         let alive = false
         if (placedEid !== null) {
@@ -50,29 +48,25 @@ ecs.registerComponent({
             alive = true
           } catch (err) {
             placedEid = null
-            isPlaced = false
           }
         }
-
-        if (alive && isPlaced) {
-          return
-        }
-
-        if (!alive) {
-          placedEid = createParked(PARKING_SPOT)
-        }
+        if (!alive) placedEid = createParked(PARKING_SPOT)
 
         const entity = world.getEntity(placedEid)
-        entity.setLocalPosition(pos)
+        entity.setLocalPosition(position)
+        entity.set(ecs.Quaternion, {x: rotation.x, y: rotation.y, z: rotation.z, w: rotation.w})
 
-        const cam = ecs.Position.get(world, world.camera.getActiveEid())
-        const {facingOffset} = schemaAttribute.get(eid)
-        const yaw = Math.atan2(cam.x - pos.x, cam.z - pos.z) + facingOffset * (Math.PI / 180)
-        entity.set(ecs.Quaternion, ecs.math.quat.yRadians(yaw))
-
-        isPlaced = true
         world.events.dispatch(world.events.globalId, OBJECT_PLACED_EVENT)
+        world.events.dispatch(eid, 'placed')
       })
+      .onEvent('placed', 'placed')
+
+    // ancorado: reencontrar a imagem não reposiciona nada
+    defineState('placed')
+      .listen(world.events.globalId, OBJECT_RESET_EVENT, () => {
+        world.events.dispatch(eid, 'back')
+      })
+      .onEvent('back', 'scanning')
   },
 })
 

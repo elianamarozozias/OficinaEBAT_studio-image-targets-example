@@ -1,5 +1,118 @@
 {
   "objects": {
+    "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6": {
+      "id": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Loading",
+      "instanceData": {
+        "instanceOf": "3796f77f-ce51-4b5a-8093-993153dc4fcc",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "3c58c68f-6a4c-4991-a330-7d70b697cdca",
+      "components": {}
+    },
+    "3796f77f-ce51-4b5a-8093-993153dc4fcc": {
+      "id": "3796f77f-ce51-4b5a-8093-993153dc4fcc",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "542e35e3-b7c8-4950-9db2-9eba591d489c": {
+          "id": "542e35e3-b7c8-4950-9db2-9eba591d489c",
+          "name": "hide-on-ready",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "width": 393,
+        "height": 657,
+        "type": "3d",
+        "background": "#000000",
+        "backgroundOpacity": 1,
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "name": "Loading",
+      "order": 5.456568170473906,
+      "prefab": true
+    },
+    "35453d08-2559-4c0d-9484-f40b50479b35": {
+      "id": "35453d08-2559-4c0d-9484-f40b50479b35",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b": {
+          "id": "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b",
+          "name": "hide-on-ready",
+          "parameters": {}
+        }
+      },
+      "name": "Text (1)",
+      "ui": {
+        "width": 185,
+        "height": 14,
+        "text": "Carregando...\n\n",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "position": "absolute",
+        "top": 317,
+        "left": 108,
+        "bottom": 92,
+        "right": ""
+      },
+      "order": 2.7305830529551267,
+      "parentId": "3796f77f-ce51-4b5a-8093-993153dc4fcc"
+    },
     "5c75e478-f369-4208-86d8-000794989978": {
       "id": "5c75e478-f369-4208-86d8-000794989978",
       "name": "World Content Petrobras",
@@ -55,7 +168,7 @@
           "id": "b58e5c44-220d-47fe-a769-7bc8027346cd",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
+            "autoFrom": false,
             "toX": 0.279,
             "toZ": 0.504,
             "toY": 1.9,
@@ -63,7 +176,10 @@
             "easeOut": true,
             "easingFunction": "Quadratic",
             "duration": 1000,
-            "reverse": true
+            "reverse": true,
+            "fromX": 0.279,
+            "fromZ": 0.504,
+            "fromY": 1.832
           }
         },
         "c2df5399-0cc0-46e5-9108-6ff836912313": {
@@ -106,7 +222,7 @@
       "name": "petrobras_marca.glb",
       "order": 4.504882481674356,
       "shadow": {
-        "receiveShadow": true,
+        "receiveShadow": false,
         "castShadow": true
       }
     },
@@ -513,7 +629,7 @@
           "parameters": {
             "autoFrom": true,
             "toX": 0,
-            "toZ": 0.497,
+            "toZ": -0.497,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
@@ -559,15 +675,18 @@
           "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
-            "toX": -2.208,
-            "toZ": -0.58,
+            "autoFrom": false,
+            "toX": 2.208,
+            "toZ": 0.58,
             "duration": 6500,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Quadratic",
-            "toY": -0.75
+            "toY": -0.75,
+            "fromX": 2.208,
+            "fromY": -0.629,
+            "fromZ": 0.58
           }
         }
       },
@@ -608,15 +727,18 @@
           "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
-            "toX": 2.053,
-            "toZ": -0.609,
+            "autoFrom": false,
+            "toX": -2.053,
+            "toZ": 0.609,
             "duration": 4500,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Quadratic",
-            "toY": -0.45
+            "toY": -0.3,
+            "fromX": -2.053,
+            "fromZ": 0.609,
+            "fromY": -0.584
           }
         }
       },
@@ -658,15 +780,18 @@
           "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
-            "toX": 0.916,
-            "toZ": -1.618,
+            "autoFrom": false,
+            "toX": -0.916,
+            "toZ": 1.618,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Back",
-            "toY": -0.2
+            "toY": -0.2,
+            "fromX": -0.916,
+            "fromZ": 1.618,
+            "fromY": -0.461
           }
         }
       },
@@ -706,15 +831,18 @@
           "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
-            "toX": -1.473,
-            "toZ": 0.725,
+            "autoFrom": false,
+            "toX": 1.473,
+            "toZ": -0.725,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Back",
-            "toY": 0.75
+            "toY": 0.8,
+            "fromX": 1.473,
+            "fromZ": -0.725,
+            "fromY": 0.61
           }
         }
       },
@@ -755,15 +883,18 @@
           "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
-            "toX": -1.016,
-            "toZ": -1.228,
+            "autoFrom": false,
+            "toX": 1.016,
+            "toZ": 1.228,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Back",
-            "toY": -1
+            "toY": -1,
+            "fromX": 1.016,
+            "fromY": -0.806,
+            "fromZ": 1.228
           }
         }
       },
@@ -804,15 +935,18 @@
           "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
-            "toX": 1.861,
-            "toZ": 0.67,
+            "autoFrom": false,
+            "toX": -1.861,
+            "toZ": -0.67,
             "duration": 5000,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Back",
-            "toY": 0.45
+            "toY": 0.45,
+            "fromX": -1.861,
+            "fromZ": -0.67,
+            "fromY": 0.089
           }
         }
       },
@@ -854,14 +988,17 @@
           "id": "00870f85-3640-41de-9bb1-839bd6fcc6c3",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
+            "autoFrom": false,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
             "easingFunction": "Quadratic",
             "toY": 2.1,
             "toX": 0.402,
-            "toZ": 0.455
+            "toZ": 0.455,
+            "fromX": 0.402,
+            "fromY": 2.032,
+            "fromZ": 0.455
           }
         }
       },
@@ -916,14 +1053,17 @@
           "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
+            "autoFrom": false,
             "toX": 0.148,
             "toZ": -0.157,
             "toY": 3.35,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Quadratic",
+            "fromX": 0.148,
+            "fromZ": -0.157,
+            "fromY": 3.079
           }
         }
       },
@@ -1004,14 +1144,17 @@
           "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
+            "autoFrom": false,
             "toX": 0.156,
             "toZ": 0.262,
             "toY": 2.15,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Quadratic",
+            "fromX": 0.156,
+            "fromY": 2.087,
+            "fromZ": 0.262
           }
         }
       },
@@ -1052,14 +1195,17 @@
           "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
+            "autoFrom": false,
             "toX": -0.023,
             "toZ": -0.011,
-            "toY": 1.8,
+            "toY": 1.6,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Quadratic",
+            "fromX": -0.023,
+            "fromY": 1.456,
+            "fromZ": -0.011
           }
         }
       },
@@ -1119,25 +1265,44 @@
     "e328fadc-6bdb-425f-b9eb-3134132ab0fb": {
       "id": "e328fadc-6bdb-425f-b9eb-3134132ab0fb",
       "position": [
-        1.463128574754031,
-        0.7467289847259418,
-        -0.7085419432966815
+        0.04016693364443036,
+        1.3658183273888156,
+        0.1870520154580202
       ],
       "rotation": [
         0,
-        1.2246467991473532e-16,
+        0.38180580904599754,
         0,
-        1
+        0.924242567824449
       ],
       "scale": [
-        0.24999999999999994,
-        0.25,
-        0.24999999999999994
+        2.4999999999999982,
+        2.5,
+        2.4999999999999982
       ],
       "geometry": null,
       "material": null,
-      "parentId": "b9b07763-d41a-4cda-9a22-1d5238900a16",
-      "components": {},
+      "parentId": "b2a702c2-70ef-4fdb-9bac-0ea24fe284d5",
+      "components": {
+        "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46": {
+          "id": "7dfd01e5-5ab7-41ef-8f03-4317f0d2ea46",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": false,
+            "toX": 0.04,
+            "toZ": 0.187,
+            "duration": 5000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Back",
+            "toY": 1.5,
+            "fromX": 0.04,
+            "fromZ": 0.187,
+            "fromY": 1.366
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -1194,37 +1359,40 @@
     "2b0e1690-e257-4d6c-8882-a4184e9ed689": {
       "id": "2b0e1690-e257-4d6c-8882-a4184e9ed689",
       "position": [
-        -1.8706355228203404,
-        0.31968688853315463,
-        -0.6584628854535522
+        -0.028525295141232476,
+        2.311170782651579,
+        0.1522459416364006
       ],
       "rotation": [
-        0,
-        1.2246467991473532e-16,
-        0,
-        1
+        -0.0014293912308099537,
+        0.3298125448506896,
+        0.005761178933601816,
+        0.9440277807973217
       ],
       "scale": [
-        0.24999999999999994,
-        0.25,
-        0.24999999999999994
+        2.4999999999999964,
+        2.499999999999999,
+        2.4999999999999964
       ],
       "geometry": null,
       "material": null,
-      "parentId": "b9b07763-d41a-4cda-9a22-1d5238900a16",
+      "parentId": "aedeae8b-2a8b-47d9-8501-1fcfc4f134c6",
       "components": {
         "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3": {
           "id": "1cbff80e-e140-4fb5-bfcc-18fb795d7ba3",
           "name": "position-animation",
           "parameters": {
-            "autoFrom": true,
-            "toX": 1.871,
-            "toZ": 0.658,
-            "toY": 0.347,
+            "autoFrom": false,
+            "toX": -0.029,
+            "toZ": 0.152,
+            "toY": 2.5,
             "reverse": true,
             "easeIn": true,
             "easeOut": true,
-            "easingFunction": "Quadratic"
+            "easingFunction": "Quadratic",
+            "fromX": -0.029,
+            "fromY": 2.311,
+            "fromZ": 0.152
           }
         }
       },
@@ -3833,9 +4001,9 @@
     "fdc6441b-f559-4e2c-b624-1d7dd413b945": {
       "id": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
       "position": [
-        1.230393809301395,
-        0.19869485854092606,
-        0
+        -3.297144548384572,
+        3.3494135213820644,
+        0.1
       ],
       "rotation": [
         0,
@@ -3850,7 +4018,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "f3e1df90-81c2-440d-a36f-6f72a2b2895b",
+      "parentId": "4cf15f13-11aa-4857-b256-1fc002dadd44",
       "components": {
         "de081841-b636-40d3-a9db-167e05a13e71": {
           "id": "de081841-b636-40d3-a9db-167e05a13e71",
@@ -3871,7 +4039,15 @@
         "alignItems": "center",
         "justifyContent": "center",
         "paddingTop": 0,
-        "paddingBottom": 0
+        "paddingBottom": 0,
+        "ignoreRaycast": false,
+        "flexWrap": "nowrap",
+        "stackingOrder": 148,
+        "position": "absolute",
+        "top": 251,
+        "left": -9,
+        "bottom": "",
+        "right": ""
       },
       "name": "Botão Instrução",
       "order": 5.805174384584662
@@ -4051,7 +4227,7 @@
       "material": null,
       "parentId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
       "components": {},
-      "name": "Camera RA",
+      "name": "Camera AR",
       "camera": {
         "type": "perspective",
         "xr": {
@@ -4060,7 +4236,7 @@
           "desktop": "3D",
           "headset": "AR",
           "world": {
-            "disableWorldTracking": true
+            "disableWorldTracking": false
           }
         }
       },
@@ -4105,7 +4281,7 @@
         "name": "target_petrobras"
       },
       "order": 5.716822714252985,
-      "hidden": true
+      "hidden": false
     },
     "d32aa92c-e8ef-41bb-9756-7a5600b8fa3c": {
       "id": "d32aa92c-e8ef-41bb-9756-7a5600b8fa3c",
@@ -4219,7 +4395,9 @@
         "51a0cf8e-5cba-4f6a-832c-0dcf7a34ddb5": {
           "id": "51a0cf8e-5cba-4f6a-832c-0dcf7a34ddb5",
           "name": "pinch-scale",
-          "parameters": {}
+          "parameters": {
+            "maxScale": 30
+          }
         }
       },
       "name": "Logo",
@@ -4263,7 +4441,8 @@
             "prefab": {
               "type": "entity",
               "id": "b9b07763-d41a-4cda-9a22-1d5238900a16"
-            }
+            },
+            "imageTargetName": "target_petrobras"
           }
         }
       },
@@ -4441,92 +4620,6 @@
         "fontSize": 16
       },
       "order": 1.2642975275437847
-    },
-    "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6": {
-      "id": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "3c58c68f-6a4c-4991-a330-7d70b697cdca",
-      "components": {
-        "542e35e3-b7c8-4950-9db2-9eba591d489c": {
-          "id": "542e35e3-b7c8-4950-9db2-9eba591d489c",
-          "name": "hide-on-ready",
-          "parameters": {}
-        }
-      },
-      "ui": {
-        "width": 393,
-        "height": 657,
-        "type": "3d",
-        "background": "#000000",
-        "backgroundOpacity": 1,
-        "position": "absolute",
-        "top": "",
-        "left": "",
-        "bottom": "",
-        "right": ""
-      },
-      "name": "Loading",
-      "order": 5.456568170473906
-    },
-    "c8eeffa9-e26c-445e-bf1f-f2af0b38585e": {
-      "id": "c8eeffa9-e26c-445e-bf1f-f2af0b38585e",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b": {
-          "id": "7e36dbf9-a5f4-4624-8689-e79b36dbcc2b",
-          "name": "hide-on-ready",
-          "parameters": {}
-        }
-      },
-      "name": "Text (1)",
-      "ui": {
-        "width": 185,
-        "height": 14,
-        "text": "Carregando...\n\n",
-        "color": "#ffffff",
-        "fontSize": 16,
-        "position": "absolute",
-        "top": 317,
-        "left": 108,
-        "bottom": 92,
-        "right": ""
-      },
-      "order": 2.7305830529551267,
-      "parentId": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6"
     },
     "eaca0078-8879-49ca-97ff-3484ba37c5fc": {
       "id": "eaca0078-8879-49ca-97ff-3484ba37c5fc",
@@ -5767,6 +5860,75 @@
       "name": "Luz Branca (5)",
       "order": 4.929684377867655,
       "hidden": false
+    },
+    "4cf15f13-11aa-4857-b256-1fc002dadd44": {
+      "id": "4cf15f13-11aa-4857-b256-1fc002dadd44",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "width": 160,
+        "height": 109,
+        "type": "overlay",
+        "gap": 4,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "position": "absolute",
+        "top": 20,
+        "left": 20,
+        "bottom": "",
+        "right": "",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start"
+      },
+      "name": "Frame",
+      "order": 6.756041525433203
+    },
+    "99e296d8-401b-4a66-baeb-ccd613b32d94": {
+      "id": "99e296d8-401b-4a66-baeb-ccd613b32d94",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e99656bb-91b6-47bf-842b-aedb96380836",
+      "components": {},
+      "name": "target_petrobras",
+      "imageTarget": {
+        "name": "target_petrobras"
+      },
+      "order": 6.560885428323311
     }
   },
   "spaces": {
@@ -5807,9 +5969,7 @@
       "id": "33d02fa1-aba8-4c86-90ef-eee8e57aae24",
       "name": "RA Petrobras",
       "activeCamera": "43cd6001-7516-4e0a-8e7e-d1e6ce4bc2a7",
-      "includedSpaces": [
-        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
-      ],
+      "includedSpaces": [],
       "reflections": {
         "type": "url",
         "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
