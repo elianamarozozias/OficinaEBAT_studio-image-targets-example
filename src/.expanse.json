@@ -1,5 +1,193 @@
 {
   "objects": {
+    "fdc6441b-f559-4e2c-b624-1d7dd413b945": {
+      "id": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
+      "position": [
+        -3.297144548384572,
+        3.3494135213820644,
+        0.1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Botão Instrução",
+      "instanceData": {
+        "instanceOf": "965a30a5-3c4d-409d-b7bc-e5461b4f4003",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "4cf15f13-11aa-4857-b256-1fc002dadd44",
+      "components": {}
+    },
+    "965a30a5-3c4d-409d-b7bc-e5461b4f4003": {
+      "id": "965a30a5-3c4d-409d-b7bc-e5461b4f4003",
+      "position": [
+        -3.297144548384572,
+        3.3494135213820644,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "de081841-b636-40d3-a9db-167e05a13e71": {
+          "id": "de081841-b636-40d3-a9db-167e05a13e71",
+          "name": "Hide On Click",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "overlay",
+        "width": 365,
+        "height": 85.06981981981981,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": 4,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "ignoreRaycast": false,
+        "flexWrap": "nowrap",
+        "stackingOrder": 148,
+        "position": "absolute",
+        "top": 251,
+        "left": -9,
+        "bottom": "",
+        "right": ""
+      },
+      "name": "Botão Instrução",
+      "order": 5.805174384584662,
+      "prefab": true
+    },
+    "7cd87568-d14a-4ab7-a218-9db75620b5e1": {
+      "id": "7cd87568-d14a-4ab7-a218-9db75620b5e1",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0,
+        0,
+        0
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "965a30a5-3c4d-409d-b7bc-e5461b4f4003",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 60,
+        "height": 40,
+        "image": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/ebat_marca.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.34653713004725345
+    },
+    "e342566b-b1ae-43a8-aa09-9e1d00992300": {
+      "id": "e342566b-b1ae-43a8-aa09-9e1d00992300",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0,
+        0,
+        0
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "965a30a5-3c4d-409d-b7bc-e5461b4f4003",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 227,
+        "height": 81.59765625,
+        "text": "Aponte o celular para a logo da Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Nunito"
+        }
+      },
+      "order": 1.4045234358629677
+    },
+    "0264d0d7-082c-4be3-ab39-fca2f6f7b1e6": {
+      "id": "0264d0d7-082c-4be3-ab39-fca2f6f7b1e6",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0,
+        0,
+        0
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": 60,
+        "height": 40,
+        "image": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Untitled design.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 2.565287169964389,
+      "parentId": "965a30a5-3c4d-409d-b7bc-e5461b4f4003"
+    },
     "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6": {
       "id": "5445840e-2b8c-4071-8b9d-f40ac2b6f5f6",
       "name": "Loading",
@@ -277,7 +465,8 @@
           1024,
           1024
         ],
-        "decay": 1.4999999999999885
+        "decay": 1.4999999999999885,
+        "castShadow": false
       },
       "name": "Luz Verde 70%",
       "order": 4.673254437889009
@@ -315,7 +504,8 @@
           50
         ],
         "color": "#fdc830",
-        "intensity": 0.7000000000000002
+        "intensity": 0.7000000000000002,
+        "castShadow": false
       },
       "name": "Luz Amarela 30%",
       "order": 4.8416263941036615,
@@ -356,7 +546,8 @@
         "color": "#ffffff",
         "intensity": 0.02,
         "shadowRadius": 50,
-        "decay": 7.999999999999999
+        "decay": 7.999999999999999,
+        "castShadow": false
       },
       "name": "Luz Branca",
       "order": 5.009998350318315,
@@ -402,7 +593,8 @@
           1024,
           1024
         ],
-        "decay": 1.4999999999999885
+        "decay": 1.4999999999999885,
+        "castShadow": false
       },
       "name": "Luz Verde 70% (1)",
       "order": 2
@@ -440,7 +632,8 @@
           50
         ],
         "color": "#fdc830",
-        "intensity": 0.7000000000000002
+        "intensity": 0.7000000000000002,
+        "castShadow": false
       },
       "name": "Luz Amarela 30% (1)",
       "order": 3,
@@ -481,7 +674,8 @@
         "color": "#ffffff",
         "intensity": 0.02,
         "shadowRadius": 50,
-        "decay": 7.999999999999999
+        "decay": 7.999999999999999,
+        "castShadow": false
       },
       "name": "Luz Branca (1)",
       "order": 4.4829170063961,
@@ -527,7 +721,8 @@
           1024,
           1024
         ],
-        "decay": 1.4999999999999885
+        "decay": 1.4999999999999885,
+        "castShadow": false
       },
       "name": "Luz Verde 70% (2)",
       "order": 1
@@ -565,7 +760,8 @@
           50
         ],
         "color": "#fdc830",
-        "intensity": 0.7000000000000002
+        "intensity": 0.7000000000000002,
+        "castShadow": false
       },
       "name": "Luz Amarela 30% (2)",
       "order": 2,
@@ -606,7 +802,8 @@
         "color": "#ffffff",
         "intensity": 0.02,
         "shadowRadius": 50,
-        "decay": 7.999999999999999
+        "decay": 7.999999999999999,
+        "castShadow": false
       },
       "name": "Luz Branca (2)",
       "order": 3,
@@ -1123,7 +1320,8 @@
         "color": "#ffffff",
         "intensity": 0.02,
         "shadowRadius": 50,
-        "decay": 7.999999999999999
+        "decay": 7.999999999999999,
+        "castShadow": false
       },
       "name": "Luz Branca (3)",
       "order": 8.947523718035159,
@@ -1267,7 +1465,8 @@
         "color": "#ffffff",
         "intensity": 0.02,
         "shadowRadius": 50,
-        "decay": 7.999999999999999
+        "decay": 7.999999999999999,
+        "castShadow": false
       },
       "name": "Luz Branca (4)",
       "order": 17.346819373455684,
@@ -1361,7 +1560,8 @@
         "color": "#ffffff",
         "intensity": 0.02,
         "shadowRadius": 50,
-        "decay": 7.999999999999999
+        "decay": 7.999999999999999,
+        "castShadow": false
       },
       "name": "Luz Branca (5)",
       "order": 4.929684377867655,
@@ -1454,7 +1654,8 @@
         "color": "#ffffff",
         "intensity": 0.02,
         "shadowRadius": 50,
-        "decay": 7.999999999999999
+        "decay": 7.999999999999999,
+        "castShadow": false
       },
       "name": "Luz Branca (6)",
       "order": 5.09549917835073,
@@ -4010,167 +4211,6 @@
       "name": "branches_with_leaves.glb (1)",
       "order": 17.255770821358194
     },
-    "fdc6441b-f559-4e2c-b624-1d7dd413b945": {
-      "id": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
-      "position": [
-        -3.297144548384572,
-        3.3494135213820644,
-        0.1
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "4cf15f13-11aa-4857-b256-1fc002dadd44",
-      "components": {
-        "de081841-b636-40d3-a9db-167e05a13e71": {
-          "id": "de081841-b636-40d3-a9db-167e05a13e71",
-          "name": "Hide On Click",
-          "parameters": {}
-        }
-      },
-      "ui": {
-        "type": "overlay",
-        "width": 365,
-        "height": 85.06981981981981,
-        "background": "#ad50ff",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "backgroundOpacity": 1,
-        "padding": "10",
-        "gap": 4,
-        "alignItems": "center",
-        "justifyContent": "center",
-        "paddingTop": 0,
-        "paddingBottom": 0,
-        "ignoreRaycast": false,
-        "flexWrap": "nowrap",
-        "stackingOrder": 148,
-        "position": "absolute",
-        "top": 251,
-        "left": -9,
-        "bottom": "",
-        "right": ""
-      },
-      "name": "Botão Instrução",
-      "order": 5.805174384584662
-    },
-    "f56e0f5c-c587-49e9-891f-225bd5f904e8": {
-      "id": "f56e0f5c-c587-49e9-891f-225bd5f904e8",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0,
-        0,
-        0
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
-      "components": {},
-      "name": "Icon",
-      "ui": {
-        "width": 60,
-        "height": 40,
-        "image": {
-          "type": "asset",
-          "asset": "assets/oficina-ebat/ebat_marca.png"
-        },
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain"
-      },
-      "order": 0.34653713004725345
-    },
-    "0849e16f-4139-4067-ab75-0011a6c6e7c4": {
-      "id": "0849e16f-4139-4067-ab75-0011a6c6e7c4",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0,
-        0,
-        0
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "fdc6441b-f559-4e2c-b624-1d7dd413b945",
-      "components": {},
-      "name": "Text",
-      "ui": {
-        "width": 227,
-        "height": 81.59765625,
-        "text": "Aponte o celular para a logo da Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
-        "color": "#ffffff",
-        "fontSize": 16,
-        "verticalTextAlign": "center",
-        "font": {
-          "type": "font",
-          "font": "Nunito"
-        }
-      },
-      "order": 1.4045234358629677
-    },
-    "0c437c28-6768-4c8e-ba6b-b9a94c8cd09e": {
-      "id": "0c437c28-6768-4c8e-ba6b-b9a94c8cd09e",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0,
-        0,
-        0
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "name": "Icon (1)",
-      "ui": {
-        "width": 60,
-        "height": 40,
-        "image": {
-          "type": "asset",
-          "asset": "assets/PETROBRAS/Untitled design.png"
-        },
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain"
-      },
-      "order": 2.565287169964389,
-      "parentId": "fdc6441b-f559-4e2c-b624-1d7dd413b945"
-    },
     "7eb0ec1b-d2b7-4d89-934a-fb656deb5ff2": {
       "id": "7eb0ec1b-d2b7-4d89-934a-fb656deb5ff2",
       "position": [
@@ -4553,8 +4593,8 @@
       },
       "ui": {
         "type": "3d",
-        "width": 100,
-        "height": 127,
+        "width": 120,
+        "height": 51,
         "background": "#ad50ff",
         "borderRadius": 18,
         "flexDirection": "row",
@@ -4566,40 +4606,6 @@
       },
       "name": "Button",
       "order": 8.36326010582852
-    },
-    "2cc99d96-95cf-4c4b-a861-2a8bac8edfe7": {
-      "id": "2cc99d96-95cf-4c4b-a861-2a8bac8edfe7",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "0959b9eb-1e8a-413e-bc46-6d86c2e983ca",
-      "components": {},
-      "name": "Icon",
-      "ui": {
-        "width": 16,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "backgroundOpacity": 1
-      },
-      "order": 0.48303104289352006
     },
     "97af14e9-01fb-4adb-a7f3-2efd0d401ab7": {
       "id": "97af14e9-01fb-4adb-a7f3-2efd0d401ab7",
@@ -4625,9 +4631,9 @@
       "components": {},
       "name": "Text",
       "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Reset Button\n",
+        "width": 96,
+        "height": 15,
+        "text": "Reposicionar",
         "color": "#ffffff",
         "fontSize": 16
       },
@@ -5984,6 +5990,167 @@
         "right": ""
       },
       "order": 2.7305830529551267
+    },
+    "d1e2b7c3-e9a3-401a-999c-14eddb1abe19": {
+      "id": "d1e2b7c3-e9a3-401a-999c-14eddb1abe19",
+      "name": "Botão Instrução",
+      "components": {
+        "de081841-b636-40d3-a9db-167e05a13e71": {
+          "id": "de081841-b636-40d3-a9db-167e05a13e71",
+          "name": "Hide On Click",
+          "parameters": {}
+        }
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "ui": {
+        "type": "overlay",
+        "width": 365,
+        "height": 85.06981981981981,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": 4,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "ignoreRaycast": false,
+        "flexWrap": "nowrap",
+        "stackingOrder": 148,
+        "position": "absolute",
+        "top": 260,
+        "left": 13,
+        "bottom": "",
+        "right": ""
+      },
+      "order": 5.805174384584662,
+      "parentId": "3c58c68f-6a4c-4991-a330-7d70b697cdca"
+    },
+    "f4864ec8-7c30-4557-9ddf-26be893e7aba": {
+      "id": "f4864ec8-7c30-4557-9ddf-26be893e7aba",
+      "parentId": "d1e2b7c3-e9a3-401a-999c-14eddb1abe19",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0,
+        0,
+        0
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 60,
+        "height": 40,
+        "image": {
+          "type": "asset",
+          "asset": "assets/oficina-ebat/ebat_marca.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.34653713004725345
+    },
+    "344e4adf-f1ab-41fa-9eeb-28d1e263c0bb": {
+      "id": "344e4adf-f1ab-41fa-9eeb-28d1e263c0bb",
+      "parentId": "d1e2b7c3-e9a3-401a-999c-14eddb1abe19",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0,
+        0,
+        0
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 227,
+        "height": 81.59765625,
+        "text": "Aponte o celular para a logo da Meta Gallery para visualizar sua Realidade Aumentada.\n\n\nOK",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Nunito"
+        }
+      },
+      "order": 1.4045234358629677
+    },
+    "9f249ed2-1769-4f2a-a2c9-5dd9b019f1f8": {
+      "id": "9f249ed2-1769-4f2a-a2c9-5dd9b019f1f8",
+      "parentId": "d1e2b7c3-e9a3-401a-999c-14eddb1abe19",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0,
+        0,
+        0
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": 60,
+        "height": 40,
+        "image": {
+          "type": "asset",
+          "asset": "assets/PETROBRAS/Untitled design.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 2.565287169964389
     }
   },
   "spaces": {
