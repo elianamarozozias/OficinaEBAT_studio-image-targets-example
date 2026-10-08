@@ -4448,7 +4448,7 @@
           "id": "51a0cf8e-5cba-4f6a-832c-0dcf7a34ddb5",
           "name": "pinch-scale",
           "parameters": {
-            "maxScale": 30
+            "maxScale": 300
           }
         }
       },
@@ -4530,7 +4530,7 @@
       },
       "name": "Frame",
       "order": 5.375015188912028,
-      "hidden": false
+      "hidden": true
     },
     "2a14fdf4-b59f-42f1-989d-a461aa7383c7": {
       "id": "2a14fdf4-b59f-42f1-989d-a461aa7383c7",
@@ -6078,7 +6078,7 @@
         "height": 40,
         "image": {
           "type": "asset",
-          "asset": "assets/oficina-ebat/ebat_marca.png"
+          "asset": "assets/PETROBRAS/ebat_marca.png"
         },
         "backgroundOpacity": 1,
         "backgroundSize": "contain"
@@ -6418,6 +6418,37 @@
       },
       "order": 1.2893814462238349,
       "parentId": "7b34ad79-e9c0-4e4f-9ede-4ea0ca0c4adb"
+    },
+    "b2161e37-9e5c-48f8-a959-3b6d00958a39": {
+      "id": "b2161e37-9e5c-48f8-a959-3b6d00958a39",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e99656bb-91b6-47bf-842b-aedb96380836",
+      "components": {
+        "9411a479-67b5-4976-8809-1bbe5b16c77d": {
+          "id": "9411a479-67b5-4976-8809-1bbe5b16c77d",
+          "name": "hud-html",
+          "parameters": {}
+        }
+      },
+      "name": "HUD",
+      "order": 7.723057035979514
     }
   },
   "spaces": {
